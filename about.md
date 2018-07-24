@@ -14,5 +14,5 @@ PLOKia 개발자.
 일본어 공부.
 매일 24시간 카페를 갑니다.
 
-instagram : [monseungmon](https://www.instagram.com/monseungmon/)
-[dramaofjapan](https://www.instagram.com/dramaofjapan/)
+instagram 개인 : [monseungmon](https://www.instagram.com/monseungmon/)  
+instagram 일본어 : [dramaofjapan](https://www.instagram.com/dramaofjapan/)
