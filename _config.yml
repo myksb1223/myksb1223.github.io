@@ -117,7 +117,7 @@ social:
     username: monseungmon
     url: https://www.instagram.com/monseungmon
     desc: Follow me on Instagram
-    share: true
+    share: false
 
   - name: Pinterest
     icon: pinterest
