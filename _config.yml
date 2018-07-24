@@ -14,7 +14,7 @@ subtitle: "자유로운 개발자 블로그"
 email: myksb1223@gmail.com
 name: Seungbeom Kim
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  ClassUp 개발 일지 및 개발 공부, 일본어 공부를 포스팅 합니다.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -72,8 +72,8 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    username: @kim_seungbeom
+    url: https://twitter.com/kim_seungbeom
     desc: Follow me on Twitter
     share: true
 
@@ -82,12 +82,12 @@ social:
     username: thebencentra
     url:
     desc: Friend me on Facebook
-    share: true
+    share: false
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: myksb1223
+    url: https://github.com/myksb1223
     desc: Fork me on GitHub
     share: false
 
@@ -96,14 +96,14 @@ social:
     username: Ben Centra
     url: https://www.linkedin.com/pub/ben-centra/47/769/60a
     desc: Connect with me on LinkedIn
-    share: true
+    share: false
 
   - name: Google+
     icon: google-plus
     username:
     url:
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
@@ -114,17 +114,17 @@ social:
 
   - name: Instagram
     icon: instagram
-    username:
-    url:
+    username: monseungmon
+    url: https://www.instagram.com/monseungmon
     desc: Follow me on Instagram
-    share: false
+    share: true
 
   - name: Pinterest
     icon: pinterest
     username:
     url:
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
