@@ -51,6 +51,9 @@ descriptions:
   - cat: 개발 일지
     desc: "Posts describing Jekyll setup techniques."
 
+  - cat: 파이썬(Python)
+    desc: "Posts describing Jekyll setup techniques."
+
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
