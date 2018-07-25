@@ -6,7 +6,7 @@ author: Seungbeom Kim
 categories: develop_diary
 ---
 
-클래스업(ClassUp)에 텍스트 크기 자동 조절에 대한 기능을 시험삼아 넣어보았다.
+클래스업(ClassUp)에 [텍스트 크기 자동 조절](https://myksb1223.github.io/develop_diary/2018/07/12/Text-auto-resizing.html)에 대한 기능을 시험삼아 넣어보았다.
 여기서 생기는 문제가 한가지 있다.
 
 만약, 수업박스의 크기가 작아지면 글씨가 거의 0이 된다. 그래서 최소 크기를 변경 가능한 최소크기인 6으로 지정하였다. (앱 내부에서 6~14 까지 조정할 수 있다.)
