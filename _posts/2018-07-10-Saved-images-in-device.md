@@ -21,10 +21,10 @@ categories: develop_diary
 2. 무조건 올라가야하는 파일은 Failed 폴더에 넣는다.
 3. 업로드가 완료된 파일은  Uploaded로 들어간다.
 4. 이미지를 화면에 표현할 때, 4단계를 거친다.
--- Failed를 먼저 확인한다.
--- 있으면 Failed 표시, 없으면 Uploaded를 확인한다.
--- 있으면 Uploaded 표시, 없으면 S3로 가서 이미지를 다운로드 한다.
--- 다운로드 된 이미지는 Uploaded에 파일이 저장된다.
+- Failed를 먼저 확인한다.
+- 있으면 Failed 표시, 없으면 Uploaded를 확인한다.
+- 있으면 Uploaded 표시, 없으면 S3로 가서 이미지를 다운로드 한다.
+- 다운로드 된 이미지는 Uploaded에 파일이 저장된다.
 
 
 여기서 문제는 바로 이미지 수정 시 발생하는 문제이다.
