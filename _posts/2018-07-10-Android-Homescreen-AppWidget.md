@@ -20,7 +20,6 @@ categories: develop_diary
 
 |unique_id(TEXT) |	server_timestamp(TEXT) | start_schedule_timestamp(TEXT) | note_type(INTEGER) |
 |-----------------|-----------------|-----------------|-----------------|
-|adff|adfafaf|adfasdfasdf|afafafasf|
 
 일단, 가독성을 조금 더 올리기 위해서 아래의 4부분을 수정하였다.
 1. 별로 필요없는 오늘 날짜 크기를 줄임.

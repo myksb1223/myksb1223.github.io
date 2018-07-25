@@ -33,7 +33,8 @@ logo: "/assets/logo.png"
 #markdown: redcarpet
 markdown: redcarpet  
 redcarpet:  
-  extensions: ["no_intra_emphasis", "tables", "autolink", "fenced_code_blocks", "strikethrough"]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+#  extensions: ["no_intra_emphasis", "tables", "autolink", "fenced_code_blocks", "strikethrough"]
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
