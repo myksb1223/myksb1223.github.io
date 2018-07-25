@@ -20,7 +20,7 @@ categories: develop_diary
 2. 사용자가 수업을 넣는 시간에 따라 시간표의 시간표시가 자동으로 변한다.
 예를 들면, 08시~10시, 16시~18시 수업을 넣으면 시간표는 08시~18시까지 시간을 표시하는 시간표가 된다. 여기서 18시~20시 수업을 넣으면 시간표는 08시~20시까지로 시간이 확장된다. 이 때, 최소 5분단위의 크기는 2시간 늘어난 만큼 줄어든다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_1.jpg" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_2.png" title="AppWidget Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_1.png" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_2.png" title="AppWidget Picture 2" class="post-image">
 
 
 간단하게 식으로 표현하면...
@@ -34,6 +34,6 @@ screen_height : 화면 크기, delta_time : 종료시간 - 시작시간.
 
 이런 방법으로 어느 정도 문제가 해결되기는 한다. 하지만 5분, 10분 등으로 수업을 생성할 경우 어차피 글씨는 잘리거나 보이지 않을 것이다. 하지만 설마... 5분, 10분 수업을 넣는 사람이 있을까? 라는 생각을 하면서 나름 만족하고 있다...
 
-<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_1.jpg" title="AppWidget Picture 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_3.png" title="AppWidget Picture 1" class="post-image">
 
 혹시, 더 좋은 방법있다면 댓글이나 쪽지주세요~!
