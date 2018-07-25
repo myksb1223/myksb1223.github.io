@@ -274,6 +274,9 @@ pre code.hljs {
 			width: 50%;
 			padding: 5px;
 		}
+		td {
+			word-break:break-all;
+		}
 		.tags {
 			font-size: 0.9em;
 		}
