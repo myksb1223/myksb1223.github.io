@@ -36,4 +36,6 @@ screen_height : 화면 크기, delta_time : 종료시간 - 시작시간.
 
 <img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_3.png" title="AppWidget Picture 1" class="post-image">
 
+<p style="clear: left;">
 혹시, 더 좋은 방법있다면 댓글이나 쪽지주세요~!
+</p>
