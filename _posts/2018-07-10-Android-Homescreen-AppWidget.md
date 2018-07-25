@@ -22,6 +22,7 @@ comments: true
 
 | unique_id(TEXT)        | server_timestamp(TEXT)           | start_schedule_timestamp(TEXT)  | note_type(INTEGER)  |
 | ------------- |-------------| ----- | ------------- |
+|       |  |  |  |
 
 
 일단, 가독성을 조금 더 올리기 위해서 아래의 4부분을 수정하였다.
