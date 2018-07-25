@@ -16,6 +16,8 @@ categories: develop_diary
 
 오늘은 5번 위젯을 수정했다.
 
+![Image](./assets/develop_diary/android_appwidget_1.png){: width="300px" height="533px"}
+
 <img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_1.png" title="AppWidget Picture 1" class="post_image" width="300" height="533"><img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_2.png" title="AppWidget Picture 2" class="post_image" width="300" height="533">
 
 unique_id(TEXT) |	server_timestamp(TEXT) | start_schedule_timestamp(TEXT) | note_type(INTEGER) |
