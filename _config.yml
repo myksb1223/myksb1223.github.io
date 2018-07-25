@@ -24,9 +24,13 @@ cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
-#markdown: kramdown
-#  input: GFM
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+highlighter: rouge
+#markdown: redcarpet
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
