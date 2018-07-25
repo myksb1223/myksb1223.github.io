@@ -38,7 +38,7 @@ self.subjectTitle.minimumScaleFactor = 0.1;
 그러면 이제 안드로이드는 어떻게 할지 찾아보았다.
 안드로이드는 8.0부터 텍스트 크기를 자동으로 조절하는 기능을 지원한다.
 
-```Android
+```java
 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 	subjectName.setAutoSizeTextTypeUniformWithConfiguration(6, textSize, 1, TypedValue.COMPLEX_UNIT_SP);
 }
