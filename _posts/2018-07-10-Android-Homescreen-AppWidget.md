@@ -21,7 +21,7 @@ comments: true
 
 
 | unique_id(TEXT)        | server_timestamp(TEXT)           | start_schedule_timestamp(TEXT)  | note_type(INTEGER)  |
-| ------------- |:-------------:| -----:| ------------- |
+| ------------- |-------------| ----- | ------------- |
 | col 3 is      | right-aligned | $1600 |  |
 | col 2 is      | centered      |   $12 |  |
 | zebra stripes | are neat      |    $1 |  |
