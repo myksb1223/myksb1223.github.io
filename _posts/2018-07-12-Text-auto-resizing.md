@@ -4,7 +4,6 @@ title:  "글자 크기 자동 조절(Text auto resizing)."
 date:   2018-07-12 01:39:00
 author: Seungbeom Kim
 categories: develop_diary
-comments: true
 ---
 
 클래스업 메인 화면은 아래 그림과 같다.<br>
