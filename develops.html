@@ -6,9 +6,9 @@ permalink: /develops/
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
-  {% if cat == 'DevelopDiary' %}
+  {% if cat == 'developdiary' %}
   <h2 id="{{cat}}">개발 일지(Develop Diary)</h2>
-  {% else if cat == 'Python' %}
+  {% elsif cat == 'python' %}
   <h2 id="{{cat}}">파이썬(Python)</h2>
   {% else %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
