@@ -9,6 +9,8 @@ categories: develop_diary
 클래스업 메인 화면은 아래 그림과 같다.
 여기서 몇가지 아쉬운 부분이라면... 수업 박스가 작을 경우 글씨가 표시되지 않는다.
 
+<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_1.jpg" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_2.png" title="AppWidget Picture 2" class="post-image">
+
 먼저, iOS를 보면...
 iOS에서의 수업 박스 형태는 약간 커스터마이징(Customizing)되었기 때문에 UIControl 내에 여러개의 UILabel이 있는 형태이다. 즉 UIButton을 사용하지 않기 때문에 touch에 대한 부분을 모두 구현해 주어야 한다.
 
@@ -48,6 +50,8 @@ autoSizeMinTextSize는 0보다 커야한다.
 autoSizeMaxTextSize는 최대로 증가할 수 있는 크기이다.
 autoSizeStepGranularity는 얼마씩 크기를 줄일 건지를 나타낸다.
 COMPLEX_UNIT_SP는 글자 크기를 sp형식으로 처리하겠다는 뜻이다.
+
+<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_3.jpg" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_4.png" title="AppWidget Picture 2" class="post-image">
 
 클래스업(ClassUp)에서는 사용자가 가장 적당한 크기로 글씨를 볼 수 있어야 하기 때문에 약간 세부적인 제어가 필요할 것 같다.
 
