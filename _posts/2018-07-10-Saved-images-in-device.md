@@ -44,9 +44,9 @@ Fresco.getImagePipeline().evictFromCache(uri);
 
 iOS에서는 Cache 디렉토리로 가서 직접 지우면 된다.
 
-```Objective-c
+{% highlight objc %}
 [[NSFileManager defaultManager] removeItemAtPath:failedPath error:&error];
-```
+{% endhighlight %}
 
 위 처럼 해당 경로의 파일을 지워주면 된다.
 
