@@ -29,6 +29,7 @@ interpreted는 컴파일(compile)언어가 아니라는 것이다.
 user-friendly는 누구나 배우기 쉽다는 정도로 이해하면 될 것 같다.
 
 ####파이썬(Python) 개발의 기본적 특징
+
 1. Code Quality(코드 질).
 워낙 읽기 쉬워서 재사용, 유지하기가 좋다. 소프트웨어 개발을 폭넓게 지원한다.
 
@@ -51,6 +52,7 @@ user-friendly는 누구나 배우기 쉽다는 정도로 이해하면 될 것 �
 파이썬(Python)은 객체지향을 따른다.
 
 ####파이썬(Python) 개발의 영역.
+
 1. Web Application Development(웹 앱 개발).
 Django같은 웹 프레임 워크를 이용한 개발을 뜻하는 것 같다.
 
