@@ -17,16 +17,17 @@ categories: develop_diary
 클래스업은 시간표 화면의 특징
 1. 스크롤을 지원하지 않는다.
 즉, 화면 크기에 따라 수업박스 크기가 변한다. 시간의 최소단위는 5분.
-2. 사용자가 수업을 넣는 시간에 따라 시간표의 시간표시가 자동으로 변한다.
+2. 사용자가 수업을 넣는 시간에 따라 시간표의 시간표시가 자동으로 변한다.<br>
 예를 들면, 08시~10시, 16시~18시 수업을 넣으면 시간표는 08시~18시까지 시간을 표시하는 시간표가 된다. 여기서 18시~20시 수업을 넣으면 시간표는 08시~20시까지로 시간이 확장된다. 이 때, 최소 5분단위의 크기는 2시간 늘어난 만큼 줄어든다.
 
 <img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_1.png" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_2.png" title="AppWidget Picture 2" class="post-image">
 
-
+<p style="clear: left;">
 간단하게 식으로 표현하면...
 screen_height : 화면 크기, delta_time : 종료시간 - 시작시간.
 5분의 height = screen_height / (delta_time * 60(분)) * 5(분)
 즉, delta_time이 증가하면 결국 5분의 height 값은 작아진다.
+</p>
 
 그래서 생각해 낸 방법이 delta_time이 a라는 값을 넘어가면 화면이 스크롤이 가능하도록 만들지 사용자에게 물어보는 것이다.
 
