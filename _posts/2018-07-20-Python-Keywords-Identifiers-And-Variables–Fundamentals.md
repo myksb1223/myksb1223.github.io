@@ -43,17 +43,17 @@ __Guidelines For Creating Identifiers In Python(파이썬에서 식별자를 생
 2. 숫자는 맨 처음에 사용할 수 없다. (0shape -> x, shape1 -> o)
 3. 키워드는 이미 정해졌기에 사용할 수 없다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_2_3.png" title="Python tutorial 2 Picture 3" class="post-image">
+    <img src="{{ site.baseurl }}/assets/python/python_tutorial_2_3.png" title="Python tutorial 2 Picture 3" class="post-image">
 
 4. 특수문자('.', '!', '@', '#', '$', '%')는 사용할 수 없다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_2_4.png" title="Python tutorial 2 Picture 4" class="post-image">
+    <img src="{{ site.baseurl }}/assets/python/python_tutorial_2_4.png" title="Python tutorial 2 Picture 4" class="post-image">
 
 5. 파이썬 도큐먼트에서는 식별자 길이제한이 없다고 하지만 이 것은 반만 맞는 이야기다.
 79글자 많이 쓰면 PEP-8 기준에 의해 설정된 규칙을 어기게 된다.
 즉, 79자 보다 많이 쓰지 말자.
 
-__Testing If An Identifier Is Valid(식별자가 올바른지 테스트).__
+__Testing If An Identifier Is Valid(식별자가 올바른지 테스트).__<br>
 keyword.isKeyword() 함수를 사용해서 식별자가 올바른지 테스트할 수 있다. true를 반환하면 올바른 것, 아니면 false를 반환한다.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_2_5.png" title="Python tutorial 2 Picture 5" class="post-image">
@@ -85,12 +85,12 @@ test = 10
 - test가 존재하지 않으면 생성된다.
 - 그 것이 값을 참조할 수 있도록 하기위해 객체와 변수를 연결시킨다.
 
-변수 test는 값 10을 참조한다.
-test -------> 10
+    변수 test는 값 10을 참조한다.
+    test -------> 10
  3. 표현이 변하면 파이썬은 그 값을 참조할 수 있는 새로운 변수를 새로운 객체와 연결시킨다.
 그리고 예전 것은 가비지 컬렉터가 없앤다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_2_7.png" title="Python tutorial 2 Picture 7" class="post-image">
+    <img src="{{ site.baseurl }}/assets/python/python_tutorial_2_7.png" title="Python tutorial 2 Picture 7" class="post-image">
 
 4. 또한 최적화를 위해 파이썬은 작은 정수들이나 문자열들과 같은 변형가능한 객체들의 일부를 재사용 및 캐시를 한다.
 5. 객체는 단지 아래의 것들을 가질 수 있는 메모리 영역일 뿐이다.
