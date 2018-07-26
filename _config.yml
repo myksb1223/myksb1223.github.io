@@ -59,13 +59,13 @@ ga_tracking_id: "UA-122923521-1"
 # Category descriptions (for archive pages)
 descriptions:
   - cat: develop_diary
-    desc: "Posts describing ClassUp develop stories."
+    desc: "클래스업 개발 일지 작성(Posts describing ClassUp develop stories)."
 
   - cat: python
-    desc: "Posts describing Python study contents."
+    desc: "파이썬 공부 컨텐츠(Posts describing Python study contents)."
 
   - cat: japanese_drama
-    desc: "Posts describing Japanese drama contents."
+    desc: "일본 드라마 소개 및 공부(Posts describing Japanese drama contents)."
 
 # Social icons and sharing options
 #
