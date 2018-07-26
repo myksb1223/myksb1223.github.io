@@ -37,7 +37,7 @@ screen_height : 화면 크기, delta_time : 종료시간 - 시작시간.
 
 이런 방법으로 어느 정도 문제가 해결되기는 한다. 하지만 5분, 10분 등으로 수업을 생성할 경우 어차피 글씨는 잘리거나 보이지 않을 것이다. 하지만 설마... 5분, 10분 수업을 넣는 사람이 있을까? 라는 생각을 하면서 나름 만족하고 있다...
 
-<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_3.png" title="AppWidget Picture 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_3.png" title="AppWidget Picture 1" class="post-image-double">
 
 <p style="clear: left;">
 혹시, 더 좋은 방법있다면 댓글이나 쪽지주세요~!
