@@ -9,7 +9,7 @@ categories: develop_diary
 클래스업 메인 화면은 아래 그림과 같다.<br>
 여기서 몇가지 아쉬운 부분이라면... 수업 박스가 작을 경우 글씨가 표시되지 않는다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_1.jpg" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_2.png" title="AppWidget Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_1.jpg" title="AppWidget Picture 1" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_2.png" title="AppWidget Picture 2" class="post-image-double">
 
 
 
@@ -55,7 +55,7 @@ autoSizeMaxTextSize는 최대로 증가할 수 있는 크기이다.
 autoSizeStepGranularity는 얼마씩 크기를 줄일 건지를 나타낸다.
 COMPLEX_UNIT_SP는 글자 크기를 sp형식으로 처리하겠다는 뜻이다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_3.jpg" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_4.png" title="AppWidget Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_3.jpg" title="AppWidget Picture 1" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_4.png" title="AppWidget Picture 2" class="post-image-double">
 
 
 

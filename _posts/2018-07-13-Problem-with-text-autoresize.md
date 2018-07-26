@@ -21,7 +21,7 @@ categories: develop_diary
 예를 들면, 08시~10시, 16시~18시 수업을 넣으면 시간표는 08시~18시까지 시간을 표시하는 시간표가 된다. 여기서 18시~20시 수업을 넣으면 시간표는 08시~20시까지로 시간이 확장된다. 이 때, 최소 5분단위의 크기는 2시간 늘어난 만큼 줄어든다.
 
 <figure>
-<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_1.png" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_2.png" title="AppWidget Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_1.png" title="AppWidget Picture 1" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_2.png" title="AppWidget Picture 2" class="post-image-double">
 <figcaption>왼쪽: 08시~18시, 오른쪽 08시~20시</figcaption>
 </figure>
 <p style="clear: left;">

@@ -16,7 +16,7 @@ categories: develop_diary
 
 오늘은 5번 위젯을 수정했다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_1.png" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_2.png" title="AppWidget Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_1.png" title="AppWidget Picture 1" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_2.png" title="AppWidget Picture 2" class="post-image-double">
 
 일단, 가독성을 조금 더 올리기 위해서 아래의 4부분을 수정하였다.
 1. 별로 필요없는 오늘 날짜 크기를 줄임.
