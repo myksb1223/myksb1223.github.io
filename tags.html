@@ -3,20 +3,27 @@ layout: page
 permalink: /tags/
 title: Tags
 ---
-
+<ul class="tag-cloud">
 {% for tag in site.tags %}
-  {% capture tag %}{{ tag | first }}{% endcapture %}
-  <h2 id="dd">{{ tag | capitalize }}</h2>
-  <ul class="posts-list">
-  {% for post in site.tags[tag] %}
-    <li>
-      <strong>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </strong>
-      <span class="post-date">- {{ post.date | date_to_long_string }}</span>
-    </li>
-  {% endfor %}
-  </ul>
-  {% if forloop.last == false %}<hr>{% endif %}
+  <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+    <a href="#{{ tag | first | slugize }}">
+      {{ tag | first }}
+    </a>
+  </li>
 {% endfor %}
-<br>
+</ul>
+
+<div id="archives">
+{% for tag in site.tags %}
+  <div class="archive-group">
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
+    <a name="{{ tag_name | slugize }}"></a>
+    {% for post in site.tags[tag_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
