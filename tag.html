@@ -51,12 +51,12 @@ permalink: /tag/
 <script>
     $(document).ready(function init(){
         var url = window.location.href;
-        var req = /#([^\s]+)$/.exec(url);
+        var req = /([^\s]+)$/.exec(url);
 
         if(!Array.isArray(req)) {
             return false;
         }
-        var selector = '#' + req.pop();
+        var selector = '' + req.pop();
         showTag(selector);
     });
 
