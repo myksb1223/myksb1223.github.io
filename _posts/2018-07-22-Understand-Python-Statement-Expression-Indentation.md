@@ -45,7 +45,7 @@ __What Is A Expression?(표현식이란?)__
 예제
 
 <figure>
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_1.png" title="Python tutorial 3 Picture 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_1.png" title="Python tutorial 3 Picture 1" class="post-image">
 <figcaption style="text-align: center;">수식, 함수를 사용한 표현
 </figcaption>
 </figure>
@@ -58,17 +58,17 @@ __What Is A Expression?(표현식이란?)__
 __Case-1 : Right-Hand Side (RHS) Is Just A Value-Based Expression(케이스-1 : 오른쪽 부분은 단순히 값을 기반으로 한 표현식이다).__
 파이썬에서 가장 기본의 할당 형태를 보자.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_2.png" title="Python tutorial 3 Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_2.png" title="Python tutorial 3 Picture 2" class="post-image">
 
 파이썬은 'Learn Python'이라는 문자열을 메모리에 생성하고, 'test'라는 이름에 그것을 할당할 것이다. id()라는 이미 지정된 함수로 주소 값을 확인할 수 있다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_3.png" title="Python tutorial 3 Picture 3" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_3.png" title="Python tutorial 3 Picture 3" class="post-image">
 
 저 숫자(4357848880)은 메모리에서 그 데이터가 존재하고 있는 장소의 주소이다. 이제 여기에는 너가 알아야 하는 몇몇의 흥미로운 것이 있다.
 
 1. 같은 값으로 다른 문자열을 생성하면, 파이썬은 새로운 객체를 생성하고 메모리의 다른 부분에 그것을 할당할 것이다. 이 규칙은 거의 모든 경우에 적용된다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_4.png" title="Python tutorial 3 Picture 4" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_4.png" title="Python tutorial 3 Picture 4" class="post-image">
 
 2. 하지만, 파이썬은 아래의 두 상황에서는 같은 메모리 주소에 할당할 것이다.
 - 문자열이 20자보다 짧고 공백이 없는 경우.
@@ -85,16 +85,16 @@ RHS가 현재 파이썬 변수인 할당 구문의 다음 형태를 알아보자
 
 위의 구문은 메모리에서 어떤 새로운 할당을 하지 않는다. 두 변수는 같은 메모리 주소를 가르킬 것이다. 이는 존재하는 객체에 별칭(alias)를 생성하는 것과 같다. 이 것이 타당한지 id()함수를 사용해서 알아보자.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_5.png" title="Python tutorial 3 Picture 5" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_5.png" title="Python tutorial 3 Picture 5" class="post-image">
 
 __Case-3 : Right-Hand Side (RHS) Is An Operation(케이스-2 : 오른쪽 부분은 연산이다).__
 이런 형태의 구문에서 결과는 그 연산의 결과에 결정된다. 다음 예제를 분석해 보자.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_6.png" title="Python tutorial 3 Picture 6" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_6.png" title="Python tutorial 3 Picture 6" class="post-image">
 
 위의 예제에서의 할당문은 'float' 변수를 생성하게 이끌었다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_7.png" title="Python tutorial 3 Picture 7" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_7.png" title="Python tutorial 3 Picture 7" class="post-image">
 
 이 예제에서의 할당문은 'int' 변수를 생성하게 이끌었다.
 
@@ -114,11 +114,11 @@ x = x + y
 
 튜플에 새로운 요소들을 추가하는 다음의 예제가 좀 더 명확하다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_8.png" title="Python tutorial 3 Picture 8" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_8.png" title="Python tutorial 3 Picture 8" class="post-image">
 
 다음 예제는 모음의 리스트를 사용하고 있다. 리스트에서 빠진 모음의 추가를 보여주고 있다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_9.png" title="Python tutorial 3 Picture 9" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_9.png" title="Python tutorial 3 Picture 9" class="post-image">
 
 ####Multi-line Statement In Python(파이썬에서 다중 라인 구문).
 보통 모든 파이썬 구문은 개행 문자로 끝을 낸다. 하지만 우리는 라인 연결 문자(\, 백슬래쉬)를 사용하여 다중 라인으로 확장할 수 있다.
@@ -130,14 +130,14 @@ x = x + y
 
 예제
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_10.png" title="Python tutorial 3 Picture 10" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_10.png" title="Python tutorial 3 Picture 10" class="post-image">
 
 Implicit Line Continuation(암시적 라인 연결)
 소괄호(), 대괄호[], 중괄호{}를 사용했을 경우 라인을 구분할 경우를 암시적 라인 연결이라고 한다. 앞에 말한 구조를 사용하여 타겟 구문을 묶어야 한다.
 
 예제
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_11.png" title="Python tutorial 3 Picture 11" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_11.png" title="Python tutorial 3 Picture 11" class="post-image">
 
 ####Python Indentation(파이썬 들여쓰기)
 C, C++, C#과 같은 높은 단계의 개발 언어들은 코드의 블럭을 표시하기위해 중괄호 {}를 사용한다. 파이썬은 그 것을 들여쓰기로 한다.
@@ -158,6 +158,6 @@ __Why Is Indentation So Crucial In Python?(왜 파이썬에서 들여쓰기가 �
 
 예제
 
-<img src="{{ site.baseurl }}/assets/develop_diary/python_tutorial_3_12.png" title="Python tutorial 3 Picture 12" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_12.png" title="Python tutorial 3 Picture 12" class="post-image">
 
 질문 및 잘못된 부분, 수정 부분있으면 댓글, 쪽지 주세요~!!!
