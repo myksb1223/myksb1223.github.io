@@ -4,7 +4,6 @@ title:  "이미지 기기에 저장(Saved images in device)."
 date:   2018-07-10 05:27:00
 author: Seungbeom Kim
 categories: develop_diary
-comments: true
 ---
 
 지금의 클래스업(ClassUp)의 노트에서 Image는 단순히 S3(Amazon S3)에만 저장을 하고 가져오는 형식이다.

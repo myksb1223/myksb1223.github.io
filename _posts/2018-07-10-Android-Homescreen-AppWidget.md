@@ -4,7 +4,6 @@ title:  "안드로이드 홈 화면 위젯(Android Homescreen AppWidget)."
 date:   2018-07-10 23:22:00
 author: Seungbeom Kim
 categories: develop_diary
-comments: true
 ---
 
 안드로이드 홈 화면 위젯의 디자인 변경 및 몇 가지 기능을 추가했다.
@@ -19,12 +18,6 @@ comments: true
 
 <img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_1.png" title="AppWidget Picture 1" class="post-image"><img src="{{ site.baseurl }}/assets/develop_diary/android_appwidget_2.png" title="AppWidget Picture 2" class="post-image">
 
-
-| unique_id(TEXT)        | server_timestamp(TEXT)           | start_schedule_timestamp(TEXT)  | note_type(INTEGER)  |
-| ------------- |-------------| ----- | ------------- |
-|       |  |  |  |
-
-
 일단, 가독성을 조금 더 올리기 위해서 아래의 4부분을 수정하였다.
 1. 별로 필요없는 오늘 날짜 크기를 줄임.
 2. 섹션을 나눔.
@@ -35,6 +28,10 @@ comments: true
 주요한 부분은 섹션 나누기였다.
 안드로이드는 기본 데이터베이스로 SQLite를 사용한다.
 노트 테이블 구조를 약간 살펴보면 아래와 같다.
+
+| unique_id(TEXT)        | server_timestamp(TEXT)           | start_schedule_timestamp(TEXT)  | note_type(INTEGER)  |
+| ------------- |-------------| ----- | ------------- |
+|       |  |  |  |
 
 note_type == 0 이면 일반 노트, note_type == 1이면 일정이다.
 server_timestamp : 서버에 등록된 노트의 시간.
