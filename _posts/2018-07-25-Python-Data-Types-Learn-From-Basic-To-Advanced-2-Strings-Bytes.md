@@ -26,7 +26,7 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 
 반면에 파이썬(Python) 3은 전부 유니코드(Unicode)이다.
 
-**Strings in Python 2(파이썬 2에서의 문자열).**
+**Strings in Python 2(파이썬 2에서의 문자열).**<br>
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_6_3.png" title="Python tutorial 6 Picture 3" class="post-image">
 
 **Strings in Python 3(파이썬 3에서의 문자열).**

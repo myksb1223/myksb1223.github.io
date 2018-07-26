@@ -30,14 +30,14 @@ Python Indentation(파이썬 들여쓰기).
 한글로 풀어쓰니 무슨 말인지 하나도 모르겠다...ㅋㅋㅋ
 
 ### Python Statement(파이썬 구문)
-__What Is A Statement?(구문이란?)__
+__What Is A Statement?(구문이란?)__<br>
 파이썬에서 구문이란 파이썬 인터프리터가 읽고 실행할 수 있는 논리적 명령이다. 파이썬에서는 표현식(expression)이나 할당 구문(assignment statement)일 수 있다.
 
 그 할당 구문은 파이썬의 기본이다. 이는 표현식이 객체를 생성하고 그것들을 보존하는 방법을 정의하고 있다.
 
 좀 더 자세히 이 주제를 알아보자.
 
-__What Is A Expression?(표현식이란?)__
+__What Is A Expression?(표현식이란?)__<br>
 표현식은 숫자, 문자열, 객체, 연산자들의 논리적인 순서를 포함하는 파이썬 구문의 한 형태이다. 값 자체로 유효한 표현식이며 변수다.
 
 표현식을 사용해서 우리는 더하기, 빼기, 연결하기 등과 같은 연산을 수행할 수 있다. 결과를 반환하는 함수의 호출도 표현식일 수 있습니다.
@@ -55,7 +55,7 @@ __What Is A Expression?(표현식이란?)__
 
 파이썬에서의 할당 구문의 3가지 형태를 알아보고 살펴보자.
 
-__Case-1 : Right-Hand Side (RHS) Is Just A Value-Based Expression(케이스-1 : 오른쪽 부분은 단순히 값을 기반으로 한 표현식이다).__
+__Case-1 : Right-Hand Side (RHS) Is Just A Value-Based Expression(케이스-1 : 오른쪽 부분은 단순히 값을 기반으로 한 표현식이다).__<br>
 파이썬에서 가장 기본의 할당 형태를 보자.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_3_2.png" title="Python tutorial 3 Picture 2" class="post-image">
