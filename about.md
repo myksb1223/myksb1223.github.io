@@ -16,4 +16,5 @@ PLOKia 개발자.<br>
 Imagine and save the world.
 
 instagram 개인 : [monseungmon](https://www.instagram.com/monseungmon/)<br>
-instagram 일본어 : [dramaofjapan](https://www.instagram.com/dramaofjapan/)
+instagram 일본어 : [dramaofjapan](https://www.instagram.com/dramaofjapan/)<br>
+twitter 개인 : [@kim_seungbeom](https://twitter.com/kim_seungbeom)
