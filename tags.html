@@ -6,7 +6,7 @@ title: Tags
 
 {% for tag in site.tags %}
   {% capture tag %}{{ tag | first }}{% endcapture %}
-  <h2 id="{{tag}}">{{ tag | capitalize }}</h2>
+  <h2 id="dd">{{ tag | capitalize }}</h2>
   <ul class="posts-list">
   {% for post in site.tags[tag] %}
     <li>
