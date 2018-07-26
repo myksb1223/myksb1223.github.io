@@ -15,7 +15,7 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 
 프로그램을 만들거나 업데이트할 때 주석을 추가하는 것이 좋다. 그렇지 않으면 코드의 흐름을 잃어버릴 수 있다. 그리고 나중에 쓰여진 주석은 생각보다 효과가 없을 수도 있다.
 
-###How To Use  Comments In Python?(파이썬에서 주석은 어떻게 사용하는가?)
+### How To Use  Comments In Python?(파이썬에서 주석은 어떻게 사용하는가?)
 How to use single line comment in Python?(파이썬에서 단일행 주석은 어떻게 사용하는가?)
 How to use multiline comments in Python?(파이썬에서 다중행 주석은 어떻게 사용하는가?)
 - Using hash mark for commenting(주석을 위한 해시 마크 사용)
@@ -27,7 +27,7 @@ How to use docstrings in Python?(파이썬에서 docstring을 어떻게 사용�
 
 주석은 매우 높은 단계에서 프로그램이 무엇을 할 것인지에 관한 표현의 기술이다. 이는 코드의 부분에 주석을 달기위해 태그된 텍스트 행이다. 파이썬에서 우리는 두 가지 스타일의 주석을 적용할 수 있다 : 단일 행, 다중 행.
 
-###Single-Line Python Comment(단일 행 파이썬 주석)
+### Single-Line Python Comment(단일 행 파이썬 주석)
 디버깅을 위한 빠르고 짧은 주석의 필요성이 있을 때 단일 행 파이썬 주석을 선호할 것이다. 단일 행 주석은 #으로 시작하고 자동적으로 줄의 끝(EOL)로 끝난다.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_4_1.png" title="Python tutorial 4 Picture 1" class="post-image">
@@ -36,7 +36,7 @@ How to use docstrings in Python?(파이썬에서 docstring을 어떻게 사용�
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_4_2.png" title="Python tutorial 4 Picture 2" class="post-image">
 
-###Multiline Python Comment(다중 행 파이썬 주석)
+### Multiline Python Comment(다중 행 파이썬 주석)
 파이썬은 다중 행으로 주석을 확장하는 것을 지원한다. 이런 주석은 다중 행, 블럭 주석이라고 알려져 있다. 좀 더 자세하게 무엇인가를 설명할 때, 이런 스타일의 주석을 사용할 수 있다.
 
 이런 확장된 형태의 주석은 그 주석을 따라오는 부분에서 전체의 코드에 적용된다. 다중 행 파이썬 주석의 사용 예제를 보자.
@@ -48,7 +48,7 @@ How to use docstrings in Python?(파이썬에서 docstring을 어떻게 사용�
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_4_3.png" title="Python tutorial 4 Picture 3" class="post-image">
 
-####Docstring In Python(파이썬에서의 Docstring)
+#### Docstring In Python(파이썬에서의 Docstring)
 파이썬은 도큐먼트 스트링(docstrings) 형태를 가지고 있다. 이는 개발자(programmer)에게 모든 파이썬 모듈, 함수, 클래스, 메소드에 빠른 노트를 추가할 수 있는 간단한 방법을 제공한다.
 
 스트링 상수로서 추가함으로써 docstring을 정의할 수 있다. 객체(모듈, 함수, 클래스, 메소드)의 정의에서 가장 처음에 서술되어야 한다.
