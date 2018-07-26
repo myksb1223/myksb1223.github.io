@@ -15,7 +15,7 @@ permalink: /tag/
     {% capture tag_size %}{{tag|last|size}}{% endcapture %}
 
     <li style="font-size:{{font_size}}">
-        <a href="#{{tag_name}}" onclick="showTag('#{{tag_name}}')">
+        <a href="{{tag_name}}" onclick="showTag('#{{tag_name}}')">
             {{tag_name}} ({{tag_size}})
         </a>
     </li>
@@ -56,7 +56,7 @@ permalink: /tag/
         if(!Array.isArray(req)) {
             return false;
         }
-        var selector = '' + req.pop();
+        var selector = '#' + req.pop();
         showTag(selector);
     });
 
