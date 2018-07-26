@@ -68,24 +68,24 @@ Django같은 웹 프레임 워크를 이용한 개발을 뜻하는 것 같다.
 5.  Professional Training(전문적 훈련).
 파이썬(Python)은 가르치고 훈련 목적에 적합한 언어라고 한다.
 
-왜 우리는 파이썬을 배워야 하는가?
-1. Nonrestrictive Programming Syntax(제한 없는 개발 문법).
+### 왜 우리는 파이썬을 배워야 하는가?
+1. Nonrestrictive Programming Syntax(제한 없는 개발 문법).<br>
 말 그대로 문법이 파괴적이라 예전부터 코딩하는 사람들은 적응이 잘 안될 것 같다. 나 역시 적응이 쉽지 않다. 그나마 Ruby(루비)를 좀 해서 그나마 받아들이기 쉬운 것일 수도 있다...
 예시를 보면 바로 알 수 있다.
 
-```python
-print('Interest Calculator:')
+    ```python
+      print('Interest Calculator:')
 
-amount = float(input('Principal amount ?'))
-roi = float(input('Rate of Interest ?'))
-yrs = int(input('Duration (no. of years) ?'))
+      amount = float(input('Principal amount ?'))
+      roi = float(input('Rate of Interest ?'))
+      yrs = int(input('Duration (no. of years) ?'))
 
-total = (amount * pow(1 + (roi/100), yrs))
-interest = total - amount
-print('\nInterest = %0.2f' %interest)
-```
+      total = (amount * pow(1 + (roi/100), yrs))
+      interest = total - amount
+      print('\nInterest = %0.2f' %interest)
+    ```
 
-딱 봐도 간단하다...
+    딱 봐도 간단하다...
 
 2. No Explicit Declaration(명쾌한 정의가 없다).
 변수 선언에 데이터 타입이 따로 존재하지 않는다. 위의 코드만 봐도 알 수 있다.
