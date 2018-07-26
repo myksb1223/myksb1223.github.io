@@ -47,7 +47,7 @@ x = "Learn Python"; (o)
 8. Dictionaries
 
 ### Python Data Types From Basic To Advanced(기초부터 심화까지의 파이썬 데이터 타입)<br>
-__1. Boolean__
+__1. Boolean__<br> 
 boolean은 파이썬(Python)을 포함하여 거의 모든 언어에서 가지고 있는 데이터 타입의 한 종류이다. 파이썬(Python)에서 Boolean은 __True, False__ 두 값을 가질 수 있다. 이 두 값은 상수이고 할당이나 boolean 값을 비교할 때 사용될 수 있다. 아래 주어진 간단한 예제를 보자.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_5_1.png" title="Python tutorial 5 Picture 1" class="post-image">
