@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 키워드, 식별자, 변수 - 기초(Python Keywords, Identifiers And Variables – Fundamentals)"
+title:  "파이썬 구문, 표현 & 들여쓰기 이해하기(Understand Python Statement, Expression & Indentation)"
 date:   2018-07-22 21:05:00
 author: Seungbeom Kim
 categories: python
