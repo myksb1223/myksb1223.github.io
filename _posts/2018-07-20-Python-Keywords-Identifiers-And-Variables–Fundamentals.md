@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 지침서(Python tutorial - Learn Programming Step By Step)"
+title:  "파이썬 키워드, 식별자, 변수 - 기초(Python Keywords, Identifiers And Variables – Fundamentals)"
 date:   2018-07-20 23:54:00
 author: Seungbeom Kim
 categories: python
