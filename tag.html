@@ -56,7 +56,7 @@ permalink: /tag/
         if(!Array.isArray(req)) {
             return false;
         }
-        var selector = '#' + req.pop();
+        var selector = '' + req.pop();
         showTag(selector);
     });
 
