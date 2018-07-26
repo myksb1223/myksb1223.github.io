@@ -1,12 +1,14 @@
 ---
 layout: page
-title: "일본어 공부"
+title: "일본어 공부(Japanese)"
 permalink: /japaneses/
 ---
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
+  {% if cat == 'japanese' %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
+  {% endif %}
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
       <p class="desc"><em>{{ desc.desc }}</em></p>
@@ -23,5 +25,6 @@ permalink: /japaneses/
   {% endfor %}
   </ul>
   {% if forloop.last == false %}<hr>{% endif %}
+  {% endif %}
 {% endfor %}
 <br>
