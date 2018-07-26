@@ -8,7 +8,6 @@ permalink: /japaneses/
   {% capture cat %}{{ category | first }}{% endcapture %}
   {% if cat == 'japanese' %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
-  {% endif %}
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
       <p class="desc"><em>{{ desc.desc }}</em></p>
