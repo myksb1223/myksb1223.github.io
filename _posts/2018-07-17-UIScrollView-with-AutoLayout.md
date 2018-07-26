@@ -40,7 +40,10 @@ AutoLayut은 기본적으로 interface bulilder를 이용하여 작업하기 때
 
 위 방법의 가장 큰 문제점은 width와 height를 지정하면 기기의 화면에 때라 Layout이 다르게 표시가 된다... 즉, 여백이 일정하지 않다.
 
+<figure>
 <img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_2.png" title="UIScrollView AutoLayout Picture 2" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_3.jpeg" title="UIScrollView AutoLayout Picture 3" class="post-image-double">
+<figcaption style="text-align: center;">왼쪽 : iPhone5, 오른쪽 : iPhone7Plus</figcaption>
+</figure>
 
 그래서 보통 ScrollView 내에 Container와 같은 역할을 하는 UIView를 넣어준다. Container의 Top, Bottom, Leading, Trailing Space를 ScrollView에 맞춰주고 Width와 Height만 지정해주면 들어가야하는 Contents들은 모두 Container에 넣어주고 Layout을 맞춰주면 된다. 그리고 마지막으로 Contents들의 가장 긴(?) width, height를 Container에 적용시켜주면 끝난다.
 
@@ -48,7 +51,10 @@ AutoLayut은 기본적으로 interface bulilder를 이용하여 작업하기 때
 
 아래 처럼 여백이 항상 같은 것을 알 수 있다.
 
+<figure>
 <img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_5.png" title="UIScrollView AutoLayout Picture 5" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_6.jpeg" title="UIScrollView AutoLayout Picture 6" class="post-image-double">
+<figcaption style="text-align: center;">왼쪽 : iPhone5, 오른쪽 : iPhone7Plus</figcaption>
+</figure>
 
 이렇게 UIScrollView의 AutoLayout은 생각할 부분이 조금 더 많다!
 

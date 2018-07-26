@@ -22,7 +22,7 @@ categories: develop_diary
 
 <figure>
 <img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_1.png" title="AppWidget Picture 1" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/problem_autoresizing_2.png" title="AppWidget Picture 2" class="post-image-double">
-<figcaption>왼쪽: 08시~18시, 오른쪽 08시~20시</figcaption>
+<figcaption style="text-align: center;">왼쪽: 08시~18시, 오른쪽 08시~20시</figcaption>
 </figure>
 <p style="clear: left;">
 간단하게 식으로 표현하면...
