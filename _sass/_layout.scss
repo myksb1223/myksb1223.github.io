@@ -70,7 +70,7 @@ pre code.hljs {
 }
 
 .site-header-container, .post-header-container {
-	width: 60%;
+	width: 100%;
 	text-align: center;
 	&.has-cover {
 		color: $white;
@@ -94,7 +94,11 @@ pre code.hljs {
 			}
 		}
 	}
-        margin: 0 auto;
+}
+
+.post-header-container {
+	width: 60%;
+	margin: 0 auto;
 }
 
 /*
