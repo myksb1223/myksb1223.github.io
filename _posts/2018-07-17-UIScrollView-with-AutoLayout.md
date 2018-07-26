@@ -7,7 +7,7 @@ categories: develop_diary
 tags: UIScrollView iOS AutoLayout 오토레이아웃 아이폰개발 아이폰스크롤뷰 스크롤뷰 클래스업 ClassUp ContentSize
 ---
 
-바로 이전에 올린 클래스업(ClassUp) 글자 크기 제한 문제에서 UIScrollView를 사용해서 해결했다.
+바로 이전에 올린 [클래스업(ClassUp) 글자 크기 제한 문제](https://myksb1223.github.io/develop_diary/2018/07/13/Problem-with-text-autoresize.html)에서 UIScrollView를 사용해서 해결했다.
 UIScrollView와 AutoLayout의 관계(?), 사용법을 조금 생각해 보려고 한다.
 
 AutoLayout이 나온 지는 꽤 되었다. 하지만 나는 2011년 부터 아이폰 개발을 건드렸기 때문에... AutoLayout보다 사실 그냥 코드로 Layout잡는 것이 훨씬 익숙했다. 하지만 역시... 대세는 AutoLayout이었고 여기에 맞춰갈 수 밖에 없었다. 그래서 클래스업(ClassUp)을 전부 AutoLayout을 사용하도록 변경하였는데...

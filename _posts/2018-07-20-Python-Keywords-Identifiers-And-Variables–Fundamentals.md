@@ -7,7 +7,7 @@ categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬키워드식별자변수 PythonKeywordsIdentifiersVariables
 ---
 
-이번 단원은 파이썬 키워드, 식별자, 변수의 기초에 대해서 알아본다. 이 것들은 파이썬 언어의 기본 골격을 이루는 것들이기 때문에 반드시 알아야 한다.
+[이번 단원](http://www.techbeamers.com/python-keywords-identifiers-variables/)은 파이썬 키워드, 식별자, 변수의 기초에 대해서 알아본다. 이 것들은 파이썬 언어의 기본 골격을 이루는 것들이기 때문에 반드시 알아야 한다.
 
 파이썬 키워드는 어떤 액션을 목적으로 하는 유니크한 용어이다. 33개 정도 가지고 있고 각자 하는 기능이 다르다. 파이선 언어는 이 키워드를 함께 써서 어휘를 만든다.
 무슨 소리인가 하니... 예를 들어 for ~ in 구문 처럼 for, in인 키워드를 함께 써서 for문을 구성할 수 있다는 소리같다.

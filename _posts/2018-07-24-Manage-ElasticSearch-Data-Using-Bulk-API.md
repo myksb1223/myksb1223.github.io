@@ -19,9 +19,9 @@ tags: 클래스업 ClassUp 엘라스틱서치 ElasticSearch BulkAPI 벌크API �
 
 결과적으로 검색은 되었는데 실제 수업이 없는 경우가 발생하기 때문에 500에러가 난 것이다. 그래서 새벽에 지우기로 마음을 먹고 지웠다.
 
-일단 DynamoDB에서 지운 수업은 약 700~800만개이다. 여기서 지운 수업을 엘라스틱서치(ElasticSearch)에도 적용을 해야하는데 1번씩 700~800만번 호출하는 것은 낭비였다. 그래서 엘라스틱서치(ElasticSearch)에서 지원하는 Bulk API를 Ruby에서 사용했다. 클래스업의 서버는 Ruby On Rails를 사용한다.
+일단 DynamoDB에서 지운 수업은 약 700~800만개이다. 여기서 지운 수업을 엘라스틱서치(ElasticSearch)에도 적용을 해야하는데 1번씩 700~800만번 호출하는 것은 낭비였다. 그래서 엘라스틱서치(ElasticSearch)에서 지원하는 [Bulk API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html)를 Ruby에서 사용했다. 클래스업의 서버는 Ruby On Rails를 사용한다.
 
-Bulk API의 최적의 사이즈는 얼마일까? 라는 궁금증이 들어서 찾아보았다.
+[Bulk API의 최적의 사이즈](https://www.elastic.co/guide/en/elasticsearch/guide/current/indexing-performance.html#_using_and_sizing_bulk_requests)는 얼마일까? 라는 궁금증이 들어서 찾아보았다.
 
 작업 순서는 아래와 같다.
 1. EnrollCnt가 0인 수업을 읽는다.
