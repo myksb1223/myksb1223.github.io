@@ -50,6 +50,18 @@ highlightjs_theme: "monokai-sublime"
 #    category: '/category/:name/'
 #    tag: '/tag/:name/'
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
 # Disqus comments
 disqus_shortname: myksb1223
 
