@@ -1,0 +1,18 @@
+---
+layout: page
+title: ClassUp
+permalink: /tag/ClassUp/
+---
+
+<div id="archives">
+    {% for post in site.tags[tag_name] %}
+        <article class="archive-item">
+            <h4>
+                <!-- click 하여 show/hide 한다 -->
+                <a href="{{ root_url }}{{ post.url }}">
+                    {{post.title}}
+                </a>
+            </h4>
+        </article>
+    {% endfor %}
+</div>
