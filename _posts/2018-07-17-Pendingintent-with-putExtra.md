@@ -4,6 +4,7 @@ title:  "PendingIntent에서 값 넘기기(Pendingintent with putExtra)."
 date:   2018-07-17 17:09:00
 author: Seungbeom Kim
 categories: develop_diary
+tags: 클래스업 ClassUp 안드로이드 Android PendingIntent PutExtra PendingIntent값넘기기 안드로이드개발 Android개발
 ---
 
 클래스업(ClassUp)은 기본적으로 메인화면이 두개이다. 하나는 시간표 창, 다른 하나는 노트 창.

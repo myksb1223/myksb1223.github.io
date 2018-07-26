@@ -4,6 +4,7 @@ title:  "Bulk API를 이용한 엘라스틱 서치 데이터 정리(Manage Elast
 date:   2018-07-24 05:31:00
 author: Seungbeom Kim
 categories: develop_diary
+tags: 클래스업 ClassUp 엘라스틱서치 ElasticSearch BulkAPI 벌크API 루비 Ruby RubyOnRails
 ---
 
 꾸준히 개발은 했는데 이제서야 글을...
