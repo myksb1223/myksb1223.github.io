@@ -36,7 +36,7 @@ AutoLayut은 기본적으로 interface bulilder를 이용하여 작업하기 때
 
 여기서 ScrollView내에 들어가는 Contents의 종류가 많다면 하나하나 x, y좌표나 width, height를 지정해주어야 한다. 난 AutoLayout을 사용하는데 왜... width와 height를 지정해 줘야하는가? 라는 의문이 생긴다. 그리고 맨 위쪽, 맨 아래 쪽에 위치하는 뷰는 ScrollView와의 Top space, Bottom space를 맞춰주어야 하는 번거로움이 생긴다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_1.png" title="UIScrollView AutoLayout Picture 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_1.png" title="UIScrollView AutoLayout Picture 1" class="post-image" width="100%">
 
 위 방법의 가장 큰 문제점은 width와 height를 지정하면 기기의 화면에 때라 Layout이 다르게 표시가 된다... 즉, 여백이 일정하지 않다.
 
@@ -44,7 +44,7 @@ AutoLayut은 기본적으로 interface bulilder를 이용하여 작업하기 때
 
 그래서 보통 ScrollView 내에 Container와 같은 역할을 하는 UIView를 넣어준다. Container의 Top, Bottom, Leading, Trailing Space를 ScrollView에 맞춰주고 Width와 Height만 지정해주면 들어가야하는 Contents들은 모두 Container에 넣어주고 Layout을 맞춰주면 된다. 그리고 마지막으로 Contents들의 가장 긴(?) width, height를 Container에 적용시켜주면 끝난다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_4.png" title="UIScrollView AutoLayout Picture 4" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/uiscrollview_autolayout_4.png" title="UIScrollView AutoLayout Picture 4" class="post-image" width="100%">
 
 아래 처럼 여백이 항상 같은 것을 알 수 있다.
 
