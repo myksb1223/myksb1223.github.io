@@ -48,7 +48,7 @@ How to use docstrings in Python?(파이썬에서 docstring을 어떻게 사용�
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_4_3.png" title="Python tutorial 4 Picture 3" class="post-image">
 
-#### Docstring In Python(파이썬에서의 Docstring)
+### Docstring In Python(파이썬에서의 Docstring)
 파이썬은 도큐먼트 스트링(docstrings) 형태를 가지고 있다. 이는 개발자(programmer)에게 모든 파이썬 모듈, 함수, 클래스, 메소드에 빠른 노트를 추가할 수 있는 간단한 방법을 제공한다.
 
 스트링 상수로서 추가함으로써 docstring을 정의할 수 있다. 객체(모듈, 함수, 클래스, 메소드)의 정의에서 가장 처음에 서술되어야 한다.

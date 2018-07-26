@@ -29,7 +29,7 @@ Python Indentation(파이썬 들여쓰기).
 
 한글로 풀어쓰니 무슨 말인지 하나도 모르겠다...ㅋㅋㅋ
 
-#### Python Statement(파이썬 구문)
+### Python Statement(파이썬 구문)
 __What Is A Statement?(구문이란?)__
 파이썬에서 구문이란 파이썬 인터프리터가 읽고 실행할 수 있는 논리적 명령이다. 파이썬에서는 표현식(expression)이나 할당 구문(assignment statement)일 수 있다.
 
@@ -50,7 +50,7 @@ __What Is A Expression?(표현식이란?)__
 </figcaption>
 </figure>
 
-#### Simple Assignment Statement(간단한 할당 구문)
+### Simple Assignment Statement(간단한 할당 구문)
 간단한 할당에서 우리는 새로운 변수를 생성하고 값을 할당 및 변경한다. 이 구문은 표현식과 그 표현식의 값을 가지고 있는 이름으로서 변수명을 제공한다. 다시말해서 variable = expression와 같은 구조라는 뜻이다.
 
 파이썬에서의 할당 구문의 3가지 형태를 알아보고 살펴보자.
@@ -98,7 +98,7 @@ __Case-3 : Right-Hand Side (RHS) Is An Operation(케이스-2 : 오른쪽 부분�
 
 이 예제에서의 할당문은 'int' 변수를 생성하게 이끌었다.
 
-#### Augmented Assignment Statement(확장된 할당 구문)
+### Augmented Assignment Statement(확장된 할당 구문)
 너는 확장된 할당 구문을 수행하기 위해 할당에 수학 연산자를 함께 사용할 수 있다.
 확장된 할당 구문의 아래 예제를 보자.
 
@@ -120,12 +120,12 @@ x = x + y
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_3_9.png" title="Python tutorial 3 Picture 9" class="post-image">
 
-#### Multi-line Statement In Python(파이썬에서 다중 라인 구문).
+### Multi-line Statement In Python(파이썬에서 다중 라인 구문).
 보통 모든 파이썬 구문은 개행 문자로 끝을 낸다. 하지만 우리는 라인 연결 문자(\, 백슬래쉬)를 사용하여 다중 라인으로 확장할 수 있다.
 
 그리고 파이썬은 프로그램에서 다중 라인 구문을 가능하게 하는 두가지 방법을 준다.
 
-#### Explicit Line Continuation(명확한 라인 연결)
+### Explicit Line Continuation(명확한 라인 연결)
 라인 연결 문자(\, 백슬래쉬)을 사용하여 구문을 바로 다중 라인으로 구분하고 싶을 때.
 
 예제
@@ -139,7 +139,7 @@ Implicit Line Continuation(암시적 라인 연결)
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_3_11.png" title="Python tutorial 3 Picture 11" class="post-image">
 
-#### Python Indentation(파이썬 들여쓰기)
+### Python Indentation(파이썬 들여쓰기)
 C, C++, C#과 같은 높은 단계의 개발 언어들은 코드의 블럭을 표시하기위해 중괄호 {}를 사용한다. 파이썬은 그 것을 들여쓰기로 한다.
 
 반복문과 함수의 몸체와 같은 코드 블럭은 들여쓰기로 시작해 처음의 들여쓰기로 끝난다. (말 그대로 처음 들여쓰기 한 만큼 들여쓰기해서 끝내라는 뜻이다.)
