@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 데이터 타입 - 기초부터 심화까지 1편(Python Data Types - Learn From Basic To Advanced 1) <Boolean, Numbers>"
+title:  "파이썬 데이터 타입 - 기초부터 심화까지 1편(Python Data Types - Learn From Basic To Advanced 1) Boolean, Numbers"
 date:   2018-07-25 00:41:00
 author: Seungbeom Kim
 categories: python
@@ -46,7 +46,7 @@ x = "Learn Python"; (o)
 7. Sets
 8. Dictionaries
 
-####Python Data Types From Basic To Advanced(기초부터 심화까지의 파이썬 데이터 타입)
+####Python Data Types From Basic To Advanced(기초부터 심화까지의 파이썬 데이터 타입)<br>
 __1. Boolean__
 boolean은 파이썬(Python)을 포함하여 거의 모든 언어에서 가지고 있는 데이터 타입의 한 종류이다. 파이썬(Python)에서 Boolean은 __True, False__ 두 값을 가질 수 있다. 이 두 값은 상수이고 할당이나 boolean 값을 비교할 때 사용될 수 있다. 아래 주어진 간단한 예제를 보자.
 
@@ -54,7 +54,7 @@ boolean은 파이썬(Python)을 포함하여 거의 모든 언어에서 가지�
 
 파이썬(Python)에서 boolean 조건을 만들 때, 명확한 비교를 생략할 수 있다. 그리고 같은 결과를 얻을 것이다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_2.png" title="Python tutorial 4 Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_2.png" title="Python tutorial 5 Picture 2" class="post-image">
 
 위의 코드는 이전 것과 같은 결과를 도출할 것이다. 왜냐하면
 
@@ -74,17 +74,17 @@ __For example -__ 조건 블럭에서의 표현식은 boolean 값을 도출한�
 
 표현식이 무엇이든 파이썬(Python)은 그 것의 참, 거짓 값을 결정하기 위해 boolean 문맥(context)을 사용할 것입니다. 파이썬(Python)은 많은 데이터 타입을 가지고 있기에 그것들은 boolean 문맥(context)에서 결과를 도출하기 위해 해당 데이터 타입이 가진 규칙을 수행할 것입니다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_3.png" title="Python tutorial 4 Picture 3" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_3.png" title="Python tutorial 5 Picture 3" class="post-image">
 
 계속 context라는 말이 나오는데 말 그대로 각 데이터 타입마다 boolean 값을 도출하는 규칙이 있다는 뜻이다. 위 코드를 보면 str은 문자열(String)값이다. 하지만 len(str)을 함으로써 정수(Integer)값이 되었다. 이제 그 값은 == 12와 대응될 수 있는 것이다. 이처럼 boolean 결과를 도출하기 위해서는 해당 데이터 타입이 가진 boolean 결과를 도출할 수 있는 구문을 만들어서 도출시키라는 뜻이다.
 
 때때로, boolean 상수 **True**와 **False**는 숫자가 될 수 있다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_4.png" title="Python tutorial 4 Picture 4" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_4.png" title="Python tutorial 5 Picture 4" class="post-image">
 
 위의 코드로 인해 **True는 1, False는 0**이라고 증명되었다. 그리고 수학적 계산에서 저 값은 숫자로 바뀐다.
 
-__2. Numbers__
+__2. Numbers__<br>
 Numbers는 파이썬(Python)에서 가장 중요한 데이터 타입 중 하나이다. 오직 정수와 실수만 가지고 있는 많은 언어와 달리 파이썬(Python)은 숫자의 새로운 타입으로 complex를 소개한다.
 
 들어가기 전에 몇 가지 포인트가 있다.
@@ -97,21 +97,21 @@ __- int, float, complex__
 
 **Example.**
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_5.png" title="Python tutorial 4 Picture 5" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_5.png" title="Python tutorial 5 Picture 5" class="post-image">
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_6.png" title="Python tutorial 4 Picture 6" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_6.png" title="Python tutorial 5 Picture 6" class="post-image">
 
 - complex 숫자를 만들려면 생성자로서 타입을 사용할 수 있다. 아래 예제를 보자.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_7.png" title="Python tutorial 4 Picture 7" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_7.png" title="Python tutorial 5 Picture 7" class="post-image">
 
 - 파이썬(Python)에서 정수는 메모리 제한은 메모리가 가능한 범위까지이다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_8.png" title="Python tutorial 4 Picture 8" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_8.png" title="Python tutorial 5 Picture 8" class="post-image">
 
 - 실수(float)타입의 숫자는 소수점 15자리까지 표현할 수 있다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_4_9.png" title="Python tutorial 4 Picture 9" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_5_9.png" title="Python tutorial 5 Picture 9" class="post-image">
 
 **Note -** 위 예제에서 dig는 실수에서 십진수의 최대값이다.
 

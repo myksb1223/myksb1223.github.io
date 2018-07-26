@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 데이터 타입 - 기초부터 심화까지 2편(Python Data Types - Learn From Basic To Advanced 2) <Strings, Bytes>"
+title:  "파이썬 데이터 타입 - 기초부터 심화까지 2편(Python Data Types - Learn From Basic To Advanced 2) Strings, Bytes"
 date:   2018-07-25 10:30:00
 author: Seungbeom Kim
 categories: python
