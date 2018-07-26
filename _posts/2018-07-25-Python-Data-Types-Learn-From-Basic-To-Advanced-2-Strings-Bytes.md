@@ -9,7 +9,7 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 
 이번 단원은 파이썬 데이터 타입에 대한 튜토리얼 두 번째이다.
 
-**3. Strings**
+**3. Strings**<br>
 ', " 을 이용하여 하나 또는 그 이상의 문자의 나열을 포함시킨 것을 파이썬(Python)에서는 문자열(String)이라고 한다. 어떤 문자든 숫자 또는 심볼은 string의 부분이 될 수 있다.
 
 파이썬(Python)은 처음과 끝에 세 개의 "을 사용하여 다중 행 문자열도 지원한다.
@@ -37,7 +37,7 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_6_5.png" title="Python tutorial 6 Picture 5" class="post-image">
 
-**4. Bytes**
+**4. Bytes**<br>
 파이썬(Python)에서 바이트(byte)는 변경가능한 타입이다. 0~255 범위의 바이트 나열을 저장할 수 있다. 배열(array)과 비슷하게 인덱스(index)를 이용하여 단일 바이트의 값을 지정할 수 있다. 하지만 그 값을 변경할 수는 없다.
 
 여기에 바이트(byte)와 문자열(string)의 몇 가지 차이점이 있다.
