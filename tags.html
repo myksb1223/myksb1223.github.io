@@ -5,11 +5,11 @@ title: Tags
 ---
 
 {% for tag in site.tags %}
-  {% capture tag %}{{ tag | first }}{% endcapture %}
-  <h2 id="{{tag | slugize }}">{{ tag | capitalize }}</h2>
-  <a name="{{ tag | slugize }}"></a>
+  {% capture tag_name %}{{ tag | first }}{% endcapture %}
+  <h2 id="{{ tag_name | slugize }}">{{ tag_name | capitalize }}</h2>
+  <a name="{{ tag_name | slugize }}"></a>
   <ul class="posts-list">
-  {% for post in site.tags[tag] %}
+  {% for post in site.tags[tag_name] %}
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
