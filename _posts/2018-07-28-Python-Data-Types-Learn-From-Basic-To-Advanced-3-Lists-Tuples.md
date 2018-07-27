@@ -16,21 +16,21 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 **Python List Syntax(파이썬 리스트 문법)**<br>
 파이썬(Python)에서의 리스트는 []내에 ,로 요소를 배치시켜서 정의할 수 있다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_1.PNG" title="Python tutorial 7 Picture 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_1.png" title="Python tutorial 7 Picture 1" class="post-image">
 
 - 리스트 객체는 변경할 수 있다. 파이썬(Python)은 리스트, 리스트의 요소를 할당시키는 것 뿐만 아니라 이미 지정된 리스트 메소드를 사용해서 수정하는 것을 허용한다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_2.PNG" title="Python tutorial 7 Picture 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_2.png" title="Python tutorial 7 Picture 2" class="post-image">
 
 **Nesting Inside A List(리스트 내의 Nesting)**<br>
 흥미롭게도 리스트는 다른 리스트를 포함할 수 있다. 그런 리스트를 네스티드(Nested) 리스트라고 한다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_3.PNG" title="Python tutorial 7 Picture 3" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_3.png" title="Python tutorial 7 Picture 3" class="post-image">
 
 **Slicing A List(리스트 자르기)**<br>
 리스트 역시 이전에 배운 문자열(String)처럼 자르는 것을 지원하는 파이썬(Python) 데이터 타입 중 하나다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_4.PNG" title="Python tutorial 7 Picture 4" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_4.png" title="Python tutorial 7 Picture 4" class="post-image">
 
 **6. Tuples**<br>
 튜플은 ,로 구분된 파이썬(Python) 객체의 혼합된 집합이다. 이 말의 의미는 튜플 내에서 다른 데이터 타입의 객체가 같이 존재할 수 있다는 것이다. 튜플과 리스트는 아래 특성을 공유한다는 점에서 다소 비슷하다.
@@ -43,17 +43,17 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 ()에 ,로 요소를 넣어서 튜플을 정의한다.
 
 **Example - Define A Tuple**
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_5.PNG" title="Python tutorial 7 Picture 5" class="post-image">
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_6.PNG" title="Python tutorial 7 Picture 6" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_5.png" title="Python tutorial 7 Picture 5" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_6.png" title="Python tutorial 7 Picture 6" class="post-image">
 **Example - Nested Tuples**
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_7.PNG" title="Python tutorial 7 Picture 7" class="post-image">
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_8.PNG" title="Python tutorial 7 Picture 8" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_7.png" title="Python tutorial 7 Picture 7" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_8.png" title="Python tutorial 7 Picture 8" class="post-image">
 **Example - Repetition In Tuples**
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_9.PNG" title="Python tutorial 7 Picture 9" class="post-image">
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_10.PNG" title="Python tutorial 7 Picture 10" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_9.png" title="Python tutorial 7 Picture 9" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_10.png" title="Python tutorial 7 Picture 10" class="post-image">
 **Example - Slicing In Tuples**
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_11.PNG" title="Python tutorial 7 Picture 11" class="post-image">
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_12.PNG" title="Python tutorial 7 Picture 12" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_11.png" title="Python tutorial 7 Picture 11" class="post-image">
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_12.png" title="Python tutorial 7 Picture 12" class="post-image">
 
 **Important note** - 위의 예제를 자를 때, "2"의 의미는 튜플에서는 세번째 요소가 시작임을 뜻한다 (자르기의 색인의 시작은 0이다.). "4"의 의미는 튜플에서는 다섯번째 요소를 뜻하지만 그 값은 제외한다.
 
