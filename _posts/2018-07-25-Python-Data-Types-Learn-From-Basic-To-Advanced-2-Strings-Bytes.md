@@ -4,10 +4,10 @@ title:  "파이썬 데이터 타입 - 기초부터 심화까지 2편(Python Data
 date:   2018-07-25 10:30:00
 author: Seungbeom Kim
 categories: python
-tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬데이터타입 PythonDataType
+tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬데이터타입 PythonDataType String Byte
 ---
 
-이번 단원은 파이썬 데이터 타입에 대한 튜토리얼 두 번째이다.
+[이번 단원](http://www.techbeamers.com/python-data-types-learn-basic-advanced/)은 파이썬 데이터 타입에 대한 튜토리얼 두 번째이다.
 
 **3. Strings**<br>
 ', " 을 이용하여 하나 또는 그 이상의 문자의 나열을 포함시킨 것을 파이썬(Python)에서는 문자열(String)이라고 한다. 어떤 문자든 숫자 또는 심볼은 string의 부분이 될 수 있다.
@@ -27,7 +27,7 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 반면에 파이썬(Python) 3은 전부 유니코드(Unicode)이다.
 
 **Strings in Python 2(파이썬 2에서의 문자열).**
-    
+
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_6_3.png" title="Python tutorial 6 Picture 3" class="post-image">
 
 **Strings in Python 3(파이썬 3에서의 문자열).**
