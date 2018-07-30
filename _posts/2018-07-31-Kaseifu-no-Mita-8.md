@@ -59,4 +59,4 @@ tags: 가정부미타 가정부미타8화 家政婦のミタ 家政婦のミタ�
 나중에 듣고 말하는 것... 즉, 원어민과 대화가 잘 되면... 그 때 쓰고 읽는 것 공부하려고 한다.
 역시나 사람의 욕심은 끝이 없다... 점점 길어지고 있다..ㅠㅠ
 
-instagram : [dramaofjapan](https://www.instagram.com/p/BkqIf9ejxTU/?taken-by=dramaofjapan)
+instagram : [dramaofjapan](https://www.instagram.com/p/Bksy1yuDYOC/?taken-by=dramaofjapan)
