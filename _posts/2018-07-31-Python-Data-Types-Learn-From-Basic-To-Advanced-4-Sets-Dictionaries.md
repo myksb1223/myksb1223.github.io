@@ -42,7 +42,7 @@ Set을 생성하기 위해서 순서나 어떤 반복 가능한 객체와 함께
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_8_3.png" title="Python tutorial 8 Picture 3" class="post-image">
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_8_4.png" title="Python tutorial 8 Picture 4" class="post-image">
 
-**Dictionaries**<br>
+**8. Dictionaries**<br>
 파이썬(Python)에서 딕셔너리(Dictionary)는 키-밸류 쌍(key-value pair)이다. 파이썬(Python)에서 키가 값에 맵핑되는 이미 제공된 맵핑(mapping) 타입이다. 이 키-밸류 쌍(key-value pair)는 직관적으로 데이터를 저장하는 방법을 제공한다.
 
 **Why Need A Dictionary?(왜 딕셔너리가 필요한가?)**<br>
@@ -60,32 +60,16 @@ Set을 생성하기 위해서 순서나 어떤 반복 가능한 객체와 함께
 
 **Dictionaries Methods To Access Elements(요소에 접근하기 위한 딕셔너리 메소드)**
 파이썬(Python)은 아래 3개의 이미 저장된 딕셔너리(Dictionary) 함수를 가지고 있다.
+
 - **keys()** - 딕셔너리(Dictionary)로 부터 키만 분리한다.
 - **values()** - 딕셔너리(Dictionary)로 부터 값만 분리한다.
 - **items()** - 키-밸류 쌍(key-value pair)의 형태의 리스트(List)로 반환한다.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_8_7.png" title="Python tutorial 8 Picture 7" class="post-image">
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_8.png" title="Python tutorial 7 Picture 8" class="post-image">
-**Example - Repetition In Tuples**
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_9.png" title="Python tutorial 7 Picture 9" class="post-image">
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_10.png" title="Python tutorial 7 Picture 10" class="post-image">
-**Example - Slicing In Tuples**
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_11.png" title="Python tutorial 7 Picture 11" class="post-image">
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_7_12.png" title="Python tutorial 7 Picture 12" class="post-image">
 
-**Important note** - 위의 예제를 자를 때, "2"의 의미는 튜플에서는 세번째 요소가 시작임을 뜻한다 (자르기의 색인의 시작은 0이다.). "4"의 의미는 튜플에서는 다섯번째 요소를 뜻하지만 그 값은 제외한다.
+**Modifying A Dictionary - Add/Update/Delete(딕셔너리 수정 - 추가/수정/삭제)**
+딕셔너리(Dictionary) 객체는 변경이 가능하기 때문에 딕셔너리(Dictionary) 객체에 대한 추가(add), 수정(update), 삭제(delete) 수행을 할 수 있다.
 
-**How Does A Tuple Differ From The List?(튜플은 리스트와 어떻게 다른가?)**<br>
-튜플은 변경할 수 없다는 것으로 리스트와 조금 차이가 있다. 파이썬(Python)은 튜플이 생성된 후 수정되는 것을 허용하지 않는다. 나중에 값을 넣거나 뺄 수 없다. 대신에 파이썬(Python)은 요소의 수정된 순서를 가진 새로운 튜플을 만들 것을 기대한다.
+딕셔너리(Dictionary)를 어떻게 수정하는지 더 명확하게 이해하기 위해 아래 예제를 보자.
 
-**What If A Tuple Has Mutable Objects As Elements?(튜플이 요소로 변경가능한 객체가 있으면?)**<br>
-여기 놀라운 것이 있다. 튜플을 변경하는 것은 금지다. 하지만 파이썬(Python)은 요소에 까지 강요하진 않는다. 이 말은 요소가 변경가능한 객체라면 수정할 수 있다는 것이다.
-
-**Why Need Tuple As One Of The Python Data Types?(파이썬 데이터 타입 중 하나로 튜플은 왜 필요한가?)**<br>
-여기 튜플을 지원하는 이유가 몇가지 있다.
-- 파이썬(Python)은 함수로 부터 여러 값을 반환할 때 튜플을 사용한다.
-- 튜플은 리스트보다 가볍다.
-- 여러 객체를 저장할 단일 컨테이너로써의 역할한다.
-- 딕셔너리(Dictionary)의 키(Key)로 사용할 수 있다.
-
-이 부분은 매우 중요한 부분이다. 개발을 조금 해본 사람은 있겠지만 데이터가 중간에 변하지 않는 것이 매우 중요하다. 즉, 함수에서 값을 반환할 때 반환이 끝나서 역할이 끝날 때까지 값은 바뀌지 않아야 한다. 즉, `원본 객체`로서 역할이 가능하다. 딕셔너리(Dictionary)의 키(key)의 역할 역시 마찬가지이다.
+<img src="{{ site.baseurl }}/assets/python/python_tutorial_8_8.png" title="Python tutorial 8 Picture 8" class="post-image">
