@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rails 프로젝트에서 MySQL 떼어내는 방법(How to detach or remove MySQL in existing Rails project)"
-date:   2018-07-31 05:12:00
+date:   2018-07-31 05:52:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업, ClassUp, 레일즈, Rails, 루비온레일즈, RubyOnRails, MySQL
