@@ -13,11 +13,11 @@ tags: 클래스업, ClassUp, 리눅스, Linux, 리눅스 파티션, Linux Partit
 
 일단, **fdisk -l**을 쉘에 치면 아래와 같은 결과가 나온다.
 
-<img src="{{ site.baseurl }}/assets/python/linux_partion_format_ext4_1.png" title="Linux partion format ext4 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/linux_partion_format_ext4_1.png" title="Linux partion format ext4 1" class="post-image">
 
 그리고 새롭게 추가된 디스크를 찾은 후 **fdisk /dev/xvdba** 라고 치면 아래와 같은 창이 뜨는데... 아래 그림처럼 순서대로 수행한다.
 
-<img src="{{ site.baseurl }}/assets/python/linux_partion_format_ext4_2.png" title="Linux partion format ext4 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/linux_partion_format_ext4_2.png" title="Linux partion format ext4 2" class="post-image">
 
 설명을 조금 하자면...
 - **n**은 새로운 파티션을 만들겠다는 뜻이다.
@@ -27,7 +27,7 @@ tags: 클래스업, ClassUp, 리눅스, Linux, 리눅스 파티션, Linux Partit
 
 이제 **ext4** 파일시스템을 입혀보자.
 
-<img src="{{ site.baseurl }}/assets/python/linux_partion_format_ext4_3.png" title="Linux partion format ext4 3" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/linux_partion_format_ext4_3.png" title="Linux partion format ext4 3" class="post-image">
 
 그리고 **mount**로 마운팅시키면 되는데 나는 log파일 저장용으로 쓰기에,
 
@@ -35,6 +35,6 @@ tags: 클래스업, ClassUp, 리눅스, Linux, 리눅스 파티션, Linux Partit
 
 그리고 잊지 않아야 할 것이 **/etc/fstab**에 등록시키는 것이다.
 
-<img src="{{ site.baseurl }}/assets/python/linux_partion_format_ext4_4.png" title="Linux partion format ext4 4" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/linux_partion_format_ext4_4.png" title="Linux partion format ext4 4" class="post-image">
 
 맨 아래에 저렇게 추가해주면 재부팅시 자동으로 마운트 된다.
