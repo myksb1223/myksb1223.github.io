@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "리눅스 파티션 및 ext4로 포맷하기(Manage partition and fomat ext4 in Linux"
+title:  "리눅스 파티션 및 ext4로 포맷하기(Manage partition and fomat ext4 in Linux)"
 date:   2018-07-31 05:12:00
 author: Seungbeom Kim
 categories: develop_diary
