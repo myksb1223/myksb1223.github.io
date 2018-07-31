@@ -16,5 +16,8 @@ permalink: /about/
 Imagine and save the world.
 
 instagram 개인 : [monseungmon](https://www.instagram.com/monseungmon/)<br>
+instagram 클래스업(ClassUp) : [classup_official](https://www.instagram.com/classup_official/)<br>
 instagram 일본어 : [dramaofjapan](https://www.instagram.com/dramaofjapan/)<br>
-twitter 개인 : [@kim_seungbeom](https://twitter.com/kim_seungbeom)
+twitter 개인 : [@kim_seungbeom](https://twitter.com/kim_seungbeom)<br>
+twitter 클래스업 : [@ClassUp_Korea](https://twitter.com/ClassUp_Korea)<br>
+twitter ClassUp : [@ClassUp](https://twitter.com/ClassUp)

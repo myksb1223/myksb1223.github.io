@@ -4,12 +4,12 @@ title:  "Rails 프로젝트에서 MySQL 떼어내는 방법(How to detach or rem
 date:   2018-07-31 05:52:00
 author: Seungbeom Kim
 categories: develop_diary
-tags: 클래스업, ClassUp, 레일즈, Rails, 루비온레일즈, RubyOnRails, MySQL
+tags: 클래스업 ClassUp 레일즈 Rails 루비온레일즈 RubyOnRails MySQL
 ---
 
 클래스업(ClassUp)은 크게 서버가 메인서버, 노트전용서버, 검색전용서버, 데이터베이스 서버 이렇게 4개로 나뉘어져 있다.
 
-예전에는 DynamoDB를 사용하지 않고 MySQL만 사용했었는데 이제는 노트서버에 아예 MySQL을 사용하지 않는다. 하지만 이미 프로젝트 생성시에 MySQL을 부착시켜서... 무엇부터 바꿔야하는지 기억이 하나도 안났다...
+예전에는 **DynamoDB**를 사용하지 않고 MySQL만 사용했었는데 이제는 노트서버에 아예 MySQL을 사용하지 않는다. 하지만 이미 프로젝트 생성시에 MySQL을 부착시켜서... 무엇부터 바꿔야하는지 기억이 하나도 안났다...
 
 일단, **[multi_db](https://github.com/schoefmann/multi_db)** gem부터 지웠다. 이는 MySQL에서 서버 분산할 때 master, slave 구조를 사용할 수 있게 해주는 라이브러리다.
 
