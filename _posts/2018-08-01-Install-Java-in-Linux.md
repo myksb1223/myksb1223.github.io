@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리눅스 자바 설치하기(Install Java in Linux)"
-date:   2018-08-01 06:41:00
+date:   2018-08-01 18:41:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp 자바 Java 리눅스 Linux 엘라스틱서치 ElasticSearch

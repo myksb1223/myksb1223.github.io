@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "엘라스틱 서치 데이터 옮기기(Moving data in ElasticSearch)"
-date:   2018-08-01 06:55:00
+date:   2018-08-01 18:55:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp 엘라스틱서치 ElasticSearch 서버이전 데이터옮기기 MoveData AWS 아마존클라우드서비스 Centos ENA ElasticNetworkAdapter AMI
@@ -37,6 +37,16 @@ tags: 클래스업 ClassUp 엘라스틱서치 ElasticSearch 서버이전 데이�
     ec2-user sort nproc 65536
 
 설정해 준다.
+
+마지막으로 .bash_prfile로 가서
+
+    export ES_JAVA_OPTS="-Xms8g -Xmx8g"
+
+을 추가한 후,
+
+    $ . .bash_profile
+
+로 설정을 적용해준다.
 
 어쨋든 일단 엘라스틱서치(ElasticSearch)는 검색을 위해서만 사용하기 때문에 서버를 멈추어도 별로 상관이 없었다. 하지만 켜두었다. 여기서부터가 두번째 악몽의 시작이었다...
 

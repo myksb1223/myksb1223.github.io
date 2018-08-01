@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "아마존 클라우드 서비스에서 ENA(ElasticNetworkAdapter) 만들기(Make ENA(ElasticNetworkAdapter) in AWS)"
-date:   2018-08-01 06:11:00
+date:   2018-08-01 18:11:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp ENA ElasticNetworkAdapter AWS 아마존클라우드서비스 AMI
