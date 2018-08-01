@@ -11,7 +11,7 @@ tags: 클래스업 ClassUp RDS 데이터베이스 Database 오로라 Aurora  암
 
 오로라(Aurora)는 쉽다. 복제본 생성을 누르면 아래 그림처럼 뜨는데
 
-<img src="{{ site.baseurl }}/assets/develop_diary/rds_aurora_encryption_in_aws.png" title="RDS Aurora Encryption in AWS 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/rds_aurora_encryption_in_aws_1.png" title="RDS Aurora Encryption in AWS 1" class="post-image">
 
 암호화를 시켜주고 복제본이 생성되었으면 기존 오로라(Aurora)에 연결 되었던 서버들을 복제본으로 연결을 변경하고 기존 데이터베이스를 삭제해주면 된다.
 
