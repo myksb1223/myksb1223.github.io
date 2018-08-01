@@ -64,4 +64,5 @@ while message_not_complete(buf):
 튜토리얼의 이후 단락에서 바이트(byte)를 문자열(string)으로 문자열(string)을 바이트(byte)로 바꾸는 방법을 볼 것이다.
 
 다음은 Lists와 Tuple입니다.
-질문 및 잘못된 부분, 수정 부분있으면 댓글, 쪽지 주세요~!!!
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

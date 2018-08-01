@@ -62,4 +62,4 @@ COMPLEX_UNIT_SP는 글자 크기를 sp형식으로 처리하겠다는 뜻이다.
 
 클래스업(ClassUp)에서는 사용자가 가장 적당한 크기로 글씨를 볼 수 있어야 하기 때문에 약간 세부적인 제어가 필요할 것 같다.
 
-잘못된 부분, 질문등은 댓글이나 쪽지주세요~!
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

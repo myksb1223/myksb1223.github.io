@@ -68,7 +68,7 @@ __Case-1 : Right-Hand Side (RHS) Is Just A Value-Based Expression(케이스-1 : 
 
 1. 같은 값으로 다른 문자열을 생성하면, 파이썬은 새로운 객체를 생성하고 메모리의 다른 부분에 그것을 할당할 것이다. 이 규칙은 거의 모든 경우에 적용된다.
 
-<img src="{{ site.baseurl }}/assets/python/python_tutorial_3_4.png" title="Python tutorial 3 Picture 4" class="post-image">
+    <img src="{{ site.baseurl }}/assets/python/python_tutorial_3_4.png" title="Python tutorial 3 Picture 4" class="post-image">
 
 2. 하지만, 파이썬은 아래의 두 상황에서는 같은 메모리 주소에 할당할 것이다.
 - 문자열이 20자보다 짧고 공백이 없는 경우.
@@ -76,7 +76,7 @@ __Case-1 : Right-Hand Side (RHS) Is Just A Value-Based Expression(케이스-1 : 
 
 이 개념은 Interning으로 잘 알려져 있다. 파이썬은 메모리를 절약할 수 있다.
 
-__Case-2 : Right-Hand Side (RHS) Is A Current Python Variable(케이스-2 : 오른쪽 부분은 현재 파이썬 변수이다).__
+__Case-2 : Right-Hand Side (RHS) Is A Current Python Variable(케이스-2 : 오른쪽 부분은 현재 파이썬 변수이다).__<br>
 RHS가 현재 파이썬 변수인 할당 구문의 다음 형태를 알아보자.
 
 ```
@@ -87,7 +87,7 @@ RHS가 현재 파이썬 변수인 할당 구문의 다음 형태를 알아보자
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_3_5.png" title="Python tutorial 3 Picture 5" class="post-image">
 
-__Case-3 : Right-Hand Side (RHS) Is An Operation(케이스-2 : 오른쪽 부분은 연산이다).__
+__Case-3 : Right-Hand Side (RHS) Is An Operation(케이스-2 : 오른쪽 부분은 연산이다).__<br>
 이런 형태의 구문에서 결과는 그 연산의 결과에 결정된다. 다음 예제를 분석해 보자.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_3_6.png" title="Python tutorial 3 Picture 6" class="post-image">
@@ -144,10 +144,10 @@ C, C++, C#과 같은 높은 단계의 개발 언어들은 코드의 블럭을 �
 
 반복문과 함수의 몸체와 같은 코드 블럭은 들여쓰기로 시작해 처음의 들여쓰기로 끝난다. (말 그대로 처음 들여쓰기 한 만큼 들여쓰기해서 끝내라는 뜻이다.)
 
-__How Many Space Is An Indent In Python?(파이썬에서는 들여쓰기 크기는 어느 정도인가?)__
+__How Many Space Is An Indent In Python?(파이썬에서는 들여쓰기 크기는 어느 정도인가?)__<br>
 파이썬 스타일 가이드라인(PEP 8)에서는 4를 유지하라고 쓰여있다. 하지만 구글은 그들의 개별 스타일 가이드라인은 2를 넘지 말라고 한다. 그러므로 아무거나 써도 되지만 PEP 8을 추천한다.
 
-__Why Is Indentation So Crucial In Python?(왜 파이썬에서 들여쓰기가 중요한가?)__
+__Why Is Indentation So Crucial In Python?(왜 파이썬에서 들여쓰기가 중요한가?)__<br>
 대부분의 개발 언어는 더 나은 포맷을 위해 들여쓰기를 제공하고 그것을 강요하지 않는다.
 
 하지만 파이썬에서는 들여쓰기 규칙을 지키는 것이 의무이다. 일반적으로 우리는 코드 블럭에서는 각 라인당 4의 들여쓰기를 한다.
@@ -160,4 +160,4 @@ __Why Is Indentation So Crucial In Python?(왜 파이썬에서 들여쓰기가 �
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_3_12.png" title="Python tutorial 3 Picture 12" class="post-image">
 
-질문 및 잘못된 부분, 수정 부분있으면 댓글, 쪽지 주세요~!!!
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

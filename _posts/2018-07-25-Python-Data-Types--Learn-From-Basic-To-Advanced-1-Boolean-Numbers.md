@@ -4,7 +4,7 @@ title:  "파이썬 데이터 타입 - 기초부터 심화까지 1편(Python Data
 date:   2018-07-25 00:41:00
 author: Seungbeom Kim
 categories: python
-tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬데이터타입 PythonDataType
+tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬데이터타입 PythonDataType Boolean Number
 ---
 
 [이번 단원](http://www.techbeamers.com/python-data-types-learn-basic-advanced/)은 파이썬 데이터 타입에 대한 튜토리얼이다. 너무 길어서 데이터 타입을 나눠서 올리려고 한다.
@@ -47,7 +47,7 @@ x = "Learn Python"; (o)
 8. Dictionaries
 
 ### Python Data Types From Basic To Advanced(기초부터 심화까지의 파이썬 데이터 타입)<br>
-__1. Boolean__<br> 
+__1. Boolean__<br>
 boolean은 파이썬(Python)을 포함하여 거의 모든 언어에서 가지고 있는 데이터 타입의 한 종류이다. 파이썬(Python)에서 Boolean은 __True, False__ 두 값을 가질 수 있다. 이 두 값은 상수이고 할당이나 boolean 값을 비교할 때 사용될 수 있다. 아래 주어진 간단한 예제를 보자.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_5_1.png" title="Python tutorial 5 Picture 1" class="post-image">
@@ -116,4 +116,5 @@ __- int, float, complex__
 **Note -** 위 예제에서 dig는 실수에서 십진수의 최대값이다.
 
 다음은 Strings와 Bytes입니다.
-질문 및 잘못된 부분, 수정 부분있으면 댓글, 쪽지 주세요~!!!
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

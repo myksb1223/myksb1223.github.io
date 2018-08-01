@@ -68,4 +68,4 @@ public void onNewIntent(Intent intent) {
 
 Activity 생명주기와 같은 기본을 간과해서 헤맨 경우라 볼 수 있는 것 같다.
 
-질문 및 잘못된 점, 수정부분이 있으시면 댓글이나 쪽지 주세요~
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

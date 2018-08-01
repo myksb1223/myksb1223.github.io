@@ -71,3 +71,5 @@ tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파�
 - 딕셔너리(Dictionary)의 키(Key)로 사용할 수 있다.
 
 이 부분은 매우 중요한 부분이다. 개발을 조금 해본 사람은 있겠지만 데이터가 중간에 변하지 않는 것이 매우 중요하다. 즉, 함수에서 값을 반환할 때 반환이 끝나서 역할이 끝날 때까지 값은 바뀌지 않아야 한다. 즉, `원본 객체`로서 역할이 가능하다. 딕셔너리(Dictionary)의 키(key)의 역할 역시 마찬가지이다.
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

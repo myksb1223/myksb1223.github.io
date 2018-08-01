@@ -72,4 +72,4 @@ myobj.__doc__
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_4_4.png" title="Python tutorial 4 Picture 4" class="post-image">
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_4_5.png" title="Python tutorial 4 Picture 5" class="post-image">
 
-질문 및 잘못된 부분, 수정 부분있으면 댓글, 쪽지 주세요~!!!
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

@@ -57,3 +57,5 @@ iOS에서는 Cache 디렉토리로 가서 직접 지우면 된다.
 예전 Timestamp로 저장된 이미지만 지워주면 끝나기 때문이다.
 
 클래스업(ClassUp)은 다음 버전 부터는 이제 노트를 수정할 때  Image를 넣고 빼고를 자유롭게 할 수 있다.
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

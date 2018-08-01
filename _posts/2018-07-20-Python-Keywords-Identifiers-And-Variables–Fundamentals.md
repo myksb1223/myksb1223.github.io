@@ -103,4 +103,4 @@ test = 10
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_2_8.png" title="Python tutorial 2 Picture 8" class="post-image">
 
-질문 또는 잘못된 점, 오타수정 부분이 있으시면 댓글이나 쪽지, 메일 등등 편하게 연락주세요~!
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

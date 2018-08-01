@@ -38,3 +38,5 @@ tags: 클래스업 ClassUp 리눅스 Linux 리눅스파티션 LinuxPartition 파
 <img src="{{ site.baseurl }}/assets/develop_diary/linux_partion_format_ext4_4.png" title="Linux partion format ext4 4" class="post-image">
 
 맨 아래에 저렇게 추가해주면 재부팅시 자동으로 마운트 된다.
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

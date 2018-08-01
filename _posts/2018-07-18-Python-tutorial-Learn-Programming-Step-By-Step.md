@@ -99,4 +99,4 @@ Django같은 웹 프레임 워크를 이용한 개발을 뜻하는 것 같다.
 
 여기까지가 첫 내용이다.
 
-질문 및 잘못된 부분, 수정 부분있으면 댓글, 쪽지 주세요~!!!
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

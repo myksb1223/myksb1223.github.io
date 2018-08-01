@@ -73,3 +73,5 @@ Set을 생성하기 위해서 순서나 어떤 반복 가능한 객체와 함께
 딕셔너리(Dictionary)를 어떻게 수정하는지 더 명확하게 이해하기 위해 아래 예제를 보자.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_8_8.png" title="Python tutorial 8 Picture 8" class="post-image">
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

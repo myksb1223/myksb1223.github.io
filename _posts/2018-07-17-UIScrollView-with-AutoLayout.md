@@ -59,4 +59,4 @@ AutoLayut은 기본적으로 interface bulilder를 이용하여 작업하기 때
 
 이렇게 UIScrollView의 AutoLayout은 생각할 부분이 조금 더 많다!
 
-질문이나 잘못된 점, 수정부분 있으면 댓글 부탁드립니다.!!
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

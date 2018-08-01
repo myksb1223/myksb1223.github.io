@@ -60,4 +60,4 @@ tags: 클래스업 ClassUp 엘라스틱서치 ElasticSearch BulkAPI 벌크API �
 
 위와 같이 작성하고 돌리면 정말 금방 끝났다. 1000개도 솔직히 적은 양이지만 혹시 몰라서 1000개로 했다. 과유불급이라 했으니...
 
-잘못된 부분, 질문등은 댓글이나 쪽지주세요~!
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!
