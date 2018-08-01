@@ -19,9 +19,9 @@ tags: 클래스업 ClassUp Linux Centos 커널 Kernel 커널업데이트 UpdateK
     // Or
     $ cat /etc/os-release
 
-나는 CentOS Linux release 7.5.1804 (Core) 였다.
+나는 **CentOS Linux release 7.5.1804 (Core)** 였다.
 
-즉, 해당 사이트의 7버전을 따라 하면 된다. 미러 사이트를 이용하려면 yum-plugin-fastestmirror을 설치하면 된다. 일단 뭔가 하기전에 yum을 업데이트도 하도록 하자.
+즉, 해당 사이트의 7버전을 따라 하면 된다. 미러 사이트를 이용하려면 **yum-plugin-fastestmirror**을 설치하면 된다. 일단 뭔가 하기전에 yum을 업데이트도 하도록 하자.
 
     $ yum update
     $ yum -y install yum-plugin-fastestmirror
@@ -34,7 +34,7 @@ tags: 클래스업 ClassUp Linux Centos 커널 Kernel 커널업데이트 UpdateK
 
 <img src="{{ site.baseurl }}/assets/develop_diary/centos_kernel_update_1.png" title="Centos kernel update 1" class="post-image">
 
-자, ELRepo 사이트 아래부분에 보면 elrepo-kernel 이라는 메뉴가 있다. 자세히 읽어보면 채널에는 long-term 지원 커널과 가장 안정적인 mainline커널이 있다. 나는 안정적인 버전 ml을 선택했다. 그리고 사용법을 보면 /etc/yum.repos.d/elrepo.repo에 추가하거나, yum --enablerepo=elrepo-kernel을 사용하라고 한다.
+자, ELRepo 사이트 아래부분에 보면 **elrepo-kernel** 이라는 메뉴가 있다. 자세히 읽어보면 채널에는 long-term 지원 커널과 가장 안정적인 mainline커널이 있다. 나는 안정적인 버전 ml을 선택했다. 그리고 사용법을 보면 **/etc/yum.repos.d/elrepo.repo**에 추가하거나, **yum --enablerepo=elrepo-kernel**을 사용하라고 한다.
 
     $ yum --enablerepo=elrepo-kernel install kernel-ml
 
