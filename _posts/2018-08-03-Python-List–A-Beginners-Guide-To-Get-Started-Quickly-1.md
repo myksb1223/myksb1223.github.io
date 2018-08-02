@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 리스트 - 빠르게 시작하기 위한 초보자 가이드 1(Python List – A Beginners Guide To Get Started Quickly 1)"
+title:  "파이썬 리스트 - 빠르게 시작하기 위한 초보자 가이드 1편(Python List – A Beginners Guide To Get Started Quickly 1)"
 date:   2018-08-03 03:58:00
 author: Seungbeom Kim
 categories: python
