@@ -5,6 +5,9 @@ date:   2018-08-01 18:11:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp ENA ElasticNetworkAdapter AWS 아마존클라우드서비스 AMI
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 C5, C5d, F1, G3, H1, I3, m4.16xlarge, M5, M5d, P2, P3, R4, X1 타입의 인스턴스를 사용하기 위해서는 [ENA(ElasticNetworkAdapter)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/enhanced-networking-ena.html)를 활성화된 AMI를 사용해야 한다. Centos는 해도 괜찮지만 ENA활성화 했을 때 M5로 인스턴트 생성 시, 작동하지 않았다. 하지만 이 과정을 사용하는 사람이 있을 것 같아서 기록을 남긴다.

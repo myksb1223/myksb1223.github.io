@@ -5,6 +5,9 @@ date:   2018-08-01 18:41:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp 자바 Java 리눅스 Linux 엘라스틱서치 ElasticSearch
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 엘라스틱서치(ElasticSearch)를 사용하기 위해서는 Java의 설치가 필수적이다.
@@ -12,7 +15,7 @@ tags: 클래스업 ClassUp 자바 Java 리눅스 Linux 엘라스틱서치 Elasti
 가장 최신 버전을 [오라클(Oracle)](http://www.oracle.com/technetwork/java/javase/downloads)로 가서 다운받는다. JDK로 받아야 한다.
 
     $ cd /opt/
-    $ sudo tar xvfz jdk-10.0.2_linux-x64_bin.tar.gz //다운 받은 jdk 압출 해제.
+    $ sudo tar xvfz jdk-10.0.2_linux-x64_bin.tar.gz //다운 받은 jdk 압축 해제.
     $ cd jdk-10.0.2/
     $ sudo alternatives --install /usr/bin/java java /opt/jdk-10.0.2/bin/java 2 //설치된 자바가 없으면 무조건 1이다.
     $ sudo alternatives --config java

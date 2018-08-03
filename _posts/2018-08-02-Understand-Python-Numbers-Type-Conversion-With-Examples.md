@@ -5,6 +5,9 @@ date:   2018-08-02 03:52:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬넘버 PythonNumber Number 파이썬데이터타입 PythonDataType
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이번 단원](https://www.techbeamers.com/python-numbers/)은 파이썬(Python) 넘버(Number)를 예제로 배우는 시간이다.

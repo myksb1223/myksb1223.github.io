@@ -5,6 +5,9 @@ date:   2018-07-21 19:56:00
 author: Seungbeom Kim
 categories: japanese
 tags: 가정부남자미타조노 가정부남자미타조노6화 家政夫のミタゾノ 家政夫のミタゾノ第6話 일본드라마 일드 dramaofjapan 일본어공부
+sitemap :
+  changefreq : weekly
+  priority : 0.5
 ---
 
 <img src="{{ site.baseurl }}/assets/japanese/kaseifu_no_mitazono_6_1.jpg" title="Kaseifu no Mitazono ep6 1" class="post-image">

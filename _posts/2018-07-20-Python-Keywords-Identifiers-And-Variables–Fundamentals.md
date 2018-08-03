@@ -5,6 +5,9 @@ date:   2018-07-20 23:54:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬키워드식별자변수 PythonKeywordsIdentifiersVariables
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이번 단원](http://www.techbeamers.com/python-keywords-identifiers-variables/)은 파이썬 키워드, 식별자, 변수의 기초에 대해서 알아본다. 이 것들은 파이썬 언어의 기본 골격을 이루는 것들이기 때문에 반드시 알아야 한다.

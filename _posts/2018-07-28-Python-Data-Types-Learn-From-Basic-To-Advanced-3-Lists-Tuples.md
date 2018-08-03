@@ -5,6 +5,9 @@ date:   2018-07-28 04:44:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬데이터타입 PythonDataType List Tuple
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이번 단원](http://www.techbeamers.com/python-data-types-learn-basic-advanced/)은 파이썬 데이터 타입에 대한 튜토리얼 세 번째이다. 블로그를 이전한다고 이제서야 글을 다시 올린다.

@@ -5,6 +5,9 @@ date:   2018-07-18 01:45:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 요즘... 파이썬이 대세 언어라서 공부를 시작하기로 마음 먹었다.

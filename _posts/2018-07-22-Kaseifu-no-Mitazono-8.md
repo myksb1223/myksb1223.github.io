@@ -5,6 +5,9 @@ date:   2018-07-22 15:20:00
 author: Seungbeom Kim
 categories: japanese
 tags: 가정부남자미타조노 가정부남자미타조노8화 家政夫のミタゾノ 家政夫のミタゾノ第8話 일본드라마 일드 dramaofjapan 일본어공부
+sitemap :
+  changefreq : weekly
+  priority : 0.5
 ---
 
 <img src="{{ site.baseurl }}/assets/japanese/kaseifu_no_mitazono_8_1.jpg" title="Kaseifu no Mitazono ep8 1" class="post-image">

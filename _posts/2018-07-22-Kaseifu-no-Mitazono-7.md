@@ -5,6 +5,9 @@ date:   2018-07-22 03:10:00
 author: Seungbeom Kim
 categories: japanese
 tags: 가정부남자미타조노 가정부남자미타조노7화 家政夫のミタゾノ 家政夫のミタゾノ第7話 일본드라마 일드 dramaofjapan 일본어공부
+sitemap :
+  changefreq : weekly
+  priority : 0.5
 ---
 
 <img src="{{ site.baseurl }}/assets/japanese/kaseifu_no_mitazono_7_1.jpg" title="Kaseifu no Mitazono ep7 1" class="post-image">

@@ -5,6 +5,9 @@ date:   2018-07-31 05:52:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp 레일즈 Rails 루비온레일즈 RubyOnRails MySQL
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 클래스업(ClassUp)은 크게 서버가 메인서버, 노트전용서버, 검색전용서버, 데이터베이스 서버 이렇게 4개로 나뉘어져 있다.

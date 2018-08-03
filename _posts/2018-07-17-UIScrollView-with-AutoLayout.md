@@ -5,6 +5,9 @@ date:   2018-07-17 02:14:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: UIScrollView iOS AutoLayout 오토레이아웃 아이폰개발 아이폰스크롤뷰 스크롤뷰 클래스업 ClassUp ContentSize
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 바로 이전에 올린 [클래스업(ClassUp) 글자 크기 제한 문제](https://myksb1223.github.io/develop_diary/2018/07/13/Problem-with-text-autoresize.html)에서 UIScrollView를 사용해서 해결했다.

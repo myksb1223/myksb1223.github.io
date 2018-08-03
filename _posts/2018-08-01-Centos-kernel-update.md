@@ -4,7 +4,10 @@ title:  "Centos 커널 업데이트(Centos kernel update)"
 date:   2018-08-01 17:21:00
 author: Seungbeom Kim
 categories: develop_diary
-tags: 클래스업 ClassUp Linux Centos 커널 Kernel 커널업데이트 UpdateKernel AWS
+tags: 클래스업 ClassUp Linux Centos 커널 Kernel 커널업데이트 UpdateKernel AWS 아마존클라우드서비스
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 아마존 [ENA(Elastic Network Adapter)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/enhanced-networking-ena.html)활성을 위해 일단 커널 업데이트를 시도했지만 AWS에서는 Centos는 별로 사용하기를 추천하지 않는다.

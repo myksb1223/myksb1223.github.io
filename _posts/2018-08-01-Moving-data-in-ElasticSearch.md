@@ -5,6 +5,9 @@ date:   2018-08-01 18:55:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp 엘라스틱서치 ElasticSearch 서버이전 데이터옮기기 MoveData AWS 아마존클라우드서비스 Centos ENA ElasticNetworkAdapter AMI
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 나의 가장 큰 문제점 중에 하나는 기록을 안한다는 것이었다. 여기에 기록을 함으로써 다음에는 같은 실수를 하지 않기를 바라고 있다.

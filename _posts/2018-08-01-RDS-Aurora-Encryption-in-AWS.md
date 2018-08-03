@@ -5,6 +5,9 @@ date:   2018-08-01 19:56:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp RDS 데이터베이스 Database 오로라 Aurora  암호화 Encryption AWS 아마존클라우드서비스
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 이전 글인 [스토리지, AMI 암호화](https://myksb1223.github.io/develop_diary/2018/08/01/Encryption-of-Storage-AMI-in-AWS.html)와 마찬가지로 GDPR](https://www.eugdpr.org/)로 인해 보안에 좀 더 철저히 할 필요가 생겼다. AWS RDS인 오로라(Aurora)에도 적용해 보았다.

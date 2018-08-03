@@ -5,6 +5,9 @@ date:   2018-07-13 19:08:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp Timetable 시간표 수업 Class 텍스트크기자동조절 TextAutoResize
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 클래스업(ClassUp)에 [텍스트 크기 자동 조절](https://myksb1223.github.io/develop_diary/2018/07/12/Text-auto-resizing.html)에 대한 기능을 시험삼아 넣어보았다.

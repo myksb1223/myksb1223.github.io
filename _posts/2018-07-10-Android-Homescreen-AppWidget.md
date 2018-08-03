@@ -5,7 +5,9 @@ date:   2018-07-10 23:22:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	안드로이드 Android 홈화면위젯 HomeScreenWidgets AndroidWidgets RemoteViews SpannableStringBuilder ForegroundColorSpan ClassUp 클래스업
-cover:
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 안드로이드 홈 화면 위젯의 디자인 변경 및 몇 가지 기능을 추가했다.

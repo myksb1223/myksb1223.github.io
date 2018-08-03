@@ -5,6 +5,9 @@ date:   2018-08-01 19:40:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp AMI 스토리지 Storage 암호화 Encryption AMI암호화 AMIEncryption AWS 아마존클라우드서비스
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [GDPR](https://www.eugdpr.org/)로 인해 보안에 좀 더 철저히 할 필요가 생겼다. 그래서 스토리지 암호화를 시도해 보았다.

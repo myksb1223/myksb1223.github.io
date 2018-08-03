@@ -5,6 +5,9 @@ date:   2018-07-23 23:47:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬주석 PythonComment
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이번 단원](http://www.techbeamers.com/understand-python-comment-docstring/)은 파이썬의 주석다는 방법에 대한 튜토리얼이다.

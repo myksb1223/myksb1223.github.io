@@ -5,6 +5,9 @@ date:   2018-07-24 05:31:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp 엘라스틱서치 ElasticSearch BulkAPI 벌크API 루비 Ruby RubyOnRails
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 꾸준히 개발은 했는데 이제서야 글을...

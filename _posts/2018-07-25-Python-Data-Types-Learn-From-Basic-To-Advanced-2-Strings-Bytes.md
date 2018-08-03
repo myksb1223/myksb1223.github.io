@@ -5,6 +5,9 @@ date:   2018-07-25 10:30:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬데이터타입 PythonDataType String Byte
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이번 단원](http://www.techbeamers.com/python-data-types-learn-basic-advanced/)은 파이썬 데이터 타입에 대한 튜토리얼 두 번째이다.

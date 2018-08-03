@@ -5,6 +5,9 @@ date:   2018-08-03 03:58:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬리스트 PythonList List 파이썬데이터타입 PythonDataType
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이번 단원](https://www.techbeamers.com/python-list/)은 파이썬(Python) 리스트(List)를 예제로 배우는 시간이다. 길어서 나눠서 번역 및 글을 작성할 예정이다.

@@ -5,6 +5,9 @@ date:   2018-07-31 05:12:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp 리눅스 Linux 리눅스파티션 LinuxPartition 파티션 Partition ext4 AWS 아마존클라우드서비스
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 최근에 아마존(Amazon) 정책이 바뀌면서 서버를 다 바꿨다. 그리고 [GDPR](https://www.eugdpr.org/)때문에 AWS에서 지원하는 스토리지 암호화도 걸어야 했다.

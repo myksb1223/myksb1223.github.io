@@ -5,6 +5,9 @@ date:   2018-07-31 09:54:00
 author: Seungbeom Kim
 categories: develop_diary
 tags: 클래스업 ClassUp MySQL 루트 Root 비밀번호분실 ForgotPassword 루트비밀번호 RootPassword
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이전에 쓴 글](https://myksb1223.github.io/develop_diary/2018/07/31/How-to-detach-or-remove-MySQL-in-existing-Rails-project.html)에서 Rails에 MySQL을 떼어내기 위해서 결국 내부 MySQL을 사용하기로 우회함으로써 급한 불을 껐는데, 이 때 root 비밀번호도 까먹어서 찾질 못했다.

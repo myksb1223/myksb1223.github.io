@@ -5,6 +5,9 @@ date:   2018-07-31 19:14:00
 author: Seungbeom Kim
 categories: japanese
 tags: 가정부미타 가정부미타9화 家政婦のミタ 家政婦のミタ第9話 일본드라마 일드 dramaofjapan 일본어공부
+sitemap :
+  changefreq : weekly
+  priority : 0.5
 ---
 
 <img src="{{ site.baseurl }}/assets/japanese/kaseifu_no_mita_9_1.PNG" title="Kaseifu no Mitazono ep9 1" class="post-image">

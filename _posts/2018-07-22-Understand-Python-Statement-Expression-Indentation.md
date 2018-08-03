@@ -5,6 +5,9 @@ date:   2018-07-22 21:05:00
 author: Seungbeom Kim
 categories: python
 tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 [이번 단원](http://www.techbeamers.com/understand-python-statement-indentation/)은 파이썬 구문, 표현 그리고 이 둘의 차이를 배울 것이다. 이 튜토리얼은 좀 더 명확히 개념을 설명하기 위해 몇몇의 예제를 담고 있다.
