@@ -6,7 +6,7 @@ author: Seungbeom Kim
 categories: japanese
 tags: 가정부남자미타조노 가정부남자미타조노2화 家政夫のミタゾノ 家政夫のミタゾノ第2話 일본드라마 일드 큐우니 갑자기 dramaofjapan 일본어공부
 sitemap :
-  changefreq : daily
+  changefreq : weekly
   priority : 0.5
 ---
 
