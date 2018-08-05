@@ -39,7 +39,7 @@ sitemap :
   - **List's Sort() Method(리스트의 Sort() 메소드)**
   - **Built-in Sorted() Function(이지 저장된 Sorted() 함수)**
 - #### Essential List Methods(필수적인 리스트 메소드)
-- #### Built-in List Functions(이미 저장된 리스트 함수)
+- #### Built-in List Functions(내장된 리스트 함수)
 
 **확인 사항 -** 예제에서 제공되는 샘플 코드를 테스트하고 수행하기 위해서는 **파이썬(Python) IDE**(IDLE, PyDev)뿐만아니라 파이썬(Python) 쉘(Shell)이 필요하다.
 
@@ -64,7 +64,7 @@ sitemap :
     L3 = [1, "Hello", 3.4]
 
 ### Python List – List() Method To Create A List(파이썬 리스트 - List() 메소드로 리스트 만들기)
-파이썬(Python)은 이미 저장된 **list()** 메소드를 포함하고 있다.
+파이썬(Python)은 내장된 **list()** 메소드를 포함하고 있다.
 
 이는 시퀀스(Sequence)나 튜플(Tuple)을 요소로 받아들이고 이를 파이썬(Python) 리스트(List)로 변경한다.
 

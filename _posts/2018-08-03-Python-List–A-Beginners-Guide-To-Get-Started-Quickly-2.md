@@ -137,7 +137,7 @@ stop 부분에 음수 값을 사용할 수 있다. 이는 마지막 인덱스(La
     for index in range(len(theList)):
       print(index)
 
-리스트 요소(List element)는 반복자 프로토콜(iterator protocol)을 지원한다. 반복자(iterator)를 일부러 생성하려면 **이미 저장된 함수 iter**를 호출한다.
+리스트 요소(List element)는 반복자 프로토콜(iterator protocol)을 지원한다. 반복자(iterator)를 일부러 생성하려면 **내장된 함수 iter**를 호출한다.
 
     it = iter(theList)
     element = it.next() # fetch first value

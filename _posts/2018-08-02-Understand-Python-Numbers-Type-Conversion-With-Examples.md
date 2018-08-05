@@ -100,14 +100,14 @@ int 타입은 **파이썬에서의 데이터 타입**인 기본적은 정수을 
 
 위의 예제에서 덧셈할 때 정수 2가 실수 2.0으로 바뀌었고 결과 역시 소수점을 가진 수이다.
 
-하지만 파이썬(Python) 명확하게 타입을 변경할 수 있는 int(), float(), complex()와 같은 수많은 이미 저장된 함수를 제시하고 있다. 이 함수들은 심지어 문자열(String)을 넘버(Number)로 바꿀 수 있다.
+하지만 파이썬(Python) 명확하게 타입을 변경할 수 있는 int(), float(), complex()와 같은 수많은 내장된 함수를 제시하고 있다. 이 함수들은 심지어 문자열(String)을 넘버(Number)로 바꿀 수 있다.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_9_15.png" title="Python tutorial 9 Picture 15" class="post-image">
 
 기억해야 할 것은 실수를 정수로 변환했다면 그 숫자는 잘린다.(예, 0에 가까운 정수) 즉, 이 말은 올림, 반올림이 아닌 그냥 **내림**한다는 것이다.
 
 ### External Classes To Handle Python Numbers(파이썬 넘버를 다루기 위한 외부 클래스)
-위에서 읽었듯 파이썬(Python)의 이미 저장된 float 클래스는 소수점 15자리까지 정확도를 제어하는데 제한이 있다. 하지만 소수점 수에 대한 컴퓨터 수행에 전적으로 의존하기에 다른 제한 역시 있다. 예를 들면 아래 10진수 소수점 이슈를 보자.
+위에서 읽었듯 파이썬(Python)의 내장된 float 클래스는 소수점 15자리까지 정확도를 제어하는데 제한이 있다. 하지만 소수점 수에 대한 컴퓨터 수행에 전적으로 의존하기에 다른 제한 역시 있다. 예를 들면 아래 10진수 소수점 이슈를 보자.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_9_16.png" title="Python tutorial 9 Picture 16" class="post-image">
 
@@ -136,7 +136,7 @@ int 타입은 **파이썬에서의 데이터 타입**인 기본적은 정수을 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_9_20.png" title="Python tutorial 9 Picture 20" class="post-image">
 
 ### Python Mathematics(파이썬 수학)
-파이썬(Python)은 간단한 수학적 계산을 다루기 위한 몇 개의 이미 저장된 함수가 있다.
+파이썬(Python)은 간단한 수학적 계산을 다루기 위한 몇 개의 내장된 함수가 있다.
 
 예를 들면 - abs(), cmp(), max(), min(), round().
 

@@ -23,7 +23,7 @@ Set은 수학의 `집합`으로부터 파생되었기 때문에 같은 요소가
 Set 데이터 타입은 리스트보다 명확한 장점을 가진다. 컨테이너(container)가 특정한 요소를 가지고 있는지 아닌지 확인하는 엄청나게 최적화된 메소드(method)를 수행한다. 여기에 사용되는 메커니즘(machanism)은 해쉬 테이블(hash table)로 알려진 데이터 구조를 기본으로 한다.
 
 **Creaet A Set(Set 생성하기)**<br>
-Set을 생성하기 위해서 순서나 어떤 반복 가능한 객체와 함께 **set()**이라는 이미 저장된 함수를 호출한다.
+Set을 생성하기 위해서 순서나 어떤 반복 가능한 객체와 함께 **set()**이라는 내장된 함수를 호출한다.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_8_1.png" title="Python tutorial 8 Picture 1" class="post-image">
 
@@ -62,7 +62,7 @@ Set을 생성하기 위해서 순서나 어떤 반복 가능한 객체와 함께
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_8_6.png" title="Python tutorial 8 Picture 6" class="post-image">
 
 **Dictionaries Methods To Access Elements(요소에 접근하기 위한 딕셔너리 메소드)**
-파이썬(Python)은 아래 3개의 이미 저장된 딕셔너리(Dictionary) 함수를 가지고 있다.
+파이썬(Python)은 아래 3개의 내장된 딕셔너리(Dictionary) 함수를 가지고 있다.
 
 - **keys()** - 딕셔너리(Dictionary)로 부터 키만 분리한다.
 - **values()** - 딕셔너리(Dictionary)로 부터 값만 분리한다.
