@@ -4,7 +4,7 @@ title:  "고쿠센 1기 제 1화(ごくせん シリーズ1作 第1話) 00:00"
 date:   2018-08-03 20:01:00
 author: Seungbeom Kim
 categories: japanese
-tags: 고쿠센 고쿠센1기 고쿠센1화 고쿠센1기1화 ごくせん ごくせん第10話 ごくせんシリーズ1作第1話 일본드라마 일드 dramaofjapan 일본어공부
+tags: 고쿠센 고쿠센1기 고쿠센1화 고쿠센1기1화 ごくせん ごくせん第1話 ごくせんシリーズ1作第1話 일본드라마 일드 dramaofjapan 일본어공부
 sitemap :
   changefreq : weekly
   priority : 0.5
