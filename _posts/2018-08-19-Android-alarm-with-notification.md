@@ -20,12 +20,12 @@ sitemap :
 
 대충 구조를 파악하면 아래와 같다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/google_calendar_alarm.png" title="Android alarm 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/google_calendar_alarm.PNG" title="Android alarm 1" class="post-image">
 
 이렇게 분석했는데... [링크](https://developer.android.com/guide/topics/providers/calendar-provider)로 가면 구조를 바로 알 수 있다.
 
 **클래스업(ClassUp)**에 어떻게 적용시켜야 할까? 고민하였다. 아래와 같이 적용하였다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/classup_alarm.png" title="Android alarm 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/classup_alarm.PNG" title="Android alarm 2" class="post-image">
 
 일단 테스트 중인데, 이렇게 하면 정말 완벽한 알림 구조가 될 것 같다. 역시 다른 사람의 코드를 분석하는 것은 정말 큰 도움이 된다.
