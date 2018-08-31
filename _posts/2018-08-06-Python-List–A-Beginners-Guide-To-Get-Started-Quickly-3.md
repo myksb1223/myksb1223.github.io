@@ -144,3 +144,5 @@ index() 메소드는 리니어(Linear) 검색을 수행하고 처음 매칭된 �
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_12_19.png" title="Python tutorial 12 Picture 19" class="post-image">
 <figcaption style="text-align: center;">출처 : [TechBeamers](https://www.techbeamers.com/python-numbers/#Python-list-built-in-functions)</figcaption>
 </figure>
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

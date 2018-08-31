@@ -146,3 +146,5 @@ List Comprehension은 오직 특정한 조건을 만족하는 멤버들을 리�
 아니면 **append() 메소드**를 호출해서 리스트(List)에 값을 추가할 수 있다. 아래 예제를 보자.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_10_13.png" title="Python tutorial 10 Picture 13" class="post-image">
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!

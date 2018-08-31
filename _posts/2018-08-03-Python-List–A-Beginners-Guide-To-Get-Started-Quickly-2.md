@@ -150,3 +150,5 @@ stop 부분에 음수 값을 사용할 수 있다. 이는 마지막 인덱스(La
 **결과 -**
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_11_16.png" title="Python tutorial 11 Picture 16" class="post-image">
+
+질문이나 수정부분은 댓글또는 [인스타그램](https://www.instagram.com/monseungmon/), [트위터](https://twitter.com/kim_seungbeom) 등으로 연락부탁드려요!
