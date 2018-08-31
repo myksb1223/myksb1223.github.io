@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "고쿠센 1기 제 5화(ごくせん シリーズ1作 第5話) 40:46"
-date:   2018-09-01 12:09:00
+date:   2018-09-01 00:09:00
 author: Seungbeom Kim
 categories: japanese
 tags: 고쿠센 고쿠센1기 고쿠센5화 고쿠센1기5화 ごくせん ごくせん第5話 ごくせんシリーズ1作第5話 일본드라마 일드 dramaofjapan 일본어공부
