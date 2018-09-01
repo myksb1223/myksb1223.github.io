@@ -12,7 +12,6 @@ sitemap :
 
 [이번 단원](https://www.techbeamers.com/python-set/)은 파이썬(Python) Set을 예제로 배우는 3번째 시간이다.
 
-
 ### Miscellaneous Set Operations(여러가지 Set 연산)
 
 ### How To Access Data Elements In A Set?(Set에서 데이터 요소 접근은 어떻게 하는가?)
