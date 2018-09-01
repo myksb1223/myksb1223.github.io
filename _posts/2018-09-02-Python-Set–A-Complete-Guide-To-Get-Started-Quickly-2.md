@@ -34,7 +34,7 @@ setA와 setB의 합집합은 두 Set으로부터 모든 요소를 합쳐 새로�
 <figcaption style="text-align: center;">출처 : [TechBeamers](https://www.techbeamers.com/python-set/#attachment_6734)</figcaption>
 </figure>
 
-**"|"** 연산자는 set에서 합집합 연산을 수행하는 연산자이다.
+**"\|"** 연산자는 set에서 합집합 연산을 수행하는 연산자이다.
 
 <img src="{{ site.baseurl }}/assets/python/python_tutorial_14_2.png" title="Python tutorial 14 Picture 2" class="post-image">
 
