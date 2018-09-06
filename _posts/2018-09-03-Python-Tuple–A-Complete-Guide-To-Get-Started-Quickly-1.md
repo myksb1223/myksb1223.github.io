@@ -1,19 +1,18 @@
 ---
 layout: post
-title:  "파이썬 Set - 빠르게 시작하기 위한 완벽 가이드 1편(Python Set – A Complete Guide To Get Started Quickly 1)"
-date:   2018-09-01 01:29:00
+title:  "파이썬 Tuple - 빠르게 시작하기 위한 완벽 가이드 1편(Python Tuple – A Complete Guide To Get Started Quickly 1)"
+date:   2018-09-03 02:16:00
 author: Seungbeom Kim
 categories: python
-tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬Set PythonSet Set 파이썬데이터타입 PythonDataType
+tags: 파이썬 Python 파이썬튜토리얼 PythonTutorial 파이썬강의 파이썬개발 PythonDevelopment 파이썬이란 파이썬Tuple PythonTuple Tuple 파이썬데이터타입 PythonDataType
 sitemap :
   changefreq : daily
   priority : 1.0
 ---
 
-[이번 단원](https://www.techbeamers.com/python-set/)은 파이썬(Python) Set이 무엇이고, 이것으로 무엇을 할 수 있고, 프로그램에서 이를 어떻게 사용하는지 알아보는 시간이다. 더욱이, Set을 어떻게 생성하고 그 안에 요소를 추가하고 삭제하고, 파이썬(Python)에서 Set을 이용해서 수행할 수 있는 모든 다른 연산들을 필수적으로 배울 것이다.
+[이번 단원](https://www.techbeamers.com/python-tuple/)은 파이썬(Python) Tuple이 무엇이고, 이것으로 무엇을 할 수 있고, 프로그램에서 이를 어떻게 사용하는지 알아보는 시간이다. 더욱이, Tuple을 어떻게 생성하고 packing, unpacking, slicing, comparison, deletion 등의 다양한 연산을 어떻게 수행하는지 필수적으로 배울 것이다.
 
-### Python Set – Introduction.
-
+### Python Tuple – Introduction.
 set은 수학에서 나온 용어이다. 이는 서로 다른 **데이터 타입(data typs)**의 요소를 저장할 수 있지만 그 요소들에 특정 정렬에 대한 순서가 없는 집합 타입이다.
 
 파이썬(Python) Set은 아래의 속성을 가진다.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "파이썬 Set - 빠르게 시작하기 위한 초보자 가이드 3편(Python Set – A Beginners Guide To Get Started Quickly 3)"
+title:  "파이썬 Set - 빠르게 시작하기 위한 완벽 가이드 3편(Python Set – A Complete Guide To Get Started Quickly 3)"
 date:   2018-09-02 04:45:00
 author: Seungbeom Kim
 categories: python
