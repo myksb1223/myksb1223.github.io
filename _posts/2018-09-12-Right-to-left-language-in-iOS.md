@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "아이폰에서 아랍 언어와 같이 오른쪽에서 왼쪽방향의 언어를 쓸 경우(Right to left language like Arabic in iOS)."
-date:   2018-09-12 02:15:00
+date:   2018-09-12 03:15:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	아이폰 iOS RTS LTS Arabic Objective-c

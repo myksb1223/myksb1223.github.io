@@ -26,7 +26,7 @@ sitemap :
 
 mysqld_safe를 이용하여 패스워드 없이도 접속할 수 있는 모드로 바꾼다. 그리고 MySQL에 접속!
 
-    $ /usr/bin/mysql -u root mysql
+    $ /usr/bin/mysql -u root
 
 이 때, 5.7버전 기준으로 명령어가 조금 나뉘는데, 먼저 버전 확인은 아래와 같이 한다.
 
