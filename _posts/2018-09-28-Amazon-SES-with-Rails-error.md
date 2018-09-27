@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-갑자기 서버에 `UserMailer#Action processed outbound mail` 과 같은 에러가 발생했다.
+클래스업(ClassUp)은 Amazon SES 서비스를 사용하는데, 갑자기 서버에 `UserMailer#Action processed outbound mail` 과 같은 에러가 발생했다.
 
 이유를 알고보니 아래와 같다. [링크](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/smtp-connect.html)
 
