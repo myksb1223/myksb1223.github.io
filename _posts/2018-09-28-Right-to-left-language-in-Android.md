@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "안드로이드에서 아랍 언어와 같이 오른쪽에서 왼쪽방향의 언어를 쓸 경우(Right to left language like Arabic in Android)."
-date:   2018-09-27 02:38:00
+date:   2018-09-28 01:28:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	안드로이드 Android RTS LTS Arabic
@@ -45,3 +45,9 @@ sitemap :
 아마 코드로 LTR인지 RTL인지 알아내는 경우가 적을 수록... 아마 좋은 코드이지 않을까 한다.
 
 참고로 클래스업(ClassUp)은 API 15부터 지원하기 때문에 코드로 `setMarginStart()`와 같은 코드를 지원하지 않기 때문에 버전확인코드를 같이 넣어주었다.
+
+추가 부분
+
+그리고 기본적으로 `android:textDirection="firstStrong"`이기 때문에 `style.xml`에 선언해주고 시작하는 것이 TextView나 EditText의 호환에 편하다.
+
+홈 스크린 위젯(HomeScreenWidget)이나 ListView와 같은 곳에서의 Row를 위해 따로 layout을 만들어서 호출할 경우에는 `layout-ldrtl` 디렉토리를 따로 만들어서 관련된 TextView의 gravity를 적용해주는 것이 좋다.
