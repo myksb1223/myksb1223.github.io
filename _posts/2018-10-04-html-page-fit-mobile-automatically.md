@@ -18,11 +18,11 @@ sitemap :
 
 Mac Safari
 
-<img src="{{ site.baseurl }}/assets/develop_diary/html_page_1.png" title="html page 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/html_page_1.png" title="html page 1" class="post-image" style="width: 600px; height: 300px">
 
 iPhone Safari
 
-<img src="{{ site.baseurl }}/assets/develop_diary/html_page_2.png" title="html page 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/html_page_2.png" title="html page 2" class="post-image" style="width: 400px; height: 600px">
 
 
 그래서 자동적으로 모바일 화면에 맞추는 기능이 나왔을 것 같아 찾아보았다.
@@ -35,4 +35,4 @@ iPhone Safari
 
 적용 후 iPhone Safari
 
-<img src="{{ site.baseurl }}/assets/develop_diary/html_page_3.png" title="html page 3" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/html_page_3.png" title="html page 3" class="post-image" style="width: 400px; height: 600px">
