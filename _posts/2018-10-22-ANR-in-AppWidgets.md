@@ -29,8 +29,8 @@ public static class ShowImageTask extends AsyncTask<Void, Void, Bitmap> {
 
   ShowImageTask(AppWidgetManager appWidgetManager, int appWidgetId, RemoteViews views, ...) {
     this.appWidgetManager = appWidgetManager;
-    this.views = views;
     this.appWidgetId = appWidgetId;
+    this.views = views;
     // other values...
   }
 
