@@ -12,7 +12,7 @@ sitemap :
 
 클래스업(ClassUp)에서 개발하던 중... SharedPreferences와 FragmentTransaction을 사용할 때에 생긴 실수이다.
 
-```java
+```Android
 // 보통 아래와 같이 사용.
 SharedPreferences prefs = getSharedPreferences(NAME, MODE);
 SharedPreferences.Editor editor = prefs.edit();
@@ -28,7 +28,7 @@ prefs.edit().commit();
 위의 이유는 SharedPreferences 소스를 보면 알겠지만 `prefs.edit()`을 할 경우 새로운 Editor 객체를 반환한다.
 
 FragmentTransaction도 마찬가지이다.
-```java
+```Android
 // 보통 아래 두가지 경우로 사용하는데...
 android.support.v4.app.FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 transaction.add(LAYOUT, FRAGMENT, TAG);
