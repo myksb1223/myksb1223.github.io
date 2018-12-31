@@ -16,7 +16,7 @@ sitemap :
 1. 시간표의 무한 페이지
 2. 각 페이지 별 수업
 
-무한 페이지를 위해서 [FSPagerView](https://github.com/WenchaoD/FSPagerView)라는 라이브러리를 사용했다.
+무한 페이지를 위해서 iOS는 [FSPagerView](https://github.com/WenchaoD/FSPagerView)라는 라이브러리를 사용했고 안드로이드는 구글 Calendar 앱을 참고하여 직접 만들었다. 구글 Calendar를 참고하여 만든 소스는 조만간 블로그에 쓸 예정이다.
 
 각 페이지 별 수업을 위해서 수업 데이터베이스 필드에 `repeat_type` 및 `start_timestamp`, `end_timestamp`를 넣었다. 자세한 것은 해당 [링크](https://myksb1223.github.io/develop_diary/2018/12/20/Database-Structure-of-ClassUp.html)를 참조하면 된다.
 
