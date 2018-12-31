@@ -405,4 +405,4 @@ public static boolean canAddedInSubjectLists(Calendar cal, String day, boolean i
 ```
 이렇게 하면 쉽게 좌우 스크롤 할 때마다 해당되는 수업을 불러올 수 있다.
 
-![](/assets/develop_diary/calendar.MP4)
+<iframe width="420" height="315" src="{{ site.baseurl }}/assets/develop_diary/calendar.MP4" frameborder="0" allowfullscreen></iframe>
