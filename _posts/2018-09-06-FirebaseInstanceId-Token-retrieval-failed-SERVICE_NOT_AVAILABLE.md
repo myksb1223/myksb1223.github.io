@@ -25,6 +25,6 @@ E/com.facebook.internal.AttributionIdentifiers: getAttributionIdentifiers should
 
 위의 형태를 아래와 같이 바꾸라고 되어있었다.
 
-compile 'com.facebook.android:facebook-android-sdk:4.34.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.34.0'
 
 그러니까 갑자기 되기 시작했다.
