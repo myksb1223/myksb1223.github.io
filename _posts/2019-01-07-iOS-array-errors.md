@@ -36,7 +36,7 @@ NSString *arr[3] = {"a.jpg", "b.jpg", "c.jpg"};
 UIImage image = [UIImage imageNamed:arr[3]];
 ```
 
-위와 같은 코드가 있다고 할 때, 혹시 arr[3]에 어떤 값이 있었다면 아래와 다른 에러를 떨어 뜨릴 수 있다.
+위와 같은 코드가 있다고 할 때, 혹시 arr[3]에 어떤 값이 있었다면 아래와 같이 다른 에러를 떨어 뜨릴 수 있다.
 
     -[__NSCFNumber stringByDeletingPathExtension]: unrecognized selector sent to instance 0xb861f569b89300d1
 
