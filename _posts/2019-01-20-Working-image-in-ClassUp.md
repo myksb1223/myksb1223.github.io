@@ -368,7 +368,8 @@ public static void clearCache(Uri uri) {
 
 ##### 카메라 호출
 
-```AndroidIntent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+```Android
+Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 File temp = new File(filePath);
 try {
     temp.createNewFile();
