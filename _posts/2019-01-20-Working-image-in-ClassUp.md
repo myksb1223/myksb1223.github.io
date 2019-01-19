@@ -22,7 +22,7 @@ sitemap :
 먼저, 갤러리에서 이미지를 가져오는 방식을 대략적으로 보면...
 (단, GIF 이미지는 5MB를 넘을 수 없다.)
 
-#####갤러리 호출
+##### 갤러리 호출
 
 ```Android
 Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
@@ -36,7 +36,7 @@ startActivityForResult(intent, REQUEST_GALLERY);
 
 이렇게 `Uri` 형식의 데이터를 `Bitmap`으로 변환할 때에는 `BitmapFactory.decodeStream()`을 이용하는 것이 좋다.
 
-#####GIF 판별 및 5MB제어
+##### GIF 판별 및 5MB제어
 
 `GIF` 판별은 아래와 같이 할 수 있다.
 
@@ -54,7 +54,7 @@ if(bytes.length >= 5 * 1024 * 1024) {
 }
 ```
 
-#####일반 이미지가 너무 큰 경우
+##### 일반 이미지가 너무 큰 경우
 
 이미지가 너무 크면 아래와 같은 에러 메시지를 볼 수 있다.
 
@@ -104,7 +104,7 @@ public static int getMaxTextureSize() {
 }
 ```
 
-#####이미지 로테이션
+##### 이미지 로테이션
 이미지가 찍거나 저장된 이미지가 불렀을 때 이상하게 회전된 경우가 있다. 이때 조정이 필요하므로... 아래와 같이 구현할 수 있다.
 
 ```Android
@@ -170,7 +170,7 @@ public static Bitmap rotate(Bitmap image, int degrees)
 }
 ```
 
-#####종합
+##### 종합
 
 위의 내용을 종합하면 아래와 같이 구현할 수 있다.
 
@@ -366,7 +366,7 @@ public static void clearCache(Uri uri) {
 
 이번에는 사진 찍었을 경우를 생각해 보면...
 
-#####카메라 호출
+##### 카메라 호출
 
 ```AndroidIntent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 File temp = new File(filePath);
@@ -395,7 +395,7 @@ if(temp != null) {
 }
 ```
 
-#####Uri를 String path로 변경할 때
+##### Uri를 String path로 변경할 때
 
 당연히 uri로 downloadImage를 이용하여 받아도 된다. 하지만 path로도 가져오는 방법으로 구현해 보았다. 아래 코드도 링크를 잊어버렸다..
 
@@ -492,7 +492,7 @@ public static String getPath(final Context context, final Uri uri) {
 }
 ```
 
-#####종합
+##### 종합
 
 ```Android
 @Override
