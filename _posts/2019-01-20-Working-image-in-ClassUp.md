@@ -208,13 +208,13 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
             }
             else {
                 // 일반 이미지를 filePath 내 앱 저장소에 저장.
-                if(saveFile(bitmap)) {
+                //if(saveFile(bitmap)) {
                     bitmap = getRotatePhoto(bitmap, fiePath);
                     // 회전시킨 이미지를 다시 저장.
                     if(saveFile(bitmap)) {
                         ((SimpleDraweeView)iv).setController(controller);
                     }
-                }
+                }//
             }
 
             // filePath가 임시 파일일 경우에는 실제 사용할 파일 경로로 옮긴다.
@@ -236,9 +236,10 @@ public Bitmap downloadImage() {
             }
 
             isGIF = true;
-            saveGIF(bytes);
+            // saveGIF(bytes);
         }
 
+        saveGIF(bytes); //일반 이미지도 일단 저장.
         is.close();
 
         // 한번 InputStream을 이용하여 읽으면 새롭게 stream을 생성해 주어야 한다.
@@ -575,3 +576,6 @@ public Bitmap getBitmapFromPath() {
 대략적으로 표현한 것이라 이미지 처리에 느려지는 부분을 thread로 구현하는 부분 등을 생략했고 몇 개의 파일로 나눠서 구현한 것을 하나로 뭉친 것이라 보기 힘들 수도 있지만 충분히 이해할 수 있다고 생각한다.
 
 정말 이미지 관련해서 고생을 많이 했는데 이제는 어느정도 파악이 된 것 같아서 블로그에 글을 남겨본다.
+
+2019.01.23일 수정
+saveFile()을 호출한 후 rotate를 해봐야 소용이 없다. saveFile()을 하면서 원래 이미지의 회전 정보가 바뀐다. 즉, saveGIF()와 같이 byte[]를 바로 저장하는 방식이 좋다.
