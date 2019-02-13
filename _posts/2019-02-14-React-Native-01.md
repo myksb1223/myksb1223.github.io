@@ -80,8 +80,9 @@ Expo는 Xcode와 AndroidStudio의 설치 없이도 자유롭게 앱을 만들 �
 아래의 그림처럼 뜬다.
 
 <figure>
-<img src="{{ site.baseurl }}/assets/develop_diary/react_native_1_2.png" title="ReactNative 2" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/react_native_1_2.png" title="ReactNative 2" class="post-image-double">
 <figcaption style="text-align: center;">Genymotion으로 실행한 화면</figcaption>
 </figure>
 
+<p style="clear: left;">
 여기까지 하는데만 2시간 걸린 것 같다... 언제 그 다음을 올릴지...
