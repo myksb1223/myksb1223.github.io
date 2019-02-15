@@ -6,12 +6,12 @@ permalink: /develops/
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
-  {% if cat == 'develop_diary' or cat == 'python' %}
+  {% if cat == 'develop_diary' or cat == 'python' or cat == 'reactnative' %}
   {% if cat == 'develop_diary' %}
   <h2 id="{{cat}}">개발 일지(Develop Diary)</h2>
   {% elsif cat == 'python' %}
   <h2 id="{{cat}}">파이썬(Python)</h2>
-  {% elsif cat == 'ReactNative' %}
+  {% elsif cat == 'reactnative' %}
   <h2 id="{{cat}}">리액트 네이티브(React Native)</h2>
   {% else %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
