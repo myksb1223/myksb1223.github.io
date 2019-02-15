@@ -4,7 +4,7 @@ title:  "리액트 네이티브(React Native) 사용기 2편 - 구조와 문법 
 date:   2019-02-16 03:53:00
 author: Seungbeom Kim
 categories: reactnative
-tags:	ReactNative 리액트네이티브 Expo
+tags:	ReactNative 리액트네이티브 Expo Navigation
 sitemap :
   changefreq : daily
   priority : 1.0
@@ -38,7 +38,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
 ```
 
 일단 import하는 부분은 워낙 자주 보던 표현이라 바로 알 수 있었고, 이제 class 선언하는 부분의 `export default`라는 부분이 눈에 띄었다.
