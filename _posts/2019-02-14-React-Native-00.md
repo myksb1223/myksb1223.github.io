@@ -3,7 +3,7 @@ layout: post
 title:  "리액트 네이티브(React Native) 사용기 0편 - 왜 React Native를 건드려야 했을까?"
 date:   2019-02-14 00:29:00
 author: Seungbeom Kim
-categories: develop_diary
+categories: reactnative
 tags:	ReactNative 리액트네이티브
 sitemap :
   changefreq : daily
