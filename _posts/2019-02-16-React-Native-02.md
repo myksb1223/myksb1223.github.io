@@ -3,7 +3,7 @@ layout: post
 title:  "리액트 네이티브(React Native) 사용기 2편 - 구조와 문법 파악 및 Navigation 적용기..."
 date:   2019-02-16 03:53:00
 author: Seungbeom Kim
-categories: develop_diary
+categories: reactnative
 tags:	ReactNative 리액트네이티브 Expo
 sitemap :
   changefreq : daily

@@ -3,7 +3,7 @@ layout: post
 title:  "리액트 네이티브(React Native) 사용기 1편 - 설치부터 구동까지..."
 date:   2019-02-14 01:24:00
 author: Seungbeom Kim
-categories: develop_diary
+categories: reactnative
 tags:	ReactNative 리액트네이티브 Expo
 sitemap :
   changefreq : daily
@@ -52,7 +52,7 @@ Expo는 Xcode와 AndroidStudio의 설치 없이도 자유롭게 앱을 만들 �
 아래 그림처럼 브라우저가 뜨는데...
 
 <figure>
-<img src="{{ site.baseurl }}/assets/develop_diary/react_native_1_1.png" title="ReactNative 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/reactnative/react_native_1_1.png" title="ReactNative 1" class="post-image">
 <figcaption style="text-align: center;">개발 환경 서버</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Expo는 Xcode와 AndroidStudio의 설치 없이도 자유롭게 앱을 만들 �
 아래의 그림처럼 뜬다.
 
 <figure>
-<img src="{{ site.baseurl }}/assets/develop_diary/react_native_1_2.png" title="ReactNative 2" style="width: 400px; height: 600px">
+<img src="{{ site.baseurl }}/assets/reactnative/react_native_1_2.png" title="ReactNative 2" style="width: 400px; height: 600px">
 <figcaption style="text-align: center;">Genymotion으로 실행한 화면</figcaption>
 </figure>
 

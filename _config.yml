@@ -31,8 +31,8 @@ markdown: kramdown
 
 #highlighter: rouge
 #markdown: redcarpet
-#markdown: redcarpet  
-#redcarpet:  
+#markdown: redcarpet
+#redcarpet:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 #  extensions: ["no_intra_emphasis", "tables", "autolink", "fenced_code_blocks", "strikethrough"]
 paginate: 5
@@ -63,6 +63,9 @@ descriptions:
 
   - cat: python
     desc: "파이썬 공부 컨텐츠(Posts describing Python study contents)."
+
+  - cat: reactnative
+    desc: "리액트 네이티브 공부 컨텐츠(Posts describing React Native study contents)."
 
   - cat: japanese_drama
     desc: "일본 드라마 소개 및 공부(Posts describing Japanese drama contents)."
