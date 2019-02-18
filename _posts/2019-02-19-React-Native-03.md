@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리액트 네이티브(React Native) 사용기 3편 - async와 await를 이용한 퍼미션 체크"
-date:   2019-02-16 03:53:00
+date:   2019-02-19 05:25:00
 author: Seungbeom Kim
 categories: reactnative
 tags:	ReactNative 리액트네이티브 Expo Navigation
