@@ -4,7 +4,7 @@ title:  "리액트 네이티브(React Native) 사용기 3편 - async와 await를
 date:   2019-02-19 05:25:00
 author: Seungbeom Kim
 categories: reactnative
-tags:	ReactNative 리액트네이티브 Expo Navigation
+tags:	ReactNative 리액트네이티브 Expo Permissions 퍼미션 async await
 sitemap :
   changefreq : daily
   priority : 1.0
