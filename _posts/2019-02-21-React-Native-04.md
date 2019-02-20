@@ -67,7 +67,7 @@ getPermissionStatus(type, p_type) {
 async checkPermisson(type) {
   let { status } = await this.getPermissionStatus(type, 0);
   if (status !== 'granted') {
-    status = await this.getPermissionStatus(type, 0);
+    status = await this.getPermissionStatus(type, 1);
   }
 
   if (status === 'granted') {
@@ -84,6 +84,31 @@ async checkPermisson(type) {
   }
 }
 ```
+
+위의 처럼 코딩하면 허용을 해도... `askAsync`에서 넘어온 status는 `'granted'`가 아니다.
+
+```Javascript
+async checkPermisson(type) {
+  const { status } = await this.getPermissionStatus(type, 0);
+  this.setState({ status: status === 'granted' });
+  if (status !== 'granted') {
+    const { status } = await this.getPermissionStatus(type, 1);
+    this.setState({ status: status === 'granted' });
+  }
+
+  if (this.state.status) {
+    if(type == 0) {
+
+      this.props.navigation.navigate('Camera', { name: 'Jane' })
+    }
+    else {
+      this.pickImage();
+    }
+  }
+}
+```
+
+위의 부분에서의 `const { status }`가 `const { a_status }` 등의 변수로 변해도 `'granted`'라는 값이 들어오지 않는다. 이유를 모르겠지만... 일단 퍼미션 받아올 때는 무조건 `const { status }` 라는 변수로 사용해야 하는 것 같다.
 
 그리고는, `Alert`를 띄우는 함수, 카메라 화면, 갤러리 화면 등의 그 외 구현해야할 뷰를 구현하면 된다. 카메라 스크린에 대한 코드는 [Expo 예제 코드](https://docs.expo.io/versions/latest/sdk/camera/)를 사용하였다.
 
