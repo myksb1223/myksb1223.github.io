@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NSURLSession 조금 더 고찰(NSURLSession consideration)."
-date:   2018-10-22 22:57:00
+date:   2019-02-21 23:38:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	아이폰 iOS NSURLSession Objective-c
