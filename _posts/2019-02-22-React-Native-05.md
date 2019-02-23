@@ -109,4 +109,4 @@ async componentDidMount() {
 
 `ref`의 사용을 전혀 몰라서 찾아보았다. [여기](https://velopert.com/1148)로 가면 자세한 설명이 있다.
 
-다음은 `ImagePicker`와 `Component Life Cycle`에 대해서 공부를 할 차례이다.
+다음은 카메라, 갤러리에서 넘어오는 경로를 같은 `state`에 저장하는 것과 `Component Life Cycle`에 대해서 공부를 할 차례이다.
