@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "리액트 네이티브(React Native) 사용기 7편 -  컴포넌트 라이프 사이클(Component Life Cycle)."
+title:  "리액트 네이티브(React Native) 사용기 7편 - 컴포넌트 라이프 사이클(Component Life Cycle)."
 date:   2019-02-24 00:11:00
 author: Seungbeom Kim
 categories: reactnative
