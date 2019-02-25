@@ -125,4 +125,4 @@ navigationOptions에서 버튼이 눌렸을 때, `navigation.navigate('Home', {a
 
 `componentWillReceiveProps`이 호출되어야 `ListView`에 표현할 데이터를 다시 부를 수 있다.
 
-`SQLite`에서의 삭제 및 `ListView`에 표현하는 방법은 다음 글에서 쓰도록 하겠다.
+`Picker`, `ListView` 그리고 `SQLite`에서의 삭제 및 수정에 관한 글을 순서대로 올릴 것이다.
