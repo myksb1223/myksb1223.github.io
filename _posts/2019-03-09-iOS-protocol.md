@@ -78,7 +78,7 @@ sitemap :
 @end
 ```
 
-이렇게 되면 CustomThird에서 CustomSecond는 같은 Custom이라는 `Protocol`이다. 그러면 아래와 같이 사용할 수 있다..
+이렇게 되면 CustomThird와 CustomSecond는 같은 Custom이라는 `Protocol`을 사용하는 클래스가 된다. 자 그러면 다른 곳에서 Custom `Protocol`을 사용하는 인스턴스에 대한 관리가 쉬워진다.
 
 ```Objective-c
 // CustomFirst.h
@@ -96,14 +96,14 @@ sitemap :
 
 - (void)doCustomProtocol {
   for (id<Custom> custom in customs) {
-		[custom doSomething];
-	}
+    [custom doSomething];
+  }
 }
 
 @end
 ```
 
-이렇게 되면 CustomFirst의 인스턴스는 CustomSecond와 CustomThird를 구별할 필요없이 Custom이라는 같은 `Protocal`이므로 간단히 수행할 수 있다.
+이렇게 되면 CustomFirst의 인스턴스는 CustomSecond와 CustomThird를 구별할 필요없이 Custom이라는 같은 `Protocal`이므로 위와 같이 사용할 수 있다.
 
 또한 아래 처럼 다른 곳에서 내가 원하는 데이터에 대한 처리를 쉽게 위임할 수 있다.
 
