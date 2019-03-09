@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "iOS protocol(iOS protocol)"
+title:  "iOS 프로토콜(iOS protocol)"
 date:   2019-03-09 23:52:00
 author: Seungbeom Kim
 categories: develop_diary
-tags:	iOS Objective-c Protocol
+tags:	iOS Objective-c Protocol 프로토콜
 sitemap :
   changefreq : daily
   priority : 1.0
 ---
 
-이전 글에서 `Delegate`에 대해 다뤘으니 이번에는 `Protocol`의 사용을 조금 보려고 한다.
+[이전 글](https://myksb1223.github.io/develop_diary/2019/03/09/iOS-delegate-protocol.html)에서 `Delegate`에 대해 다뤘으니 이번에는 `Protocol`의 사용을 조금 보려고 한다.
 
 일단, `Protocol`을 사용하면 객체 모델링 및 데이터의 흐름(?)이 깔끔해 진다.
 

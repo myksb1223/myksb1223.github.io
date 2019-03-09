@@ -4,7 +4,7 @@ title:  "iOS 델리게이트 프로토콜(iOS delegate protocol)"
 date:   2019-03-09 22:26:00
 author: Seungbeom Kim
 categories: develop_diary
-tags:	iOS Objective-c Delegate Protocol
+tags:	iOS Objective-c Delegate 델리케이트 Protocol 프로토콜
 sitemap :
   changefreq : daily
   priority : 1.0
