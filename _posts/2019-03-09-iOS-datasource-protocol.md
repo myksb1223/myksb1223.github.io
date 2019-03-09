@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "iOS delegate protocol(iOS delegate protocol)"
+title:  "iOS 델리게이트 프로토콜(iOS delegate protocol)"
 date:   2019-03-09 22:26:00
 author: Seungbeom Kim
 categories: develop_diary
@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-클래스업(ClassUp)에서 텍스트 뷰의 커스텀한 자동완성 형식을 구현하던 중 오랜만에 `Delegate`와 `DataSource`에 대한 고찰(?)아닌 고찰을 해보았다.
+클래스업(ClassUp)에서 텍스트 뷰의 커스텀한 자동완성 형식을 구현하던 중 오랜만에 `Delegate`와 `Protocol`에 대한 고찰(?)아닌 고찰을 해보았다.
 
 여기서는 `Delegate`에 대해서만 조금 설명해 보려고 한다.
 
