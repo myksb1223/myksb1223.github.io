@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Github 블로그 404 페이지 오류(GitHub pages 404 not found)"
-date:   2019-03-09 23:52:00
+date:   2019-03-09 23:55:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	iOS GitHub Protocol
