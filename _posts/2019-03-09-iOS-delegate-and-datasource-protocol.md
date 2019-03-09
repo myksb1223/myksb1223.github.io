@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "iOS delegate protocol(iOS delegate protocol)"
-date:   2019-03-09 03:34:00
+date:   2019-03-09 22:26:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	iOS Objective-c Delegate Protocol
