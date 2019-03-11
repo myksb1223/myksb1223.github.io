@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/02/27/React-Native-10.html)까지 완료했으면 이제는 저장된 Content들을 수정, 삭제할 차례이다.
+[이전 글](https://myksb1223.github.io/reactnative/2019/03/07/React-Native-10.html)까지 완료했으면 이제는 저장된 Content들을 수정, 삭제할 차례이다.
 
 이 때, 고민해야할 것들이 몇가지 있다.
 - 수정버튼을 누르면 컨텐츠 생성화면으로 가고, 내가 선택한 데이터들이 표현되어 있어야 한다.
