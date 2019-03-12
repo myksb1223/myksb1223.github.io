@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리액트 네이티브(React Native) 사용기 12편 - Picker 사용시 주의점"
-date:   2019-03-08 04:35:00
+date:   2019-03-12 04:35:00
 author: Seungbeom Kim
 categories: reactnative
 tags:	ReactNative 리액트네이티브 Expo Picker
@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/03/08/React-Native-10.html)까지 완료했던 작업을 조금씩 보완하려고 한다.
+[이전 글](https://myksb1223.github.io/reactnative/2019/03/08/React-Native-11.html)까지 완료했던 작업을 조금씩 보완하려고 한다.
 
 일단, Content 수정 시, `Picker`에 사용자 목록이 나타나는데, 이 때, 사용자를 움직여도... 계속 처음 위치로 되돌아 간다.
 
