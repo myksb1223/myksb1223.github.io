@@ -4,7 +4,7 @@ title:  "리액트 네이티브(React Native) 사용기 14편 - 함수만 존재
 date:   2019-03-14 04:21:00
 author: Seungbeom Kim
 categories: reactnative
-tags:	ReactNative 리액트네이티브 함수 Helper
+tags:	ReactNative 리액트네이티브 expo 함수 Helper
 sitemap :
   changefreq : daily
   priority : 1.0
