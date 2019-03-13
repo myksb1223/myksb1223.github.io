@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리액트 네이티브(React Native) 사용기 14편 - 함수만 존재하는 js파일 만들기"
-date:   2019-03-13 04:29:00
+date:   2019-03-14 04:21:00
 author: Seungbeom Kim
 categories: reactnative
 tags:	ReactNative 리액트네이티브 함수 Helper
