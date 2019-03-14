@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-permission을 체크하려던 중, `async`와 `await`키워드라는 것이 새롭게 나왔다. 나중에 위의 키워드에 자세히 공부하기로 하고, 일단 과연 어떻게 permission을 체크할 수 있을까?
+리액트 네이티브(React Native), Expo에서 permission을 체크하려던 중, `async`와 `await`키워드라는 것이 새롭게 나왔다. 나중에 위의 키워드에 자세히 공부하기로 하고, 일단 과연 어떻게 permission을 체크할 수 있을까?
 
 일단 `CAMERA`에 대한 퍼미션만 체크해 보기로 했다.
 Document를 참고했더니 아래와 같이 사용할 수 있다.
@@ -76,4 +76,4 @@ class CreateScreen extends React.Component {
 
 위와 같이 작성할 수 있다.
 
-`WRITE_EXTERNAL_STORAGE`에 대한 퍼미션이 작동을 안하는데 다음에 알아봐야 겠다.
+리액트 네이티브(React Native), Expo에서 `WRITE_EXTERNAL_STORAGE`에 대한 퍼미션이 작동을 안하는데 다음에 알아봐야 겠다.

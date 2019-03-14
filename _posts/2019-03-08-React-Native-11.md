@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/03/07/React-Native-10.html)까지 완료했으면 이제는 저장된 Content들을 수정, 삭제할 차례이다.
+리액트 네이티브(React Native), Expo로 [이전 글](https://myksb1223.github.io/reactnative/2019/03/07/React-Native-10.html)까지 완료했으면 이제는 저장된 Content들을 수정, 삭제할 차례이다.
 
 이 때, 고민해야할 것들이 몇가지 있다.
 - 수정버튼을 누르면 컨텐츠 생성화면으로 가고, 내가 선택한 데이터들이 표현되어 있어야 한다.
@@ -191,6 +191,6 @@ export default class HomeScreen extends React.Component {
 
 위와 같이 구현하면 수정, 삭제 후의 모든 값이 반영된다.
 
-이렇게 인스타그램의 메인 뷰 부분을 그대로 따라 만드는 나만의 구성대로 만들어 보았다.
+이렇게 리액트 네이티브(React Native)로 인스타그램의 메인 뷰 부분을 그대로 따라 만드는 나만의 구성대로 만들어 보았다.
 
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

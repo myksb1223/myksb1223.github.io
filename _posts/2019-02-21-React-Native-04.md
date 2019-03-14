@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/02/19/React-Native-03.html)에서 간단하게 `CAMERA` 퍼미션에 대한 글을 작성하였다.
+[이전 글](https://myksb1223.github.io/reactnative/2019/02/19/React-Native-03.html)에서 간단하게 리액트 네이티브(React Native), Expo에서의 `CAMERA` 퍼미션에 대한 글을 작성하였다.
 
 오늘은 실제로는 카메라, 갤러리 둘 다 접근할 수 있으므로, 유동적으로 카메라와 갤러리를 선택하고, 각각의 퍼미션을 따로 체크하는 과정에 대한 부분을 코딩해 보았다.
 

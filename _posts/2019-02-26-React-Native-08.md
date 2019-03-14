@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-카메라, 갤러리에서 이미지를 가져오는 방법을 알았으니 이제는 해당 해당 데이터를 저장할 차례이다.
+리액트 네이티브(React Native), Expo로 카메라, 갤러리에서 이미지를 가져오는 방법을 알았으니 이제는 해당 해당 데이터를 저장할 차례이다.
 
 일단, 인스타그램의 비슷한 구조로 만들 것이기에 몇가지 필드가 필요하다.
 
@@ -28,7 +28,7 @@ sitemap :
     user_pic : TEXT // User 테이블의 picture
 
 
-일단, Expo SQLite 데이터베이스 사용을 전혀 모르기 때문에 Document의 [샘플 코드](https://github.com/expo/sqlite-example/blob/master/App.js)를 참고했다.
+일단, 리액트 네이티브(React Native), Expo의 SQLite 데이터베이스 사용을 전혀 모르기 때문에 Document의 [샘플 코드](https://github.com/expo/sqlite-example/blob/master/App.js)를 참고했다.
 
 ```Javascript
 import { SQLite } from 'expo';
@@ -125,4 +125,4 @@ navigationOptions에서 버튼이 눌렸을 때, `navigation.navigate('Home', {a
 
 `componentWillReceiveProps`이 호출되어야 `ListView`에 표현할 데이터를 다시 부를 수 있다.
 
-`Picker`, `ListView` 그리고 `SQLite`에서의 삭제 및 수정에 관한 글을 순서대로 올릴 것이다.
+다음은 리액트 네이티브(React Native), Expo의 `Picker`, `ListView` 그리고 `SQLite`에서의 삭제 및 수정에 관한 글을 순서대로 올릴 것이다.

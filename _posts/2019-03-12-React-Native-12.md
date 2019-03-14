@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/03/08/React-Native-11.html)까지 완료했던 작업을 조금씩 보완하려고 한다.
+리액트 네이티브(React Native), Expo로 [이전 글](https://myksb1223.github.io/reactnative/2019/03/08/React-Native-11.html)까지 완료했던 작업을 조금씩 보완하려고 한다.
 
 일단, Content 수정 시, `Picker`에 사용자 목록이 나타나는데, 이 때, 사용자를 움직여도... 계속 처음 위치로 되돌아 간다.
 
@@ -85,6 +85,6 @@ export default class CreateScreen extends React.Component {
 ```
 
 위와 같이 같이 변경하니 `Picker`가 잘 변경되고 수정도 잘 되었다.
-다음엔 `ListView`의 Row에 `ImageView` **pagination**을 걸어볼 생각이다.
+다음엔 리액트 네이티브(React Native), Expo의 `ListView`의 Row에 `ImageView` **pagination**을 걸어볼 생각이다.
 
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

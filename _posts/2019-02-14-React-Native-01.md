@@ -10,12 +10,12 @@ sitemap :
   priority : 1.0
 ---
 
-일단 ReactNative를 직접 체험하기 위해서 조금 찾아보니...
+일단 리액트 네이티브(React Native)를 직접 체험하기 위해서 조금 찾아보니...
 
 ### 1. 설치
-설치에서는 Expo의 설치 또는 Native 코드 사용을 위한 ReactNative의 설치 이렇게 두 가지 방식이 존재했다. 둘 다 Javascript를 사용하는 것은 같은데 Expo는 ReactNative에서 갈라져 나온 하나의 개발 플랫폼인 것 같다.
+설치에서는 Expo의 설치 또는 Native 코드 사용을 위한 리액트 네이티브(React Native)의 설치 이렇게 두 가지 방식이 존재했다. 둘 다 Javascript를 사용하는 것은 같은데 Expo는 리액트 네이티브(ReactNative)에서 갈라져 나온 하나의 개발 플랫폼인 것 같다.
 
-Expo는 Xcode와 AndroidStudio의 설치 없이도 자유롭게 앱을 만들 수 있도록 하는데, ReactNative에서 Expo SDK라는 것이 포함된 것이라고 생각하면 될 듯 하다.
+Expo는 Xcode와 AndroidStudio의 설치 없이도 자유롭게 앱을 만들 수 있도록 하는데, 리액트 네이티브(ReactNative)에서 Expo SDK라는 것이 포함된 것이라고 생각하면 될 듯 하다.
 
 나는 Expo로만 구현하는 것을 목표로 했기에 Native 코드 사용을 위한 설치는 하지 않았다.
 

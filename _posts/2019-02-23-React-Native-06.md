@@ -10,8 +10,8 @@ sitemap :
   priority : 1.0
 ---
 
-[카메라, 갤러리 퍼미션](https://myksb1223.github.io/reactnative/2019/02/21/React-Native-04.html)
-[카메라 사진 찍기](https://myksb1223.github.io/reactnative/2019/02/22/React-Native-05.html)
+리액트 네이티브(React Native), Expo에서의 [카메라, 갤러리 퍼미션](https://myksb1223.github.io/reactnative/2019/02/21/React-Native-04.html)
+리액트 네이티브(React Native), Expo에서의 [카메라 사진 찍기](https://myksb1223.github.io/reactnative/2019/02/22/React-Native-05.html)
 
 위의 두 글을 종합하면 일단 갤러리를 띄울 수 있고, 카메라 화면을 띄울 수 있다. 남은 것은 해당 두 과정을 통합하는 작업이 필요하다.
 
@@ -171,4 +171,4 @@ const styles = StyleSheet.create({
 
 ```
 
-다음은 `Component Life Cycle`에 대해 조금 더 공부할 차례인 것 같다.
+다음은 리액트 네이티브(React Native), Expo의 `Component Life Cycle`에 대해 조금 더 공부할 차례인 것 같다.

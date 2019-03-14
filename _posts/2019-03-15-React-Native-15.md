@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/03/14/React-Native-14.html)까지 구현한 부분에 이제 BottomTab을 넣어볼 차례이다.
+리액트 네이티브(React Native), Expo로 [이전 글](https://myksb1223.github.io/reactnative/2019/03/14/React-Native-14.html)까지 구현한 부분에 이제 BottomTab을 넣어볼 차례이다.
 
 일단 BottomTab에 관한 지식이 전무하기 때문에... 역시나.. [Document](https://reactnavigation.org/docs/en/tab-based-navigation.html)를 참고한다.
 
@@ -97,6 +97,6 @@ let iconName = focused ? 'home_focused' : 'home';
 
 이렇게 하면 탭이 생긴 것을 알 수 있다.
 
-다음은 이미지 로테이션에 관한 방법을 공부해서 글을 남겨보려고 한다.
+다음은 리액트 네이티브(React Native), Expo의 이미지 로테이션에 관한 방법을 공부해서 글을 남겨보려고 한다.
 
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-`컴포넌트(Component)`도 `라이프 사이클(Life Cycle)`이 있다. 아이폰과 안드로이드는 각각 `ViewController`, `Activity`와 대응시키면 조금 편하게 이해할 수 있다.
+리액트 네이티브(React Native), Expo에서 `컴포넌트(Component)`도 `라이프 사이클(Life Cycle)`이 있다. 아이폰과 안드로이드는 각각 `ViewController`, `Activity`와 대응시키면 조금 편하게 이해할 수 있다.
 
 당연히, `컴포넌트`는 꼭 화면의 개념이 아닐 수 있기에 다를 수 있지만 앱을 만들때는 기본적으로 화면을 단위로 생각하기 때문에 크게 상관이 없다고 생각한다.
 

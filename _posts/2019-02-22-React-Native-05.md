@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/02/21/React-Native-04.html)에서 퍼미션에 대해서 공부했으니 이제는 직접 사진을 찍어볼 차례이다.
+[이전 글](https://myksb1223.github.io/reactnative/2019/02/21/React-Native-04.html)에서 리액트 네이티브(React Native), Expo에서의 퍼미션에 대해서 공부했으니 이제는 직접 사진을 찍어볼 차례이다.
 
 일단, 생각해보면 기본적으로 어디든 마찬가지겠지만 경로만 알면된다. 즉, 사진을 찍고 해당 사진의 경로를 반환해주면 된다.
 
@@ -109,4 +109,4 @@ async componentDidMount() {
 
 `ref`의 사용을 전혀 몰라서 찾아보았다. [여기](https://velopert.com/1148)로 가면 자세한 설명이 있다.
 
-다음은 카메라, 갤러리에서 넘어오는 경로를 같은 `state`에 저장하는 것과 `Component Life Cycle`에 대해서 공부를 할 차례이다.
+다음은 리액트 네이티브(React Native), Expo에서 카메라, 갤러리에서 넘어오는 경로를 같은 `state`에 저장하는 것과 `Component Life Cycle`에 대해서 공부를 할 차례이다.

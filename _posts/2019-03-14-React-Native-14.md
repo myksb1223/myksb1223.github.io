@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/03/13/React-Native-13.html)까지 구현한 부분중에 `Alert`를 호출하는 부분이 있다.
+리액트 네이티브(React Native), Expo로 [이전 글](https://myksb1223.github.io/reactnative/2019/03/13/React-Native-13.html)까지 구현한 부분중에 `Alert`를 호출하는 부분이 있다.
 
 이 부분의 공통점은 아래와 같다.
 1. 버튼이 3개이다.
@@ -162,6 +162,6 @@ export function showAlert(options = {}) {
 
 이렇게 하면 `KSBAlert.showAlert({})`와 같은 형태로 사용할 수 있다. 약간의 트릭이지만 만족해서 사용할 수 있을 것 같다.
 
-다음은 `BottomTabbar`를 넣어보는 방법을 공부해서 글을 남겨보려고 한다.
+다음은 리액트 네이티브(React Native), Expo의 `BottomTabbar`를 넣어보는 방법을 공부해서 글을 남겨보려고 한다.
 
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

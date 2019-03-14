@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/02/27/React-Native-09.html)까지 완료했으면 이제는 저장된 Content들을 `ListView`에 뿌릴 차례이다..
+리액트 네이티브(React Native), Expo로 [이전 글](https://myksb1223.github.io/reactnative/2019/02/27/React-Native-09.html)까지 완료했으면 이제는 저장된 Content들을 `ListView`에 뿌릴 차례이다..
 
 일단 `ListView` 구현에 대한 부분을 아예 모르기 때문에 [Document](https://docs.expo.io/versions/latest/react-native/listview/)를 참조했다.
 

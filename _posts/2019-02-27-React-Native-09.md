@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-[이전 글](https://myksb1223.github.io/reactnative/2019/02/26/React-Native-08.html)에서 사용자관련 테이블을 만들었다. 사용자 테이블을 만들었으니 사용자 생성화면을 만들면 되는데, 이는 컨텐트 작성화면과 크게 다른 부분이 없기 때문에 생략한다.
+리액트 네이티브(React Native), Expo로 [이전 글](https://myksb1223.github.io/reactnative/2019/02/26/React-Native-08.html)에서 사용자관련 테이블을 만들었다. 사용자 테이블을 만들었으니 사용자 생성화면을 만들면 되는데, 이는 컨텐트 작성화면과 크게 다른 부분이 없기 때문에 생략한다.
 
 컨텐트 화면의 구성을 간단히 이야기하면...
 
