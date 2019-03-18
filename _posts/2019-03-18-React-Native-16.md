@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리액트 네이티브(React Native) 사용기 16편 - 이미지 로테이션 하기"
-date:   2019-03-18 20:58:00
+date:   2019-03-19 20:58:00
 author: Seungbeom Kim
 categories: reactnative
 tags:	ReactNative 리액트네이티브 expo 이미지 image 이미지회전 ImageRotation
