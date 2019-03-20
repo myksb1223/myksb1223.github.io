@@ -15,12 +15,10 @@ sitemap :
 1. `flex`와 `flexDirection` : 그냥 뷰의 비율과 배치 방향이라고 생각하면 쉬운 것 같다.
 
     ```HTML
-    {% raw %}
-    <View style={{flex: 1, flexDirection: 'column'}}>
+    {% raw %}<View style={{flex: 1, flexDirection: 'column'}}>
       <View style={{flex: 1, backgroundColor: '#0000ff'}} />
       <View style={{flex: 4, backgroundColor: 'skyblue'}} />
-    </View>
-    {% endraw %}
+    </View>{% endraw %}
     ```
 
     세로로 1:4의 비율로 뷰가 세로(column)로 배치된다. `column`을 `row`로 변경하면 가로로 1:4의 비율로 뷰가 배치된다.
