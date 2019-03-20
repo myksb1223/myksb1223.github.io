@@ -75,7 +75,7 @@ _rotate180andFlip = async () => {
 
 render() {
   // ...
-  return(
+  {% raw %}return(
     <View style={{flex: 1, flexDirection: 'column', margin: 12}}>
       // ...
       <View style={{flex: 1, flexDirection: 'row', marginBottom: 12}}>
@@ -118,7 +118,7 @@ _renderImage = () => {
         />
     );
 
-};
+};{% endraw %}
 ```
 
 이렇게 하면 이미지가 내가 원하는대로 변해서 호출된다.

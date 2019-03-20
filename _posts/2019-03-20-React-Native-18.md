@@ -110,16 +110,16 @@ const DashboardTabRoutes = createBottomTabNavigator({
         let iconName = '';
         if (routeName === 'Home') {
           iconName = focused ? require('./assets/home_focused.png') : require('./assets/home.png');
-          return <Image source={ iconName } style={{width: 25, height: 25}}/>;
+          return <Image source={ iconName } style={% raw %}{{width: 25, height: 25}}{% endraw %}/>;
 
         } else if (routeName === 'Profile') {
           if(global.selectedPath === null) {
             iconName = focused ? require('./assets/profile_focused.png') : require('./assets/profile.png');
 
-            return <Image source={ iconName } style={{width: 25, height: 25}}/>;
+            return <Image source={ iconName } style={% raw %}{{width: 25, height: 25}}{% endraw %}/>;
           }
           else {
-            return <Image source={{ uri: global.selectedPath }} style={{width: 25, height: 25}}/>;
+            return <Image source={% raw %}{{ uri: global.selectedPath }} style={{width: 25, height: 25}}{% endraw %}/>;
           }
         }
       },
