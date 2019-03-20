@@ -36,7 +36,7 @@ sitemap :
 
     ```HTML
     // 가운데 정렬
-    <View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
+    <View style=\{\{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'\}\}>
 
     <View style={{flex:1, flexDirection: 'column', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
 
