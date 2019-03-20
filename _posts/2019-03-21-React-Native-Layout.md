@@ -14,7 +14,7 @@ sitemap :
 
 1. `flex`와 `flexDirection` : 그냥 뷰의 비율과 배치 방향이라고 생각하면 쉬운 것 같다.
 
-```Javascript
+```HTML
 <View style={{flex: 1, flexDirection: 'column'}}>
   <View style={{flex: 1, backgroundColor: '#0000ff'}} />
   <View style={{flex: 4, backgroundColor: 'skyblue'}} />
@@ -25,7 +25,7 @@ sitemap :
 
 2. `justifyContent`와 `alignItems` : center만 써 보았지만 일단, flexDirection에 영향을 받는다. (추후 사용할 때 마다 기록을 남길 예정이다.)
 
-```Javascript
+```HTML
 <View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
   <Image source={{ uri: uri }} style={{width:70, height:70, borderRadius: 35}}/>
 </View>
@@ -34,7 +34,7 @@ sitemap :
 
 위 부분에서 중요한 부분은 아래부분이다.
 
-```Javascript
+```HTML
 // 가운데 정렬
 <View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
 
