@@ -154,7 +154,7 @@ export default class CreateScreen extends React.Component {
           />
 
 
-          <Image source={{ uri: this.state.image }} style={{ width: 200, height: 200 }} />
+          <Image source={% raw %}{{ uri: this.state.image }} style={{ width: 200, height: 200 }}{% endraw %} />
       </View>
     );
   }

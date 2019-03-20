@@ -31,7 +31,7 @@ export default class HomeScreen extends React.Component {
 
   render() {
 
-    return (
+    {% raw %}return (
       <ListView
         dataSource={this.state.dataSource}
         renderRow={(rowData) =>
@@ -46,7 +46,7 @@ export default class HomeScreen extends React.Component {
         }
         enableEmptySections
       />
-    );
+    );{% endraw %}
   }
 }
 ```

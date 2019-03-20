@@ -19,7 +19,7 @@ sitemap :
 가져온 샘플에서 추가할 것은 일단 Flip밖에 없으니 실제로 찍은 후, 내 화면으로 돌아오는 버튼을 만들어야 한다. 예제의 코드에서 버튼 두개만 아래처럼 추가한다.
 
 ```Javascript
-<TouchableOpacity
+{% raw %}<TouchableOpacity
   style={{
     flex: 0.33,
     alignSelf: 'flex-end',
@@ -46,7 +46,7 @@ sitemap :
     style={{ fontSize: 18, marginBottom: 10, color: 'white' }}>
     {' '}Done{' '}
   </Text>
-</TouchableOpacity>
+</TouchableOpacity>{% endraw %}
 ```
 
 이제 `onPress`쪽만 구현해주면 된다.

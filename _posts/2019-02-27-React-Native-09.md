@@ -52,7 +52,7 @@ export default class CreateScreen extends React.Component {
   }
   // ...
 
-  render() {
+  {% raw %}render() {
     let { navigate } = this.props.navigation;
 
     if(this.state.loading) {
@@ -77,7 +77,7 @@ export default class CreateScreen extends React.Component {
 
          // ...
       </View>
-    );
+    );{% endraw %}
   }
 }
 ```

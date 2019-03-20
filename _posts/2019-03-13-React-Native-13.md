@@ -33,7 +33,7 @@ sitemap :
 
 render() {
   // ...
-  return (
+  {% raw %}return (
     <ListView
       dataSource={this.state.dataSource}
       renderRow={(rowData, sectionID, rowID) =>
@@ -56,7 +56,7 @@ render() {
     />
   );
 }
-
+{% endraw %}
 //...
 ```
 

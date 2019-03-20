@@ -47,7 +47,7 @@ read() {
   );
 }
 
-render() {
+{% raw %}render() {
   return (
     <ListView
       dataSource={this.state.dataSource}
@@ -64,7 +64,7 @@ render() {
         </TouchableOpacity>
         // ...
     />
-  );
+  );{% endraw %}
 }
 
 // ...

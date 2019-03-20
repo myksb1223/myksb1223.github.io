@@ -75,7 +75,7 @@ const DashboardTabRoutes = createBottomTabNavigator({
         }
 
         // You can return any component that you like here!
-        return <Image source={ iconName } style={{width: 25, height: 25}}/>;
+        return <Image source={ iconName } style={% raw %}{{width: 25, height: 25}}{% endraw %}/>;
       },
     }),
     tabBarOptions: {
