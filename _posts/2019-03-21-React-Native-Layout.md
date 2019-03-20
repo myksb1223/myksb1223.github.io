@@ -14,42 +14,42 @@ sitemap :
 
 1. `flex`와 `flexDirection` : 그냥 뷰의 비율과 배치 방향이라고 생각하면 쉬운 것 같다.
 
-```HTML
-<View style={{flex: 1, flexDirection: 'column'}}>
-  <View style={{flex: 1, backgroundColor: '#0000ff'}} />
-  <View style={{flex: 4, backgroundColor: 'skyblue'}} />
-</View>
-```
+    ```HTML
+    <View style={{flex: 1, flexDirection: 'column'}}>
+      <View style={{flex: 1, backgroundColor: '#0000ff'}} />
+      <View style={{flex: 4, backgroundColor: 'skyblue'}} />
+    </View>
+    ```
 
-세로로 1:4의 비율로 뷰가 세로(column)로 배치된다. `column`을 `row`로 변경하면 가로로 1:4의 비율로 뷰가 배치된다.
+    세로로 1:4의 비율로 뷰가 세로(column)로 배치된다. `column`을 `row`로 변경하면 가로로 1:4의 비율로 뷰가 배치된다.
 
 2. `justifyContent`와 `alignItems` : center만 써 보았지만 일단, flexDirection에 영향을 받는다. (추후 사용할 때 마다 기록을 남길 예정이다.)
 
-```HTML
-<View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
-  <Image source={{ uri: uri }} style={{width:70, height:70, borderRadius: 35}}/>
-</View>
-<View style={{flex:3, backgroundColor: 'red'}} />
-```
+    ```HTML
+    <View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
+      <Image source={{ uri: uri }} style={{width:70, height:70, borderRadius: 35}}/>
+    </View>
+    <View style={{flex:3, backgroundColor: 'red'}} />
+    ```
 
-위 부분에서 중요한 부분은 아래부분이다.
+    위 부분에서 중요한 부분은 아래부분이다.
 
-```HTML
-// 가운데 정렬
-<View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
+    ```HTML
+    // 가운데 정렬
+    <View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
 
-<View style={{flex:1, flexDirection: 'column', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
+    <View style={{flex:1, flexDirection: 'column', backgroundColor: 'steelblue', justifyContent: 'center', alignItems: 'center'}}>
 
-// 수평 정렬
-<View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center'}}>
+    // 수평 정렬
+    <View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', justifyContent: 'center'}}>
 
-<View style={{flex:1, flexDirection: 'column', backgroundColor: 'steelblue', alignItems: 'center'}}>
+    <View style={{flex:1, flexDirection: 'column', backgroundColor: 'steelblue', alignItems: 'center'}}>
 
-// 수직 정렬
-<View style={{flex:1, flexDirection: 'column', backgroundColor: 'steelblue', justifyContent: 'center'}}>
+    // 수직 정렬
+    <View style={{flex:1, flexDirection: 'column', backgroundColor: 'steelblue', justifyContent: 'center'}}>
 
-<View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', alignItems: 'center'}}>
-```
+    <View style={{flex:1, flexDirection: 'row', backgroundColor: 'steelblue', alignItems: 'center'}}>
+    ```
 
 3. 다음은 무엇일까나...?
 
