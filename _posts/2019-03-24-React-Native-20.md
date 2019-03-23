@@ -90,11 +90,11 @@ export class ProfileHeaderTitle extends React.Component {
 
   render() {
     return (
-      <View
+      {% raw %}<View
         style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
           <Text style={{fontWeight: 'bold', fontSize: 16}}>{global.currentUser["name"]}</Text>
           {!this.state.isPopUp ? <Image style={{width: 15, height: 15}} source={ require('./assets/drop_down.png')}/> : <Image style={{width: 15, height: 15}} source={ require('./assets/drop_up.png')}/>}
-      </View>
+      </View>{% endraw %}
     );
   }
 }
@@ -127,14 +127,14 @@ export class ProfileHeaderTitle extends React.Component {
 
   render() {
     return (
-      <TouchableOpacity
+      {% raw %}<TouchableOpacity
         style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}
         onPress={() => {
             // 사용자 목록 Overlay로 띄우기.
           }}>
           <Text style={{fontWeight: 'bold', fontSize: 16}}>{global.currentUser["name"]}</Text>
           {!this.state.isPopUp ? <Image style={{width: 15, height: 15}} source={ require('./assets/drop_down.png')}/> : <Image style={{width: 15, height: 15}} source={ require('./assets/drop_up.png')}/>}
-      </TouchableOpacity>
+      </TouchableOpacity>{% endraw %}
     );
   }
 }
@@ -163,14 +163,14 @@ export class ProfileHeaderTitle extends React.Component {
 
   render() {
     return (
-      <TouchableOpacity
+      {% raw %}<TouchableOpacity
         style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}
         onPress={() => {
             this.updatePopup(!this.state.isPopUp)
           }}>
           <Text style={{fontWeight: 'bold', fontSize: 16}}>{global.currentUser["name"]}</Text>
           {!this.state.isPopUp ? <Image style={{width: 15, height: 15}} source={ require('./assets/drop_down.png')}/> : <Image style={{width: 15, height: 15}} source={ require('./assets/drop_up.png')}/>}
-      </TouchableOpacity>
+      </TouchableOpacity>{% endraw %}
     );
   }
 }
@@ -225,7 +225,7 @@ export default class ProfileScreen extends React.Component {
           enableEmptySections
         />
         // 이 부분이 Overlay 화면
-        {this.state.popUp && <View style={{flex: 1, flexDirection: 'column', position: 'absolute', left: 0, top: 0, backgroundColor: 'rgba(1, 0, 0, 0.6)', width: width, height: height}}>
+        {% raw %}{this.state.popUp && <View style={{flex: 1, flexDirection: 'column', position: 'absolute', left: 0, top: 0, backgroundColor: 'rgba(1, 0, 0, 0.6)', width: width, height: height}}>
           <TouchableOpacity style={{flex: 1}}
           activeOpacity={1}
           onPress={() => {
@@ -247,7 +247,7 @@ export default class ProfileScreen extends React.Component {
               scrollEnabled={false}
             />
           </TouchableOpacity>
-        </View>}
+        </View>}{% endraw %}
       </View>
     );
   }
@@ -272,11 +272,11 @@ export default class ProfileScreen extends React.Component {
                   onPopupView={params.updatePopup}/>
     그리고
 
-    <TouchableOpacity style={{flex: 1}}
+    {% raw %}<TouchableOpacity style={{flex: 1}}
     activeOpacity={1}
     onPress={() => {
       _this.props.navigation.title.updatePopup(false)
-      }}>
+      }}>{% endraw %}
     ```
 
 이렇게 하면 충분히, Top navigation bar를 선택하면 사용자 목록이 보이고, Overlay뷰를 선택하면 사라지는 것을 구현할 수 있다. 당연히, Top navigation bar를 번갈아 선택해도 보였다 사라졌다 한다.
