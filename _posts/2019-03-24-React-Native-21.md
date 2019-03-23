@@ -76,6 +76,8 @@ render() {
 
 위와 같이 `ListView`에 ref를 설정하고 `scrollToRow` 메소드를 만들면 된다. 이제 `Button`이나 `TouchableOpacity`등을 이용하여 `onPress`시 `scrollToRow`를 호출하면 잘 움직이는 것을 볼 수 있다.
 
+조금 더 자세한 부분을 알고 싶으면 [여기](https://gist.github.com/williamtran29/a4559a878f0b55b10a8f8a71b330ecf8)로 가면 나와있다.
+
 다음에도 리액트 네이티브(React Native), Expo Instagram 프로젝트에서 많이 고민했던 부분을 쓸 것이다.
 
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.
