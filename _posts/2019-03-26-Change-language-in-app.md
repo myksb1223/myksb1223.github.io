@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "안드로이드 앱 내부에서 언어 변경하기.(Android change language in app)."
-date:   2019-03-23 01:02:00
+date:   2019-03-26 03:00:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	안드로이드 Android 언어 Language Locale
