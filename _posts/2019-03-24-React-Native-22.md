@@ -10,7 +10,7 @@ sitemap :
   priority : 1.0
 ---
 
-리액트 네이티브(React Native), Expo로 []인스타그램(Instagram)을 구현하는 부분](https://myksb1223.github.io/reactnative/2019/03/24/React-Native-20.html)에서 Overlay뷰의 빈 부분을 클릭했을 때의 동작을 위해서 `TouchableWithoutFeedback`을 사용하려고 했다.
+리액트 네이티브(React Native), Expo로 [인스타그램(Instagram)을 구현하는 부분](https://myksb1223.github.io/reactnative/2019/03/24/React-Native-20.html)에서 Overlay뷰의 빈 부분을 클릭했을 때의 동작을 위해서 `TouchableWithoutFeedback`을 사용하려고 했다.
 
 하지만... style이 아무것도 먹지 않는 것이었다... 엄청나게 찾아보았으나... style에 대한 Props가 없다는 것을 발견 하였다.
 
