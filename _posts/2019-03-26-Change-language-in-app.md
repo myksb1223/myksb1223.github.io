@@ -30,7 +30,7 @@ sitemap :
 ```java
 private Context updateBaseContextLocale(Context context) {
 
-       SharedPreference pref = ...;
+       SharedPreferences pref = ...;
        String language =  pref.getString("SelectedLanguage", null);
        Locale locale = Locale.getDefault();
        if(language != null){
