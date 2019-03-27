@@ -10,6 +10,8 @@ sitemap :
   priority : 1.0
 ---
 
+[Profile화면 구현하기 2편](https://myksb1223.github.io/reactnative/2019/03/28/React-Native-24.html) 보기.
+
 리액트 네이티브(React Native), Expo로 [이전 글](https://myksb1223.github.io/reactnative/2019/03/22/React-Native-19.html)까지 구현한 부분에서 Profile화면에서 `ListView`에 관해서 조금 썼는데 아예 Profile화면의 구현을 순서대로 써 보려고 한다.
 
 1. Top navigation bar의 구현.

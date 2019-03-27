@@ -125,4 +125,6 @@ _renderImage = () => {
 
 다음은 리액트 네이티브(React Native), Expo에서 tabBar 및 DrawerNavigator에 대해서 조금 더 알아보려고 한다.
 
+[Navigator 조금 더 파헤치기](https://myksb1223.github.io/reactnative/2019/03/19/React-Native-17.html)
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

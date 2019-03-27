@@ -130,4 +130,6 @@ const HomeStack = createStackNavigator({
 
 다음은 리액트 네이티브(React Native), Expo의 tabBar에 선택된 사용자의 아이콘을 표시하는 방법을 공부해서 글을 남겨보려고 한다.
 
+[Tabbar 이미지 Dynamic하게 변경하기](https://myksb1223.github.io/reactnative/2019/03/20/React-Native-18.html) 보기
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

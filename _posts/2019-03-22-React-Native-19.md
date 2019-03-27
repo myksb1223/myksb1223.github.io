@@ -95,4 +95,6 @@ state의 `datas`는 그리드(Grid)를 위한 데이터 자료구조이고 `list
 
 다음은 리액트 네이티브(React Native), Expo에서 실제 `ListView`에 그리드(Grid) 형태로 리스트(List)로 각각 표현하는 내용을 쓸 것이다. 실제 인스타그램의 내 프로필 창과 정말 비슷해지고 있다.
 
+인스타그램 [Profile화면 구현하기 1편](https://myksb1223.github.io/reactnative/2019/03/24/React-Native-20.html) 보기
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

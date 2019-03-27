@@ -87,4 +87,6 @@ export default class CreateScreen extends React.Component {
 위와 같이 같이 변경하니 `Picker`가 잘 변경되고 수정도 잘 되었다.
 다음엔 리액트 네이티브(React Native), Expo의 `ListView`의 Row에 `ImageView` **pagination**을 걸어볼 생각이다.
 
+[ScrollView paging 하기](https://myksb1223.github.io/reactnative/2019/03/13/React-Native-13.html) 보기
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

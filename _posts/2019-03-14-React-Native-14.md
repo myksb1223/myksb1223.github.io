@@ -164,4 +164,6 @@ export function showAlert(options = {}) {
 
 다음은 리액트 네이티브(React Native), Expo의 `BottomTabbar`를 넣어보는 방법을 공부해서 글을 남겨보려고 한다.
 
+[BottomTab과 Navigation 함께 이용하기](https://myksb1223.github.io/reactnative/2019/03/15/React-Native-15.html) 보기
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.

@@ -25,4 +25,6 @@ https://facebook.github.io/react-native/docs/touchablewithoutfeedback#props)의 
 
 다음에도 리액트 네이티브(React Native), Expo Instagram 프로젝트에서 많이 고민했던 부분을 쓸 것이다. 주제는 아마 `Overlay 뷰`에 관한 것일 것 같다.
 
+[Overlay 뷰](https://myksb1223.github.io/reactnative/2019/03/27/React-Native-23.html) 보기.
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.
