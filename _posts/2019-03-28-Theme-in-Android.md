@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "안드로이드 테마 건드리기.(Theme in Android)."
+title:  "안드로이드 테마 건드리기 1편.(Theme in Android 1st)."
 date:   2019-03-28 00:38:00
 author: Seungbeom Kim
 categories: develop_diary
@@ -9,6 +9,8 @@ sitemap :
   changefreq : daily
   priority : 1.0
 ---
+
+[안드로이드 테마 건드리기 2편](https://myksb1223.github.io/develop_diary/2019/03/28/Theme-in-Android-2.html) 보기.
 
 요즘은 어두운 테마가 유행이다. 요즘 나오는 폰들의 화면을 위해서 다들 어두운 테마 적용을 옵션으로 넣고 있다. 그래서 클래스업(ClassUp)도 어두운 테마를 적용하고 있고, `Style`에 대한 정리도 할 겸 글을 쓴다.
 

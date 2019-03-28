@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "안드로이드 테마 건드리기.(Theme in Android)."
-date:   2019-03-28 00:38:00
+title:  "안드로이드 테마 건드리기 2편.(Theme in Android 2nd)."
+date:   2019-03-28 16:28:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	안드로이드 Android 테마 Theme
@@ -9,6 +9,8 @@ sitemap :
   changefreq : daily
   priority : 1.0
 ---
+
+[안드로이드 테마 건드리기 1편](https://myksb1223.github.io/develop_diary/2019/03/28/Theme-in-Android.html) 보기.
 
 클래스업(ClassUp)에 [어두운 테마를 적용](https://myksb1223.github.io/develop_diary/2019/03/28/Theme-in-Android.html) 중에 한가지 문제가 발생하였다.
 
