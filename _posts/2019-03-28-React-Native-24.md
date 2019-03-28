@@ -17,7 +17,7 @@ sitemap :
 ```javascript
 
 // 게시물, 팔로워, 팔로잉 버튼 구현부분.
-export class CountButton extends React.Component {
+{% raw %}export class CountButton extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
     height:70,
     borderRadius: 35
   }
-});
+});{% endraw %}
 ```
 
 일단, 구조화를 조금 하다가... 시간도 부족하고 조금 더 생각해야할 부분이 있어서 그대로 구현한 부분이 많지만... 어쨋든 설명을 하자면...
@@ -231,5 +231,7 @@ const styles = StyleSheet.create({
 나머지 부분은 충분히 쉽게 이해 할 수 있을 것으로 예상하기 때문에 생략한다.
 
 다음은 리액트 네이티브(React Native), Expo Instagram 프로젝트에서 ProfileScreen에서의 컨텐츠 표현에 대해서 글을 작성할 것이다.
+
+[Profile화면 구현하기 3편](https://myksb1223.github.io/reactnative/2019/03/29/React-Native-25.html) 보기
 
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.
