@@ -334,4 +334,6 @@ export default class ProfileScreen extends React.Component {
 
 다음은 리액트 네이티브(React Native), Expo Instagram 프로젝트에서 HomeScreen에서 글을 작성했을 때, 해당 부분이 ProfileScreen에 바로 적용되어 컨텐츠가 증가되서 보이는 부분에 대해서 글을 작성할 것이다.
 
+[Profile화면 구현하기 4편](https://myksb1223.github.io/reactnative/2019/04/06/React-Native-26.html)
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.
