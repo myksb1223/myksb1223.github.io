@@ -197,4 +197,6 @@ export default class HomeScreen extends React.Component {
 
 다음은 리액트 네이티브(React Native), Expo Instagram 프로젝트에서 `props`와 `state`의 차이에 대해 써보려고 한다. 드디어 둘의 차이를 체감한 것 같다.
 
+[Props와 State의 차이](https://myksb1223.github.io/reactnative/2019/04/12/React-Native-28.html)
+
 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.
