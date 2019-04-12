@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "리액트 네이티브(React Native) 사용기 28편 - Promise(프로미스)란?"
+title:  "리액트 네이티브(React Native) 사용기 29편 - Promise(프로미스)란?"
 date:   2019-04-13 02:17:00
 author: Seungbeom Kim
 categories: reactnative
