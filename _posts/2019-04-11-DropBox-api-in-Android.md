@@ -71,7 +71,7 @@ public class TestActivity extends AppCompatActivity {
 
   // 파일 보는 화면으로 이동하는 버튼 눌렸을 때.
   private void goFileListActivity(View v) {
-      Intent intent = new Intent(EditNoteActivity.this, ThirdPartyFileListActivity.class);
+      Intent intent = new Intent(TestActivity.this, ThirdPartyFileListActivity.class);
       startActivity(intent);
   }
 
@@ -357,6 +357,72 @@ public class DropboxClientFactory {
 
     interface Callback {
         void finishLogout();
+    }
+}
+
+// DownloadFileTask.java
+class DownloadFileTask extends AsyncTask<FileMetadata, Void, File> {
+
+    private final Context mContext;
+    private final DbxClientV2 mDbxClient;
+    private final Callback mCallback;
+    private Exception mException;
+
+    public interface Callback {
+        void onDownloadComplete(File result);
+        void onError(Exception e);
+    }
+
+    DownloadFileTask(Context context, DbxClientV2 dbxClient, Callback callback) {
+        mContext = context;
+        mDbxClient = dbxClient;
+        mCallback = callback;
+    }
+
+    @Override
+    protected void onPostExecute(File result) {
+        super.onPostExecute(result);
+        if (mException != null) {
+            mCallback.onError(mException);
+        } else {
+            mCallback.onDownloadComplete(result);
+        }
+    }
+
+    @Override
+    protected File doInBackground(FileMetadata... params) {
+        FileMetadata metadata = params[0];
+        try {
+            File path = new File(third_party_dir);
+            File file = new File(path, metadata.getName());
+
+            // Make sure the Downloads directory exists.
+            if (!path.exists()) {
+                if (!path.mkdirs()) {
+                    mException = new RuntimeException("Unable to create directory: " + path);
+                }
+            } else if (!path.isDirectory()) {
+                mException = new IllegalStateException("Download path is not a directory: " + path);
+                return null;
+            }
+
+            // Download the file.
+            try (OutputStream outputStream = new FileOutputStream(file)) {
+                mDbxClient.files().download(metadata.getPathLower(), metadata.getRev())
+                        .download(outputStream);
+            }
+
+            // Tell android about the file
+            Intent intent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+            intent.setData(Uri.fromFile(file));
+            mContext.sendBroadcast(intent);
+
+            return file;
+        } catch (DbxException | IOException e) {
+            mException = e;
+        }
+
+        return null;
     }
 }
 ```
