@@ -124,4 +124,6 @@ render() {
 
 다음은 인스타그램(Instagram)에서 같은 Screen을 이곳 저곳에서 부를 때 생겼던 문제와 그 문제 해결에 대한 부분을 써보려고 한다.
 
+[Prevent React setState on unmounted Component](https://myksb1223.github.io/reactnative/2019/04/17/React-Native-30.html)
+
 인스타그램(Instagram) 따라 만들기 전체 소스는 [링크](https://github.com/myksb1223/ReactNative-instagram-example)로 가면 볼 수 있다.
