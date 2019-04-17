@@ -44,7 +44,7 @@ public class TestActivity extends AppCompatActivity {
           type = 1;
       }
 
-      updateUI(type, accessToken);
+      updateUI(type);
   }
 
   private void updateUI(int type) {
@@ -382,7 +382,7 @@ public class ThirdPartyFileListActivity extends AppCompatActivity {
    }
 }
 
-// DriveServiceHelper.javascript
+// DriveServiceHelper.java
 
 public class DriveServiceHelper {
     private final Executor mExecutor = Executors.newFixedThreadPool(5);
