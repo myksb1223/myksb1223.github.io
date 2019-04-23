@@ -349,6 +349,7 @@ public class DropboxClientFactory {
             SharedPreferences.Editor edit = ...;
             edit.remove("DropBoxAccessToken").commit();
             sDbxClient = null;
+            AuthActivity.result = null;
 
             DropboxClientFactory.Callback callback = mCallback.get();
             callback.finishLogout();
