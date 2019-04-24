@@ -39,7 +39,7 @@ sitemap :
 
 // TestViewController.m
 
-@implementation EditNoteViewController
+@implementation TestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -194,17 +194,6 @@ sitemap :
     GTLRDrive_File *entry = [self.folderEntries objectAtIndex:[indexPath row]];
     cell.textLabel.text = entry.name;
 
-    cell.accessoryView.hidden = YES;
-    [((UIButton *)cell.accessoryView) setSelected:NO];
-    if(self.deleteMode) {
-        cell.accessoryView.hidden = NO;
-        if([self.selectedNameForPath objectForKey:indexPath]) {
-            [((UIButton *)cell.accessoryView) setSelected:YES];
-        }
-    }
-
-    cell.textLabel.textColor = [[ThemeManager sharedManager] defaultTextColor];
-    cell.detailTextLabel.textColor = [[ThemeManager sharedManager] defaultTextColor];
     return cell;
 }
 
