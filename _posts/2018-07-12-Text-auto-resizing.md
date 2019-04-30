@@ -59,7 +59,7 @@ autoSizeStepGranularity는 얼마씩 크기를 줄일 건지를 나타낸다.
 COMPLEX_UNIT_SP는 글자 크기를 sp형식으로 처리하겠다는 뜻이다.
 
 <figure>
-<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_3.jpg" title="AppWidget Picture 1" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_4.png" title="AppWidget Picture 2" class="post-image-double">
+<img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_3.jpg" title="AppWidget Picture 3" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/autoresizing_4.png" title="AppWidget Picture 4" class="post-image-double">
 <figcaption style="text-align: center;">적용 후, 왼쪽이 iOS, 오른쪽이 Android.</figcaption>
 </figure>
 
