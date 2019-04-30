@@ -26,11 +26,11 @@ sitemap :
 
 예를 들어 클래스업(ClassUp)의 메인 시간표 화면과 같이 배경은 전체화면으로 내부에 들어가는 수업박스는 iPhoneX 이상 기종의 `bottombar`를 제외한 영역으로 하고 싶다고 한다면, 배경의 top, bottom, left, right는 `superview`로 제약을, 내부에 들어가는 뷰들은 bottom, top, left, right 중에 해당되는 속성을 `safearea`로 설정하면 된다.
 
-<img src="{{ site.baseurl }}/assets/develop_diary/safearea_1.PNG" title="SafeArea 1" class="post-image">
+<img src="{{ site.baseurl }}/assets/develop_diary/safearea_1.png" title="SafeArea 1" class="post-image">
 
 <p style="clear: left;">
 
 <figure>
-<img src="{{ site.baseurl }}/assets/develop_diary/safearea_2.PNG" title="SafeArea Picture 2" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/safearea_3.PNG" title="SafeArea Picture 3" class="post-image-double">
+<img src="{{ site.baseurl }}/assets/develop_diary/safearea_2.png" title="SafeArea Picture 2" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/safearea_3.png" title="SafeArea Picture 3" class="post-image-double">
 <figcaption style="text-align: center;">왼쪽이 BackView, 오른쪽이 PagerView.</figcaption>
 </figure>
