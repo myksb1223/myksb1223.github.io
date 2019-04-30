@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "iOS Safe area 이해하기"
-date:   2019-05-01 03:31:00
+date:   2019-05-01 03:09:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	iOS Objective-c safearea
