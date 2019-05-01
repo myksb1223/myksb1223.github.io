@@ -34,3 +34,7 @@ sitemap :
 <img src="{{ site.baseurl }}/assets/develop_diary/safearea_2.png" title="SafeArea Picture 2" class="post-image-double"><img src="{{ site.baseurl }}/assets/develop_diary/safearea_3.png" title="SafeArea Picture 3" class="post-image-double">
 <figcaption style="text-align: center;">왼쪽이 BackView, 오른쪽이 PagerView.</figcaption>
 </figure>
+
+참고로 iOS 11 미만의 버전에서는 `safearea`에 제약을 설정한 후 priority를 반드시 750으로 지정하고, 반드시 `superview`속성도 같이 지정해 주어야 한다(priority 값은 기본값으로). 그렇게하지 않으면 iOS 10이 설치된 iPhone의 UI형태는 내가 원하는 결과와 다를 것이다.
+
+더 궁금하면 [참고 링크](https://stackoverflow.com/a/46334995)를 확인하도록 한다.
