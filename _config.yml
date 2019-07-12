@@ -67,6 +67,9 @@ descriptions:
   - cat: reactnative
     desc: "리액트 네이티브 공부 컨텐츠(Posts describing React Native study contents)."
 
+  - cat: job_review
+    desc: "취업 준비에 관련된 내용"
+
   - cat: japanese_drama
     desc: "일본 드라마 소개 및 공부(Posts describing Japanese drama contents)."
 
