@@ -19,7 +19,7 @@ sitemap :
 2. Tokyo Office는 무조건 JLPT 2급 이상이 있어야 지원이 가능하고 나머지 두 곳은 영어만 할 수 있으면 된다. 자격증이 없었던 나는  Kyoto Office와 Fukuoka Office에 지원서를 냈다.
 3. 지원 모집 분야는 엄청 많았지만 나는 Android/iOS 개발 부분으로 지원했다.
 
-지원 방법은 [일본 Naver Line 홈페이지](https://linecorp.com/ja/career/ja/all) 혹은 StackOverflow(https://stackoverflow.com/jobs)와 같은 곳에서 지원할 수 있다.
+지원 방법은 [일본 Naver Line 홈페이지](https://linecorp.com/ja/career/ja/all) 혹은 [StackOverflow](https://stackoverflow.com/jobs)와 같은 곳에서 지원할 수 있다.
 
 ### 절차
 1. 서류 심사
