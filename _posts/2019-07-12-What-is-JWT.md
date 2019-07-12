@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JWT 이해하기"
-date:   2019-07-12 03:09:00
+date:   2019-07-12 18:41:00
 author: Seungbeom Kim
 categories: develop_diary
 tags:	JWT JSONWebToken
