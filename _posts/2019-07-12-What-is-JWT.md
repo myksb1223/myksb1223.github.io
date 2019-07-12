@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JWT 이해하기"
+title:  "JWT(JSON Web Token) 이해하기"
 date:   2019-07-12 18:41:00
 author: Seungbeom Kim
 categories: develop_diary
