@@ -50,6 +50,8 @@ PHImageManager.default().requestImageData(for: asset, options: nil) {
 (data! as NSData).write(toFile: path, atomically: true)
 ```
 
+추가로 `switch`구문에서 사용된다.
+
 ### as?의 경우
 
 ```Swift
