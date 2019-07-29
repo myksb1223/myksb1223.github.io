@@ -64,6 +64,11 @@ let alsoTenEighty = tenEighty
 alsoTenEighty.frameRate = 30.0
 ```
 
-위 경우 tenEighty와 alsoTenEighty의 frameRate 모두가 30으로 변경된다. 왜냐하면 같은 주소값을 참조하고 있기 때문이다.
+위 경우 tenEighty와 alsoTenEighty의 frameRate 모두가 30으로 변경된다. 왜냐하면 같은 주소값을 참조하고 있기 때문이다. 단, `Struct`를 사용했을 경우에는 `let`를 사용했을 때, 그 instance 내에 선언된 변수를 바꿀 수 없다.
+
+```Swift
+let hd = Resolution(width: 1920, height: 1080)
+hd.width = 2048 (x)
+```
 
 tenEighty, alsoTenEighty 모두 contant로 선언되었지만 내부 변수는 변경할 수 있다. 당연하겠지만 tenEighty, alsoTenEighty가 가리키는 주소를 변경할 수 없는 것이지 내부 변수들은 자유롭게 변경할 수 있다.
