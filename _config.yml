@@ -70,6 +70,9 @@ descriptions:
   - cat: job_review
     desc: "취업 준비에 관련된 내용"
 
+  - cat: datastructure_algorithm
+    desc: "자료구조 및 알고리즘"
+
   - cat: japanese_drama
     desc: "일본 드라마 소개 및 공부(Posts describing Japanese drama contents)."
 
