@@ -4,7 +4,7 @@ title:  "Swift에서 Casting 하기(Casting in Swift)"
 date:   2019-07-30 01:19:00
 author: Seungbeom Kim
 categories: develop_diary
-tags:	iOS Swift Any AnyObject
+tags:	iOS Swift Casting as as? as!
 sitemap :
   changefreq : daily
   priority : 1.0
