@@ -12,7 +12,7 @@ sitemap :
 
 어느 언어든지 값의 복사, 값의 참조 이 두 경우가 항상 중요하다. Swift 공부를 시작하면서 해당 언어에서 사용하는 방식을 조금 정리해 보려고 한다.
 
-`Structure`와 `Emumeration`은 **Value type**이다. Value type이라는 것은 함수의 매개변수로 값을 보낼 때나 값을 할당할 때,  **copy** 속성으로 값을 처리한다는 것이다.
+`Structure`와 `Enumeration`은 **Value type**이다. Value type이라는 것은 함수의 매개변수로 값을 보낼 때나 값을 할당할 때,  **copy** 속성으로 값을 처리한다는 것이다.
 
 ```Swift
   Struct Resolution {
@@ -71,4 +71,4 @@ let hd = Resolution(width: 1920, height: 1080)
 hd.width = 2048 (x)
 ```
 
-tenEighty, alsoTenEighty 모두 contant로 선언되었지만 내부 변수는 변경할 수 있다. 당연하겠지만 tenEighty, alsoTenEighty가 가리키는 주소를 변경할 수 없는 것이지 내부 변수들은 자유롭게 변경할 수 있다.
+tenEighty, alsoTenEighty 모두 constant로 선언되었지만 내부 변수는 변경할 수 있다. 당연하겠지만 tenEighty, alsoTenEighty가 가리키는 주소를 변경할 수 없는 것이지 내부 변수들은 자유롭게 변경할 수 있다.
