@@ -4,7 +4,7 @@ title:  "일본 네이버 라인 취업 준비와 후기"
 date:   2019-07-12 15:51:00
 author: Seungbeom Kim
 categories: job_review
-tags:	네이버라인 라인 취업 취업준비
+tags:	네이버라인 라인 취업 취업준비 경력
 sitemap :
   changefreq : daily
   priority : 1.0
