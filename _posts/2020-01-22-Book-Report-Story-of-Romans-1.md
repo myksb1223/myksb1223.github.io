@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2019년 하반기 롯데 신입사원 입문과정"
+title:  "로마인 이야기 1편"
 date:   2020-01-22 01:38:00
 author: Seungbeom Kim
 categories: book_report
