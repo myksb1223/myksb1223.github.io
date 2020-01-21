@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "독후감(Book report)"
-permalink: /bookreports/
+title: "에세이(Essay)"
+permalink: /essays/
 ---
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
-  {% if cat == 'book_report' %}
+  {% if cat == 'essay' %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}

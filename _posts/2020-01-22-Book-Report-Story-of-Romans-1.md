@@ -3,7 +3,7 @@ layout: post
 title:  "로마인 이야기 1편"
 date:   2020-01-22 01:38:00
 author: Seungbeom Kim
-categories: book_report
+categories: essay
 tags:	로마인이야기 시오노나나미
 sitemap :
   changefreq : daily
