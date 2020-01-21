@@ -76,6 +76,9 @@ descriptions:
   - cat: japanese_drama
     desc: "일본 드라마 소개 및 공부(Posts describing Japanese drama contents)."
 
+  - cat: book_report
+    desc: "독후감(Book report)"    
+
 # Social icons and sharing options
 #
 # Social settings are used in two places:
