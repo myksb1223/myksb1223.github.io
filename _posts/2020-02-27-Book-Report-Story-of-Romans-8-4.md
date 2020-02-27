@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "로마인 이야기 8-3편 - 위기와 극복"
-date:   2020-02-27 21:42:00
+title:  "로마인 이야기 8-4편 - 위기와 극복"
+date:   2020-02-27 21:43:00
 author: Seungbeom Kim
 categories: essay
 tags:	로마인이야기 시오노나나미
