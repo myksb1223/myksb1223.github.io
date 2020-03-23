@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "로마인 이야기 11편 - 종말의 시작"
+title:  "로마인 이야기 11-2편 - 종말의 시작"
 date:   2020-03-11 22:07:00
 author: Seungbeom Kim
 categories: essay

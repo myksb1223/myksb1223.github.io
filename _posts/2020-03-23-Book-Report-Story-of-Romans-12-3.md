@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "로마인 이야기 12편 - 위기로 치닫는 제국"
+title:  "로마인 이야기 12-3편 - 위기로 치닫는 제국"
 date:   2020-03-22 23:09:00
 author: Seungbeom Kim
 categories: essay

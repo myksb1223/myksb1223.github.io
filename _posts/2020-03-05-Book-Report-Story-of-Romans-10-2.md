@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "로마인 이야기 10편 - 모든 길은 로마로 통한다"
+title:  "로마인 이야기 10-2편 - 모든 길은 로마로 통한다"
 date:   2020-03-05 21:38:00
 author: Seungbeom Kim
 categories: essay
