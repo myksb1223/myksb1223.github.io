@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "로마인 이야기 15-2편 - 로마세계의 종언"
-date:   2020-04-15 01:14:00
+date:   2020-04-14 01:14:00
 author: Seungbeom Kim
 categories: essay
 tags:	로마인이야기 시오노나나미
