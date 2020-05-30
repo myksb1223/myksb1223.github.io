@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "칼비테 교육법"
-date:   2020-05-30 22:35:00
+date:   2020-05-29 23:35:00
 author: Seungbeom Kim
 categories: essay
 tags:	칼비테교육법 TheEducationOfKarlWitte
