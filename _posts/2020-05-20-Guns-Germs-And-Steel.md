@@ -4,7 +4,7 @@ title:  "총균쇠"
 date:   2020-05-20 23:04:00
 author: Seungbeom Kim
 categories: essay
-tags:	총균쇠 GUNS GERMS STEEL GunsGermsAndSteel 재레드다이아몬드
+tags:	총균쇠 GUNS GERMS STEEL GunsGermsAndSteel 재레드다이아몬드 독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0

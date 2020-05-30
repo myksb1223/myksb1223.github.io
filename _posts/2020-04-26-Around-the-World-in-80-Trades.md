@@ -4,7 +4,7 @@ title:  "나는 세계일주로 경제를 배웠다"
 date:   2020-04-26 22:29:00
 author: Seungbeom Kim
 categories: essay
-tags:	세계일주 경제 거래일주 코너우드먼
+tags:	세계일주 경제 거래일주 코너우드먼 독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0

@@ -4,7 +4,7 @@ title:  "로마인 이야기 12-4편 - 위기로 치닫는 제국"
 date:   2020-03-24 21:44:00
 author: Seungbeom Kim
 categories: essay
-tags:	로마인이야기 시오노나나미
+tags:	로마인이야기 시오노나나미 독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0

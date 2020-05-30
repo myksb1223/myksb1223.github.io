@@ -4,7 +4,7 @@ title:  "내가 알고 있는 걸 당신도 알게 된다면"
 date:   2020-05-21 23:45:00
 author: Seungbeom Kim
 categories: essay
-tags:	내가알고있는걸당신도알게된다면 30LessonsForLiving
+tags:	내가알고있는걸당신도알게된다면 30LessonsForLiving  독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0

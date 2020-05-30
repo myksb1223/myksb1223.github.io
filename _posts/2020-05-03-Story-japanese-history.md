@@ -4,7 +4,7 @@ title:  "이야기 일본사"
 date:   2020-05-03 17:17:00
 author: Seungbeom Kim
 categories: essay
-tags:	역사 일본사 일본역사 이야기일본사 김희영
+tags:	역사 일본사 일본역사 이야기일본사 김희영 독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0

@@ -4,7 +4,7 @@ title:  "로마인 이야기 5편"
 date:   2020-02-11 20:51:00
 author: Seungbeom Kim
 categories: essay
-tags:	로마인이야기 시오노나나미
+tags:	로마인이야기 시오노나나미 독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0

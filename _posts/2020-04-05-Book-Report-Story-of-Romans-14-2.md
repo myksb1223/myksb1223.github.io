@@ -4,7 +4,7 @@ title:  "로마인 이야기 14-2편 - 그리스도의 승리"
 date:   2020-04-05 21:10:00
 author: Seungbeom Kim
 categories: essay
-tags:	로마인이야기 시오노나나미
+tags:	로마인이야기 시오노나나미 독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0
