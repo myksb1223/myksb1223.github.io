@@ -4,7 +4,7 @@ title:  "난생 처음 한번 공부하는 미술 이야기 1"
 date:   2020-06-07 22:28:00
 author: Seungbeom Kim
 categories: essay
-tags:	산책자의인문학 문갑식 이서현 독후감 리뷰 감상문
+tags:	난처한 미술이야기 미술 독후감 리뷰 감상문
 sitemap :
   changefreq : daily
   priority : 1.0
