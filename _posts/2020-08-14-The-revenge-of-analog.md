@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "아날로그의 반격"
-date:   2020-08-14 23:23:00
+date:   2020-08-15 00:03:00
 author: Seungbeom Kim
 categories: essay
 tags:	아날로그의반격 아날로그 TheRevengeOfAnalog Analog 데이비드색스
