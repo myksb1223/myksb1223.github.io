@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "로마 멸망 이후의 지중해 세계"
+title:  "로마 멸망 이후의 지중해 세계 - 상권"
 date:   2020-07-27 23:23:00
 author: Seungbeom Kim
 categories: essay
