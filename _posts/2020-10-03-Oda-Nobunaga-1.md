@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "오다노부나가 1"
-date:   2020-09-30 21:46:00
+date:   2020-10-03 22:46:00
 author: Seungbeom Kim
 categories: essay
 tags:	오다노부나가 일본 일본역사 야마오카소하치 독후감 리뷰 감상문
